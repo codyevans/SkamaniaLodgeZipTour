@@ -91,12 +91,9 @@
             <div id="intro">
                 <div class="grid">
                      <p class="col-1-1">
-                        Lorem <a href="#">ipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                       Get ready to experience highflying action like never before. 
+                       Only our unique Canopy Zip Line Tour will send you soaring above the scenic Columbia River Gorge. 
+                       Six zip lines, four sky bridges and stunning views all nestled together at the world class <a href="http://skamania.com" target="blank">Skamania Lodge Resort.</a>
                     </p>
                 </div> <!-- /grid -->
             </div> <!-- /intro -->

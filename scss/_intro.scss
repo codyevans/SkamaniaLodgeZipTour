@@ -2,6 +2,7 @@
 #intro {
     background: url(../assets/bkgd_img/checker.gif) repeat;
     position: relative;
+    text-align: center;
     padding-top: 35px;
     padding-bottom: 30px;
     margin-top: -12px;
@@ -13,5 +14,13 @@
   		line-height: 42px;
       color: #536168;
   	} // p
+
+    a {
+      text-decoration: none;
+      } // a
+
+      &:hover {
+        text-decoration: underline;
+      }
 
 } // intro

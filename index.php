@@ -105,7 +105,7 @@
             <section id="tour">
                 <div class="grid">
                     <h1>
-                        The SLZT Tour
+                        The SLZT Tour is way cool
                     </h1>
                     <p class="col-1-2">
                         Lorem <a href="#" id="navOn">ipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod

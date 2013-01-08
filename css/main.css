@@ -441,11 +441,13 @@ nav.main_nav ul li a:hover { color: #133b49; border-bottom: 2px dotted #73797b; 
 /* line 2, ../scss/_intro.scss */
 #intro { background: url(../assets/bkgd_img/checker.gif) repeat; position: relative; text-align: center; padding-top: 35px; padding-bottom: 30px; margin-top: -12px; border-bottom: 1px solid #e8e7de; z-index: 0; }
 /* line 12, ../scss/_intro.scss */
-#intro p { font-size: 22px; line-height: 42px; color: #536168; }
-/* line 18, ../scss/_intro.scss */
-#intro a { text-decoration: none; }
-/* line 22, ../scss/_intro.scss */
-#intro:hover { text-decoration: underline; }
+#intro .intro_container { width: 100%; max-width: 1300px; margin: 0 auto; padding-left: 225px; padding-right: 50px; }
+/* line 21, ../scss/_intro.scss */
+#intro .intro_container p { font-size: 22px; line-height: 42px; color: #536168; }
+/* line 27, ../scss/_intro.scss */
+#intro .intro_container p a { text-decoration: none; }
+/* line 30, ../scss/_intro.scss */
+#intro .intro_container p a:hover { text-decoration: underline; }
 
 /* --- general section module ------------------------------------------------- */
 /* line 185, ../scss/main.scss */

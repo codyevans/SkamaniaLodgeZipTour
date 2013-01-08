@@ -9,18 +9,33 @@
     border-bottom: 1px solid #e8e7de;
   	z-index: 0;
 
-  	p {
-  		font-size: 22px;
-  		line-height: 42px;
-      color: #536168;
-  	} // p
+    .intro_container {
+      width: 100%;
+      max-width: 1300px;
+      margin: 0 auto;
+      padding-left: 225px;
+      padding-right: 50px;
 
-    a {
-      text-decoration: none;
-      } // a
+     
 
-      &:hover {
-        text-decoration: underline;
-      }
+    	p {
+    		font-size: 22px;
+    		line-height: 42px;
+        color: #536168;
+    	
+
+        a {
+          text-decoration: none;
+         
+          &:hover {
+            text-decoration: underline;
+
+          } // a hover
+
+        } // a
+
+      } // p
+
+    } // contianer
 
 } // intro

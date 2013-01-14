@@ -23,7 +23,7 @@
         </script>
         <script src="js/google_maps.js"></script>
     </head>
-    <body onload="initialize()">
+    <body onload="initialize()" id="BackToTop">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
@@ -245,6 +245,10 @@
 
         <div id="map_canvas"></div> <!-- /google maps -->
 
+
+        <a href="#BackToTop" id="Top" title="Back to Top">
+            <div class="topBtn"></div>
+        </a> <!-- /back to top -->
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>

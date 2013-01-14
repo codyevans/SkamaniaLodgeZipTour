@@ -6,6 +6,8 @@
 
 $(".main_nav a").smoothScroll();
 
+$("a#Top").smoothScroll();
+
 
 /* ======================================================================== */
 // backstretch
@@ -41,6 +43,19 @@ if( $(window).width() > 1400 ) {
    alert('hello');
 }
 */
+
+
+
+/* ======================================================================== */
+// back to top fade in-out
+
+$(window).scroll(function() {
+	if ($(this).scrollTop() > 300) {
+		$('.topBtn').fadeIn();
+	} else {
+		$('.topBtn').fadeOut();
+	}
+});
 
 
 

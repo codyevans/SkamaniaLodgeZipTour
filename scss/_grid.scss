@@ -32,6 +32,11 @@ body {
     margin: 0 0 0 0px;
     padding: 0 160px 0 230px;
     overflow: hidden;
+
+    @media (max-width: 768px) {
+        padding: 0px 30px;;
+        margin: 0px auto;
+    }
 }
 
 .grid:after {

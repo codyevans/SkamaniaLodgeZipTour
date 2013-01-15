@@ -36,6 +36,22 @@ $('.giant_btn').click(function(e) {
 
 
 /* ======================================================================== */
+// back to top fade in-out
+
+if ( $(window).width() > 768 ) {
+
+	$(window).scroll(function() {
+		if ($(this).scrollTop() > 300) {
+			$('.topBtn').fadeIn();
+		} else {
+			$('.topBtn').fadeOut();
+		}
+	});
+
+}
+
+
+/* ======================================================================== */
 // window resize code.
 
 /*
@@ -43,24 +59,6 @@ if( $(window).width() > 1400 ) {
    alert('hello');
 }
 */
-
-
-
-/* ======================================================================== */
-// back to top fade in-out
-
-$(window).scroll(function() {
-	if ($(this).scrollTop() > 300) {
-		$('.topBtn').fadeIn();
-	} else {
-		$('.topBtn').fadeOut();
-	}
-});
-
-
-
-
-
 
 
         

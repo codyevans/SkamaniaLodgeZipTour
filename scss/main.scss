@@ -205,15 +205,28 @@ section {
 }
 
 
+/* --- the tour ---------------------------------------------------------------- */
+
+
+
+/* --- reservations ------------------------------------------------------------ */
+
+
+
+
+/* --- about ------------------------------------------------------------------- */
+
+
+
+
+/* --- contact ----------------------------------------------------------------- */
 
 
 
 
 
 
-
-
-// google map section - work on this for fixed pos ipad
+// google map section - work on this for fixed pos ipad 
 
 .map {
     height: 500px;
@@ -225,7 +238,8 @@ section {
 }
 
 
-// copyright section  f1ebdc
+
+// copyright section  
 
 .copyright {
     background: #4d5b61;
@@ -236,6 +250,11 @@ section {
         text-shadow: none;
         font-size: 14px;
         margin: 10px 0px;
+
+        @media (max-width: 460px) {
+            font-size: 10px;
+        }
+
     }
 }
 
@@ -352,18 +371,40 @@ section {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 768px) {
+   
+   // header
+
+   .mobile_header_wrap {
+
+        .mobile_header {
+            background: url(../assets/mobile/mobile_header.png) repeat-x 0 0;
+            width: 100%;
+            height: 73px;
+        } // m_header
+
+   } // m_wrap
+
+
+
+
+} // end 768
+
+@media only screen and (max-width: 1165px) {
+    
+    [class*='col-'] {
+        width: 100%;
+    }
+
 }
+
+
+// retina
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min-resolution: 144dpi) {
     /* Style adjustments for high resolution devices */
 }
-
-
-
-
 
 
 /* ==========================================================================

@@ -65,6 +65,16 @@
             </header> <!-- /header -->
         </div> <!-- /header_wrap -->
 
+
+        <div class="mobile_header_wrap">
+            
+            <div class="mobile_header">
+                
+            </div>
+
+        </div> <!-- /mobile header -->
+
+
         <div class="shell"> <!-- content shell -->
 
             <div class="hero_<?php echo rand(1,1); ?>">

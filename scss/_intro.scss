@@ -9,6 +9,10 @@
     border-bottom: 1px solid #e8e7de;
   	z-index: 0;
 
+    @media (max-width: 768px) {
+      display: none;
+    }
+
     .intro_container {
       width: 100%;
       max-width: 1300px;
@@ -16,7 +20,10 @@
       padding-left: 230px;
       padding-right: 50px;
 
-     
+      @media (max-width: 768px) {
+        padding-left: 0px;
+        padding-right: 0px;
+      }
 
     	p {
     		font-size: 22px;

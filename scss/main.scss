@@ -215,44 +215,34 @@ section {
 
 // google map section - work on this for fixed pos ipad
 
+.map {
+    height: 500px;
+}
+
 #map_canvas {
-    height: 450px;
+    width: 100%;
+    height: 100%;
+}
+
+
+// copyright section  f1ebdc
+
+.copyright {
+    background: #4d5b61;
+    border-top: 2px solid #f1ebdc;
+
+    p {
+        color: #f1ebdc;
+        text-shadow: none;
+        font-size: 14px;
+        margin: 10px 0px;
+    }
 }
 
 
 // back to top btn
 
-
-.topBtn  {
-        width: 70px;
-        height: 70px;
-        background: #d6d4ce;
-        position: fixed;
-        bottom: 0px;
-        right: 0px;
-        color: white;
-        line-height: 30px;
-        text-align: center;
-        border-radius: 7px 0px 0px 0px;
-        display: none;
-
-        -webkit-transition: background 0.5s;
-           -moz-transition: background 0.5s;
-            -ms-transition: background 0.5s;
-             -o-transition: background 0.5s;
-                transition: background 0.5s;
-
-        &:hover {
-            background: #979790;
-        }
-
-        &:after {
-            content: url(../assets/bkgd_img/upArrow.png);
-            width: 35px;
-            height: 25px;
-            line-height: 80px;
-        }
-    }
+@import "backtotop";
 
 
 /* ==========================================================================

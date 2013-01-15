@@ -462,48 +462,56 @@ section h1 { font-size: 26px; margin-bottom: 30px; }
 .border { border-top: 1px solid #c1bba9; border-bottom: 1px solid rgba(255, 255, 255, 0.2); margin-top: 10px; margin-bottom: 20px; }
 
 /* line 218, ../scss/main.scss */
-#map_canvas { height: 450px; }
+.map { height: 500px; }
 
-/* line 226, ../scss/main.scss */
+/* line 222, ../scss/main.scss */
+#map_canvas { width: 100%; height: 100%; }
+
+/* line 230, ../scss/main.scss */
+.copyright { background: #4d5b61; border-top: 2px solid #f1ebdc; }
+/* line 234, ../scss/main.scss */
+.copyright p { color: #f1ebdc; text-shadow: none; font-size: 14px; margin: 10px 0px; }
+
+/* line 2, ../scss/_backtotop.scss */
 .topBtn { width: 70px; height: 70px; background: #d6d4ce; position: fixed; bottom: 0px; right: 0px; color: white; line-height: 30px; text-align: center; border-radius: 7px 0px 0px 0px; display: none; -webkit-transition: background 0.5s; -moz-transition: background 0.5s; -ms-transition: background 0.5s; -o-transition: background 0.5s; transition: background 0.5s; }
-/* line 245, ../scss/main.scss */
+/* line 21, ../scss/_backtotop.scss */
 .topBtn:hover { background: #979790; }
-/* line 249, ../scss/main.scss */
+/* line 25, ../scss/_backtotop.scss */
 .topBtn:after { content: url(../assets/bkgd_img/upArrow.png); width: 35px; height: 25px; line-height: 80px; }
 
 /* ========================================================================== Helper classes ========================================================================== */
 /* Image replacement */
-/* line 266, ../scss/main.scss */
+/* line 256, ../scss/main.scss */
 .ir { background-color: transparent; border: 0; overflow: hidden; /* IE 6/7 fallback */ *text-indent: -9999px; }
 
-/* line 274, ../scss/main.scss */
+/* line 264, ../scss/main.scss */
 .ir:before { content: ""; display: block; width: 0; height: 100%; }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 285, ../scss/main.scss */
+/* line 275, ../scss/main.scss */
 .hidden { display: none !important; visibility: hidden; }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 294, ../scss/main.scss */
+/* line 284, ../scss/main.scss */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 311, ../scss/main.scss */
+/* line 301, ../scss/main.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 324, ../scss/main.scss */
+/* line 314, ../scss/main.scss */
 .invisible { visibility: hidden; }
 
 /* Clearfix: contain floats  For modern browsers 1. The space content is one way to avoid an Opera bug when the `contenteditable` attribute is included anywhere else in the document. Otherwise it causes space to appear at the top and bottom of elements that receive the `clearfix` class. 2. The use of `table` rather than `block` is only necessary if using `:before` to contain the top-margins of child elements. */
-/* line 341, ../scss/main.scss */
+/* line 331, ../scss/main.scss */
 .clearfix:before, .clearfix:after { content: " "; /* 1 */ display: table; /* 2 */ }
 
-/* line 346, ../scss/main.scss */
+/* line 336, ../scss/main.scss */
 .clearfix:after { clear: both; }
 
 /* For IE 6/7 only Include this rule to trigger hasLayout and contain floats. */
-/* line 355, ../scss/main.scss */
+/* line 345, ../scss/main.scss */
 .clearfix { *zoom: 1; }
 
 /* ========================================================================== EXAMPLE Media Queries for Responsive Design. Theses examples override the primary ('mobile first') styles. Modify as content requires. ========================================================================== */
@@ -511,27 +519,27 @@ section h1 { font-size: 26px; margin-bottom: 30px; }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }
 /* ========================================================================== Print styles. Inlined to avoid required HTTP connection: h5bp.com/r ========================================================================== */
-@media print { /* line 385, ../scss/main.scss */
+@media print { /* line 375, ../scss/main.scss */
   * { background: transparent !important; color: #000 !important; /* Black prints faster: h5bp.com/s */ box-shadow: none !important; text-shadow: none !important; }
-  /* line 393, ../scss/main.scss */
+  /* line 383, ../scss/main.scss */
   a, a:visited { text-decoration: underline; }
-  /* line 397, ../scss/main.scss */
+  /* line 387, ../scss/main.scss */
   a[href]:after { content: " (" attr(href) ")"; }
-  /* line 401, ../scss/main.scss */
+  /* line 391, ../scss/main.scss */
   abbr[title]:after { content: " (" attr(title) ")"; }
   /* Don't show links for images, or javascript/internal links */
-  /* line 411, ../scss/main.scss */
+  /* line 401, ../scss/main.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
-  /* line 416, ../scss/main.scss */
+  /* line 406, ../scss/main.scss */
   pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  /* line 421, ../scss/main.scss */
+  /* line 411, ../scss/main.scss */
   thead { display: table-header-group; /* h5bp.com/t */ }
-  /* line 426, ../scss/main.scss */
+  /* line 416, ../scss/main.scss */
   tr, img { page-break-inside: avoid; }
-  /* line 430, ../scss/main.scss */
+  /* line 420, ../scss/main.scss */
   img { max-width: 100% !important; }
   @page { margin: 0.5cm; }
-  /* line 440, ../scss/main.scss */
+  /* line 430, ../scss/main.scss */
   p, h2, h3 { orphans: 3; widows: 3; }
-  /* line 446, ../scss/main.scss */
+  /* line 436, ../scss/main.scss */
   h2, h3 { page-break-after: avoid; } }

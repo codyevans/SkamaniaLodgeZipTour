@@ -241,14 +241,24 @@
                 </div> <!-- /grid -->
             </section>
 
-
-            <div id="map_canvas"></div> <!-- /google maps -->
-
+<!-- 
+            <div class="map">
+                <div id="map_canvas"></div>
+            </div>
+ -->
 
             <a href="#BackToTop" id="Top" title="Back to Top">
                 <div class="topBtn"></div>
             </a> <!-- /back to top -->
 
+
+            <div class="copyright">
+                <div class="grid">
+                    <p>
+                        © Skamania Lodge Zip Line Tour - <?php echo date('Y'); ?>. All Rights Reserved.
+                    </p>
+                </div>
+            </div> <!-- /copyright -->
 
         </div> <!-- /shell --> 
 
@@ -256,6 +266,7 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
+
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

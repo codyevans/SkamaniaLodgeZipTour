@@ -241,15 +241,16 @@
                 </div> <!-- /grid -->
             </section>
 
+
+            <div id="map_canvas"></div> <!-- /google maps -->
+
+
+            <a href="#BackToTop" id="Top" title="Back to Top">
+                <div class="topBtn"></div>
+            </a> <!-- /back to top -->
+
+
         </div> <!-- /shell --> 
-
-        <div id="map_canvas"></div> <!-- /google maps -->
-
-
-        <a href="#BackToTop" id="Top" title="Back to Top">
-            <div class="topBtn"></div>
-        </a> <!-- /back to top -->
-
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>

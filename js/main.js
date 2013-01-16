@@ -1,12 +1,11 @@
-
 /* ======================================================================== */
 // smoothScroll
-
-//$(".logo_wrap a").smoothScroll();
 
 $(".main_nav a").smoothScroll();
 
 $("a#Top").smoothScroll();
+
+$("#mobile_nav a").smoothScroll();
 
 
 /* ======================================================================== */
@@ -49,6 +48,24 @@ if ( $(window).width() > 768 ) {
 	});
 
 }
+
+
+/* ======================================================================== */
+// mobile nav and navicon
+
+$('#mobile_nav').hide();
+
+$('#navicon').click(function(e) {
+
+	$('#mobile_nav').slideToggle();
+
+	e.preventDefault();
+
+});
+
+$('#mobile_nav a').click(function() {
+	$('#mobile_nav').hide();
+});
 
 
 /* ======================================================================== */

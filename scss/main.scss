@@ -376,12 +376,54 @@ section {
    // header
 
    .mobile_header_wrap {
+    position: relative;
 
         .mobile_header {
             background: url(../assets/mobile/mobile_header.png) repeat-x 0 0;
             width: 100%;
             height: 73px;
+            position: relative;
+            z-index: 100;
+
+            .navicon {
+                background: url(../assets/mobile/navicon.png) no-repeat 0 0;
+                width: 72px;
+                height: 99px;
+                position: absolute;
+                right: 15px;
+                cursor: pointer;
+
+            } // navicon
+
         } // m_header
+
+        .mobile_sub_header {
+            width: 100%;
+            height: 40px;
+            position: relative;
+            top: -10px;
+            z-index: 20;
+            background: red;
+
+            h2.mobile {
+                color: white;
+                text-shadow: none;
+                font-size: 14px;
+                margin: 0px;
+                padding: 0px;
+            } //h2
+
+        } // sub header
+
+        .mobile_nav {
+            width: 100%;
+            height: 400px;
+            position: absolute;
+            top: 130px;
+            background: url(../assets/bkgd_img/checker.gif) repeat;
+            border-bottom: 2px solid #e8e7de;
+            z-index: 10;
+        } // nav
 
    } // m_wrap
 

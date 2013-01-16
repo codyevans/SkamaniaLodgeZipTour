@@ -69,8 +69,16 @@
         <div class="mobile_header_wrap">
             
             <div class="mobile_header">
+                <div class="navicon" id="navicon" title="Menu"></div>
+            </div>
+
+            <div class="mobile_sub_header">
                 
             </div>
+
+            <div class="mobile_nav" id="mobile_nav">
+                <a href="#reservations">Reservations</a>
+            </div> <!-- /mobile nav -->
 
         </div> <!-- /mobile header -->
 

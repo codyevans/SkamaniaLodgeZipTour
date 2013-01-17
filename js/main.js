@@ -7,6 +7,8 @@ $("a#Top").smoothScroll();
 
 $("#mobile_nav a").smoothScroll();
 
+$("a.mobile_backTop").smoothScroll();
+
 
 /* ======================================================================== */
 // backstretch

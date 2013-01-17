@@ -337,19 +337,19 @@ h1, h2, h3, h4, h5, h6 { font-family: Arvo, serif; font-weight: 400; color: #344
 /* line 132, ../scss/main.scss */
 h1 { font-size: 32px; }
 
-/* line 136, ../scss/main.scss */
+/* line 137, ../scss/main.scss */
 p { font-weight: 400; color: #73797b; text-shadow: 0px 1px 1px white; margin: 0 0 20px 0; }
 
 /* --- links -------------------------------------------------------------- */
-/* line 145, ../scss/main.scss */
+/* line 146, ../scss/main.scss */
 a { color: #344c57; font-style: italic; font-weight: 700; }
-/* line 150, ../scss/main.scss */
-a:hover { text-decoration: none; }
 /* line 151, ../scss/main.scss */
+a:hover { text-decoration: none; }
+/* line 152, ../scss/main.scss */
 a:active { color: #73797b; }
 
 /* --- images --------------------------------------------------------------- */
-/* line 156, ../scss/main.scss */
+/* line 157, ../scss/main.scss */
 img { width: 100%; height: auto; }
 
 /* --- Header ------------------------------------------------------------------ 
@@ -369,45 +369,51 @@ h1.logo { position: absolute; text-indent: -9999px; background: url(../assets/bk
 /* line 42, ../scss/_header.scss */
 h1.logo:hover { opacity: 0.7; }
 
-/* --- header - main_nav ---------------------------------------------------- */
+/* line 46, ../scss/_header.scss */
+h1.mobile { display: none; }
+
 /* line 48, ../scss/_header.scss */
+.mobile_logo { display: none; }
+
+/* --- header - main_nav ---------------------------------------------------- */
+/* line 54, ../scss/_header.scss */
 header { position: absolute; background: url(../assets/bkgd_img/header_bottom.png) repeat-y 0 0; width: 210px; height: 100%; top: 217px; }
 
-/* line 56, ../scss/_header.scss */
+/* line 62, ../scss/_header.scss */
 nav.main_nav { position: absolute; top: -12px; left: -1px; text-align: right; font-size: 20px; font-family: Arvo, serif; }
 
-/* line 65, ../scss/_header.scss */
+/* line 71, ../scss/_header.scss */
 nav.main_nav ul { list-style: none; }
 
-/* line 69, ../scss/_header.scss */
+/* line 75, ../scss/_header.scss */
 nav.main_nav ul li { margin-bottom: 15px; }
 
-/* line 73, ../scss/_header.scss */
+/* line 79, ../scss/_header.scss */
 nav.main_nav ul li a { text-decoration: none; font-style: normal; color: #3c535e; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4); }
 
-/* line 80, ../scss/_header.scss */
+/* line 86, ../scss/_header.scss */
 nav.main_nav ul li a:hover { color: #133b49; border-bottom: 2px dotted #73797b; }
 
 /* --- header - header_contact ------------------------------------------------ */
-/* line 87, ../scss/_header.scss */
+/* line 93, ../scss/_header.scss */
 .header_contact { position: absolute; top: 200px; left: 23px; text-align: right; font-size: 12px; line-height: 20px; color: #0e2c36; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4); }
 
-/* line 98, ../scss/_header.scss */
+/* line 104, ../scss/_header.scss */
 .header_contact ul { list-style: none; margin: 0px; padding: 0px; }
 
-/* line 104, ../scss/_header.scss */
+/* line 110, ../scss/_header.scss */
 .header_contact ul li { margin-bottom: 0px; }
 
-/* line 108, ../scss/_header.scss */
+/* line 114, ../scss/_header.scss */
 .header_contact .phone { font-size: 16px; font-weight: 700; color: #133b49; padding-bottom: 2px; }
 
-/* line 115, ../scss/_header.scss */
+/* line 121, ../scss/_header.scss */
 .header_contact .email { font-size: 14px; color: #133b49; padding-bottom: 15px; }
 
-/* line 121, ../scss/_header.scss */
+/* line 127, ../scss/_header.scss */
 .header_contact a { font-weight: 400; color: #0a252f; font-style: normal; text-decoration: none; }
 
-/* line 128, ../scss/_header.scss */
+/* line 134, ../scss/_header.scss */
 .header_contact a:hover { text-decoration: underline; }
 
 /* --- Hero Section ------------------------------------------------------------
@@ -415,26 +421,26 @@ nav.main_nav ul li a:hover { color: #133b49; border-bottom: 2px dotted #73797b; 
 /* line 3, ../scss/_hero.scss */
 .hero_1 { width: 100%; height: 595px; }
 @media (max-width: 768px) { /* line 3, ../scss/_hero.scss */
-  .hero_1 { display: none; } }
+  .hero_1 { margin-top: -10px; height: 500px; } }
 
-/* line 15, ../scss/_hero.scss */
+/* line 20, ../scss/_hero.scss */
 .title_banner { background: url(../assets/bkgd_img/title_banner.png) no-repeat 0 0; width: 568px; height: 95px; position: absolute; z-index: 12; top: 57px; left: 147px; }
-@media (max-width: 768px) { /* line 15, ../scss/_hero.scss */
+@media (max-width: 768px) { /* line 20, ../scss/_hero.scss */
   .title_banner { display: none; } }
 
-/* line 32, ../scss/_hero.scss */
+/* line 37, ../scss/_hero.scss */
 .headlines { position: absolute; top: 173px; left: 231px; }
-@media (max-width: 768px) { /* line 32, ../scss/_hero.scss */
+@media (max-width: 768px) { /* line 37, ../scss/_hero.scss */
   .headlines { display: none; } }
-/* line 41, ../scss/_hero.scss */
+/* line 46, ../scss/_hero.scss */
 .headlines .lines { margin-top: -45px; }
-/* line 45, ../scss/_hero.scss */
+/* line 50, ../scss/_hero.scss */
 .headlines .bridges { margin-top: -45px; }
-/* line 49, ../scss/_hero.scss */
+/* line 54, ../scss/_hero.scss */
 .headlines .mph { margin-left: -45px; }
-/* line 53, ../scss/_hero.scss */
-.headlines .ft { margin-left: -35px; margin-top: -10px; }
 /* line 58, ../scss/_hero.scss */
+.headlines .ft { margin-left: -35px; margin-top: -10px; }
+/* line 63, ../scss/_hero.scss */
 .headlines img { width: 442px; height: 392px; }
 
 /* --- Giant Button ------------------------------------------------------------
@@ -442,14 +448,16 @@ nav.main_nav ul li a:hover { color: #133b49; border-bottom: 2px dotted #73797b; 
 /* line 10, ../scss/_giant-btn.scss */
 .giant_btn { position: relative; margin-top: -2px; padding-left: 190px; text-align: center; line-height: 122px; font-size: 42px; cursor: pointer; width: 100%; height: 132px; background: #e7cd67; border-bottom: 10px solid #bea74d; margin-bottom: 10px; z-index: 10; -webkit-box-shadow: 0px 9px 0px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0px 9px 0px rgba(0, 0, 0, 0.15); -ms-box-shadow: 0px 9px 0px rgba(0, 0, 0, 0.15); -o-box-shadow: 0px 9px 0px rgba(0, 0, 0, 0.15); box-shadow: 0px 9px 0px rgba(0, 0, 0, 0.15); }
 @media (max-width: 768px) { /* line 10, ../scss/_giant-btn.scss */
+  .giant_btn { padding-left: 0px; } }
+@media (max-width: 575px) { /* line 10, ../scss/_giant-btn.scss */
   .giant_btn { padding-left: 0px; display: none; } }
-/* line 36, ../scss/_giant-btn.scss */
-.giant_btn:hover { background: #ebd270; }
 /* line 40, ../scss/_giant-btn.scss */
+.giant_btn:hover { background: #ebd270; }
+/* line 44, ../scss/_giant-btn.scss */
 .giant_btn:active { margin-top: 0px; height: 128px; border-bottom: 6px solid #bea74d; margin-bottom: 12px; -webkit-box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.12); -moz-box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.12); -ms-box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.12); -o-box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.12); box-shadow: 0px 7px 0px rgba(0, 0, 0, 0.12); }
-/* line 52, ../scss/_giant-btn.scss */
+/* line 56, ../scss/_giant-btn.scss */
 .giant_btn p { color: #344c57; font-size: 46px; font-family: Arvo, serif; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2); }
-@media (max-width: 900px) { /* line 52, ../scss/_giant-btn.scss */
+@media (max-width: 900px) { /* line 56, ../scss/_giant-btn.scss */
   .giant_btn p { font-size: 40px; } }
 
 /* --- Sections ----------------------------------------------------------------
@@ -471,29 +479,29 @@ nav.main_nav ul li a:hover { color: #133b49; border-bottom: 2px dotted #73797b; 
 #intro .intro_container p a:hover { text-decoration: underline; }
 
 /* --- general section module ------------------------------------------------- */
-/* line 190, ../scss/main.scss */
+/* line 191, ../scss/main.scss */
 section { margin-bottom: 50px; margin-top: 25px; }
-/* line 194, ../scss/main.scss */
+/* line 195, ../scss/main.scss */
 section h1 { font-size: 26px; margin-bottom: 30px; }
 
-/* line 200, ../scss/main.scss */
+/* line 201, ../scss/main.scss */
 .border { border-top: 1px solid #c1bba9; border-bottom: 1px solid rgba(255, 255, 255, 0.2); margin-top: 10px; margin-bottom: 20px; }
 
 /* --- the tour ---------------------------------------------------------------- */
 /* --- reservations ------------------------------------------------------------ */
 /* --- about ------------------------------------------------------------------- */
 /* --- contact ----------------------------------------------------------------- */
-/* line 231, ../scss/main.scss */
+/* line 232, ../scss/main.scss */
 .map { height: 500px; }
 
-/* line 235, ../scss/main.scss */
+/* line 236, ../scss/main.scss */
 #map_canvas { width: 100%; height: 100%; }
 
-/* line 244, ../scss/main.scss */
+/* line 245, ../scss/main.scss */
 .copyright { background: #4d5b61; border-top: 2px solid #f1ebdc; }
-/* line 248, ../scss/main.scss */
+/* line 249, ../scss/main.scss */
 .copyright p { color: #f1ebdc; text-shadow: none; font-size: 14px; margin: 10px 0px; }
-@media (max-width: 460px) { /* line 248, ../scss/main.scss */
+@media (max-width: 460px) { /* line 249, ../scss/main.scss */
   .copyright p { font-size: 10px; } }
 
 /* line 2, ../scss/_backtotop.scss */
@@ -503,80 +511,107 @@ section h1 { font-size: 26px; margin-bottom: 30px; }
 /* line 25, ../scss/_backtotop.scss */
 .topBtn:after { content: url(../assets/bkgd_img/upArrow.png); width: 35px; height: 25px; line-height: 80px; }
 
+/* line 270, ../scss/main.scss */
+.sectionTop { display: none; }
+
 /* ========================================================================== Helper classes ========================================================================== */
 /* Image replacement */
-/* line 275, ../scss/main.scss */
+/* line 283, ../scss/main.scss */
 .ir { background-color: transparent; border: 0; overflow: hidden; /* IE 6/7 fallback */ *text-indent: -9999px; }
 
-/* line 283, ../scss/main.scss */
+/* line 291, ../scss/main.scss */
 .ir:before { content: ""; display: block; width: 0; height: 100%; }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 294, ../scss/main.scss */
+/* line 302, ../scss/main.scss */
 .hidden { display: none !important; visibility: hidden; }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 303, ../scss/main.scss */
+/* line 311, ../scss/main.scss */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 320, ../scss/main.scss */
+/* line 328, ../scss/main.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 333, ../scss/main.scss */
+/* line 341, ../scss/main.scss */
 .invisible { visibility: hidden; }
 
 /* Clearfix: contain floats  For modern browsers 1. The space content is one way to avoid an Opera bug when the `contenteditable` attribute is included anywhere else in the document. Otherwise it causes space to appear at the top and bottom of elements that receive the `clearfix` class. 2. The use of `table` rather than `block` is only necessary if using `:before` to contain the top-margins of child elements. */
-/* line 350, ../scss/main.scss */
+/* line 358, ../scss/main.scss */
 .clearfix:before, .clearfix:after { content: " "; /* 1 */ display: table; /* 2 */ }
 
-/* line 355, ../scss/main.scss */
+/* line 363, ../scss/main.scss */
 .clearfix:after { clear: both; }
 
 /* For IE 6/7 only Include this rule to trigger hasLayout and contain floats. */
-/* line 364, ../scss/main.scss */
+/* line 372, ../scss/main.scss */
 .clearfix { *zoom: 1; }
 
 /* ========================================================================== EXAMPLE Media Queries for Responsive Design. Theses examples override the primary ('mobile first') styles. Modify as content requires. ========================================================================== */
-@media only screen and (max-width: 768px) { /* line 378, ../scss/main.scss */
+@media only screen and (max-width: 768px) { /* line 386, ../scss/main.scss */
   .mobile_header_wrap { position: relative; }
-  /* line 381, ../scss/main.scss */
+  /* line 389, ../scss/main.scss */
   .mobile_header_wrap .mobile_header { background: url(../assets/mobile/mobile_header.png) repeat-x 0 0; width: 100%; height: 73px; position: relative; z-index: 100; }
-  /* line 388, ../scss/main.scss */
+  /* line 396, ../scss/main.scss */
+  .mobile_header_wrap .mobile_header .mobile_logo { width: 55px; height: 54px; position: absolute; top: 4px; left: 20px; display: block; }
+  /* line 405, ../scss/main.scss */
   .mobile_header_wrap .mobile_header .navicon { background: url(../assets/mobile/navicon.png) no-repeat 0 0; width: 72px; height: 99px; position: absolute; right: 15px; cursor: pointer; }
-  /* line 400, ../scss/main.scss */
-  .mobile_header_wrap .mobile_sub_header { width: 100%; height: 40px; position: relative; top: -10px; z-index: 20; background: red; }
-  /* line 408, ../scss/main.scss */
-  .mobile_header_wrap .mobile_sub_header h2.mobile { color: white; text-shadow: none; font-size: 14px; margin: 0px; padding: 0px; }
-  /* line 418, ../scss/main.scss */
-  .mobile_header_wrap .mobile_nav { width: 100%; height: 400px; position: absolute; top: 130px; background: url(../assets/bkgd_img/checker.gif) repeat; border-bottom: 2px solid #e8e7de; z-index: 10; } }
-@media only screen and (max-width: 1165px) { /* line 437, ../scss/main.scss */
+  /* line 417, ../scss/main.scss */
+  .mobile_header_wrap .mobile_sub_header { width: 100%; height: 50px; background: url(../assets/mobile/sub_headTex.gif) repeat; border-bottom: 2px solid #e8e7de; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); position: relative; top: -10px; z-index: 20; }
+  /* line 427, ../scss/main.scss */
+  .mobile_header_wrap .mobile_sub_header h1.mobile { color: #f1ebdc; text-shadow: 0px -1px 0px #133b49; font-size: 18px; margin: 0px; padding: 0px; line-height: 52px; display: block; }
+  /* line 439, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav { width: 100%; height: 400px; position: absolute; top: 130px; background: url(../assets/bkgd_img/checker.gif) repeat; border-bottom: 2px solid #e8e7de; z-index: 10; }
+  /* line 454, ../scss/main.scss */
+  .sectionTop { display: block; background: #979790; border-radius: 5px; }
+  /* line 459, ../scss/main.scss */
+  .sectionTop a.mobile_backTop { text-decoration: none; color: white; text-shadow: none; font-size: 14px; padding: 10px 20px; font-weight: 400; font-style: normal; } }
+@media only screen and (max-width: 575px) { /* line 481, ../scss/main.scss */
+  .mobile_header_wrap { position: relative; }
+  /* line 484, ../scss/main.scss */
+  .mobile_header_wrap .mobile_header { background: url(../assets/mobile/mobile_header.png) repeat-x 0 0; width: 100%; height: 73px; position: relative; z-index: 100; }
+  /* line 491, ../scss/main.scss */
+  .mobile_header_wrap .mobile_header .mobile_logo { width: 55px; height: 54px; position: absolute; top: 4px; left: 20px; display: block; }
+  /* line 500, ../scss/main.scss */
+  .mobile_header_wrap .mobile_header .navicon { background: url(../assets/mobile/navicon.png) no-repeat 0 0; width: 72px; height: 99px; position: absolute; right: 15px; cursor: pointer; }
+  /* line 512, ../scss/main.scss */
+  .mobile_header_wrap .mobile_sub_header { width: 100%; height: 50px; background: url(../assets/mobile/sub_headTex.gif) repeat; border-bottom: 2px solid #e8e7de; box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.3); position: relative; top: -10px; z-index: 20; }
+  /* line 522, ../scss/main.scss */
+  .mobile_header_wrap .mobile_sub_header h1.mobile { color: #f1ebdc; text-shadow: 0px -1px 0px #133b49; font-size: 18px; margin: 0px; padding: 0px; line-height: 52px; display: block; }
+  /* line 534, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav { width: 100%; height: 400px; position: absolute; top: 130px; background: url(../assets/bkgd_img/checker.gif) repeat; border-bottom: 2px solid #e8e7de; z-index: 10; }
+  /* line 549, ../scss/main.scss */
+  .sectionTop { display: block; background: #979790; width: 100%; height: 35px; border-radius: 5px; text-align: center; }
+  /* line 557, ../scss/main.scss */
+  .sectionTop a.mobile_backTop { text-decoration: none; color: white; text-shadow: none; font-size: 14px; font-weight: 400; line-height: 35px; font-style: normal; } }
+@media only screen and (max-width: 1165px) { /* line 577, ../scss/main.scss */
   [class*='col-'] { width: 100%; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }
 /* ========================================================================== Print styles. Inlined to avoid required HTTP connection: h5bp.com/r ========================================================================== */
-@media print { /* line 458, ../scss/main.scss */
+@media print { /* line 598, ../scss/main.scss */
   * { background: transparent !important; color: #000 !important; /* Black prints faster: h5bp.com/s */ box-shadow: none !important; text-shadow: none !important; }
-  /* line 466, ../scss/main.scss */
+  /* line 606, ../scss/main.scss */
   a, a:visited { text-decoration: underline; }
-  /* line 470, ../scss/main.scss */
+  /* line 610, ../scss/main.scss */
   a[href]:after { content: " (" attr(href) ")"; }
-  /* line 474, ../scss/main.scss */
+  /* line 614, ../scss/main.scss */
   abbr[title]:after { content: " (" attr(title) ")"; }
   /* Don't show links for images, or javascript/internal links */
-  /* line 484, ../scss/main.scss */
+  /* line 624, ../scss/main.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
-  /* line 489, ../scss/main.scss */
+  /* line 629, ../scss/main.scss */
   pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  /* line 494, ../scss/main.scss */
+  /* line 634, ../scss/main.scss */
   thead { display: table-header-group; /* h5bp.com/t */ }
-  /* line 499, ../scss/main.scss */
+  /* line 639, ../scss/main.scss */
   tr, img { page-break-inside: avoid; }
-  /* line 503, ../scss/main.scss */
+  /* line 643, ../scss/main.scss */
   img { max-width: 100% !important; }
   @page { margin: 0.5cm; }
-  /* line 513, ../scss/main.scss */
+  /* line 653, ../scss/main.scss */
   p, h2, h3 { orphans: 3; widows: 3; }
-  /* line 519, ../scss/main.scss */
+  /* line 659, ../scss/main.scss */
   h2, h3 { page-break-after: avoid; } }

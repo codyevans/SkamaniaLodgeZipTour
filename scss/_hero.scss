@@ -5,8 +5,13 @@
 	height: 595px;
 
 	@media (max-width: 768px) {
-		display: none;
-	}
+		margin-top: -10px;
+		height: 500px;
+	} // 768
+
+	@media (max-width: 575px) {
+		
+	} // 575
 }
 
 

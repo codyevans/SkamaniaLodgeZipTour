@@ -29,8 +29,12 @@ $text: #344c57;
 
 	@media (max-width: 768px) {
 		padding-left: 0px;
+	} //768
+
+	@media (max-width: 575px) {
+		padding-left: 0px;
 		display: none;
-	}
+	} //575
 
 
 	&:hover {

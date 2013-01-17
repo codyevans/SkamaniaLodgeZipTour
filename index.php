@@ -30,7 +30,7 @@
          <div class="header_wrap">
 
             <div class="logo_wrap">
-                <a href="">
+                <a href="#">
                     <h1 class="logo" title="home">Skamania Lodge Zip Line Tour</h1>
                 </a>
             </div> <!-- /logo_wrap -->
@@ -69,11 +69,16 @@
         <div class="mobile_header_wrap">
             
             <div class="mobile_header">
+                <div class="mobile_logo">
+                    <a href="#"><img src="assets/mobile/mobile_logo.png" alt="Logo"></a>
+                </div>
                 <div class="navicon" id="navicon" title="Menu"></div>
             </div>
 
             <div class="mobile_sub_header">
-                
+                <div class="grid">
+                    <h1 class="mobile">Skamania Lodge Zip line Tour</h1>
+                </div>
             </div>
 
             <div class="mobile_nav" id="mobile_nav">
@@ -148,6 +153,9 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
+                    <div class="sectionTop push-right">
+                        <a href="#BackToTop" class="mobile_backTop">back to top</a>
+                    </div>
                 </div> <!-- /grid -->
             </section>
 
@@ -184,6 +192,9 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
+                    <div class="sectionTop push-right">
+                        <a href="#BackToTop" class="mobile_backTop">back to top</a>
+                    </div>
                 </div> <!-- /grid -->
             </section>
 
@@ -220,6 +231,9 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
+                    <div class="sectionTop push-right">
+                        <a href="#BackToTop" class="mobile_backTop">back to top</a>
+                    </div>
                 </div> <!-- /grid -->
             </section>
 

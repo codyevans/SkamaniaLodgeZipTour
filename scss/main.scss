@@ -133,6 +133,7 @@ h1 {
     font-size: 32px;
 }
 
+
 p {
     font-weight: 400;
     color: #73797b;
@@ -264,6 +265,13 @@ section {
 @import "backtotop";
 
 
+// mobile back to top btn
+
+.sectionTop {
+    display: none;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -385,6 +393,15 @@ section {
             position: relative;
             z-index: 100;
 
+            .mobile_logo {
+                width: 55px;
+                height: 54px;
+                position: absolute;
+                top: 4px;
+                left: 20px;
+                display: block;
+            }
+
             .navicon {
                 background: url(../assets/mobile/navicon.png) no-repeat 0 0;
                 width: 72px;
@@ -399,18 +416,22 @@ section {
 
         .mobile_sub_header {
             width: 100%;
-            height: 40px;
+            height: 50px;
+            background: url(../assets/mobile/sub_headTex.gif) repeat;
+            border-bottom: 2px solid #e8e7de;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
             position: relative;
             top: -10px;
             z-index: 20;
-            background: red;
 
-            h2.mobile {
-                color: white;
-                text-shadow: none;
-                font-size: 14px;
+            h1.mobile {
+                color: #f1ebdc;
+                text-shadow: 0px -1px 0px #133b49;
+                font-size: 18px;
                 margin: 0px;
                 padding: 0px;
+                line-height: 52px;
+                display: block;
             } //h2
 
         } // sub header
@@ -428,9 +449,128 @@ section {
    } // m_wrap
 
 
+   // mobile back to top btn
+
+    .sectionTop {
+        display: block;
+        background: #979790;
+        border-radius: 5px;
+
+        a.mobile_backTop {
+            text-decoration: none;
+            color: white;
+            text-shadow: none;
+            font-size: 14px;
+            padding: 10px 20px;
+            font-weight: 400;
+            font-style: normal;
+            
+        }
+    }
+
+
 
 
 } // end 768
+
+
+@media only screen and (max-width: 575px) {
+   
+   // header
+
+   .mobile_header_wrap {
+    position: relative;
+
+        .mobile_header {
+            background: url(../assets/mobile/mobile_header.png) repeat-x 0 0;
+            width: 100%;
+            height: 73px;
+            position: relative;
+            z-index: 100;
+
+            .mobile_logo {
+                width: 55px;
+                height: 54px;
+                position: absolute;
+                top: 4px;
+                left: 20px;
+                display: block;
+            }
+
+            .navicon {
+                background: url(../assets/mobile/navicon.png) no-repeat 0 0;
+                width: 72px;
+                height: 99px;
+                position: absolute;
+                right: 15px;
+                cursor: pointer;
+
+            } // navicon
+
+        } // m_header
+
+        .mobile_sub_header {
+            width: 100%;
+            height: 50px;
+            background: url(../assets/mobile/sub_headTex.gif) repeat;
+            border-bottom: 2px solid #e8e7de;
+            box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+            position: relative;
+            top: -10px;
+            z-index: 20;
+
+            h1.mobile {
+                color: #f1ebdc;
+                text-shadow: 0px -1px 0px #133b49;
+                font-size: 18px;
+                margin: 0px;
+                padding: 0px;
+                line-height: 52px;
+                display: block;
+            } //h2
+
+        } // sub header
+
+        .mobile_nav {
+            width: 100%;
+            height: 400px;
+            position: absolute;
+            top: 130px;
+            background: url(../assets/bkgd_img/checker.gif) repeat;
+            border-bottom: 2px solid #e8e7de;
+            z-index: 10;
+        } // nav
+
+   } // m_wrap
+
+
+   // mobile back to top btn
+
+    .sectionTop {
+        display: block;
+        background: #979790;
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        text-align: center;
+
+        a.mobile_backTop {
+            text-decoration: none;
+            color: white;
+            text-shadow: none;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 35px;
+            font-style: normal;
+            
+        }
+    }
+
+
+
+
+} // end 575
+
 
 @media only screen and (max-width: 1165px) {
     

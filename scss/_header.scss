@@ -43,6 +43,12 @@ h1.logo:hover {
     opacity: 0.7;
 }
 
+h1.mobile { display: none; }
+
+.mobile_logo {
+    display: none;
+}
+
 /* --- header - main_nav ---------------------------------------------------- */
 
 header {

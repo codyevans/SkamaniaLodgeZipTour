@@ -81,8 +81,15 @@
                 </div>
             </div>
 
-            <div class="mobile_nav" id="mobile_nav">
-                <a href="#reservations">Reservations</a>
+            <div class="mobile_nav close" id="mobile_nav">
+                <div class="grid">
+                    <ul class="mobile">
+                        <li><a href="#tour">The Tour</a></li>
+                        <li><a href="#reservations">Reservations</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
             </div> <!-- /mobile nav -->
 
         </div> <!-- /mobile header -->
@@ -114,7 +121,7 @@
             <div id="intro">
                 <div class="intro_container">
                      <p>
-                       Get ready to experience highflying action like never before. 
+                       Get ready to fly with the eagles and soar with spirits at the Bridge of the Gods. 
                        Only our unique Canopy Zip Line Tour will send you soaring above 
                        the scenic Columbia River Gorge. We have six zip lines, four sky bridges 
                        and stunning views all nestled together at the world class 
@@ -145,14 +152,18 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <p class="col-1-1">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+
+                    <div class="bullet_points">
+                        <h3>General Tour Info</h3>
+                        <ul>
+                            <li>maximum weight limit of 270 lbs please fatty</li>
+                            <li>maximum weight limit of 270 lbs please fatty</li>
+                            <li>maximum weight limit of 270 lbs please fatty</li>
+                            <li>maximum weight limit of 270 lbs please fatty</li>
+                            <li>maximum weight limit of 270 lbs please fatty</li>
+                        </ul>
+                    </div> <!-- /bullet points -->
+
                     <div class="sectionTop push-right">
                         <a href="#BackToTop" class="mobile_backTop">back to top</a>
                     </div>
@@ -192,6 +203,7 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
+
                     <div class="sectionTop push-right">
                         <a href="#BackToTop" class="mobile_backTop">back to top</a>
                     </div>
@@ -273,11 +285,11 @@
                 </div> <!-- /grid -->
             </section>
 
-<!-- 
+
             <div class="map">
                 <div id="map_canvas"></div>
             </div>
- -->
+
 
             <a href="#BackToTop" id="Top" title="Back to Top">
                 <div class="topBtn"></div>

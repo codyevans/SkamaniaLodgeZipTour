@@ -26,9 +26,11 @@ $('#headline_slideshow').cycle();
 // lightbox_me
 
 /*
+$('.module').hide();
+
 $('.giant_btn').click(function(e) {
 
-	$('#booking').lightbox_me();
+	$('.module').lightbox_me();
 
 	e.preventDefault();
 
@@ -55,18 +57,17 @@ if ( $(window).width() > 768 ) {
 /* ======================================================================== */
 // mobile nav and navicon
 
-$('#mobile_nav').hide();
-
 $('#navicon').click(function(e) {
 
-	$('#mobile_nav').slideToggle();
+	$('#mobile_nav').toggleClass('open');
 
 	e.preventDefault();
 
 });
 
-$('#mobile_nav a').click(function() {
-	$('#mobile_nav').hide();
+$('ul.mobile a').click(function(e) {
+	$('#mobile_nav').removeClass('open');
+	e.preventDefault();
 });
 
 

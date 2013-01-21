@@ -153,17 +153,6 @@
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
 
-                    <div class="bullet_points">
-                        <h3>General Tour Info</h3>
-                        <ul>
-                            <li>maximum weight limit of 270 lbs please fatty</li>
-                            <li>maximum weight limit of 270 lbs please fatty</li>
-                            <li>maximum weight limit of 270 lbs please fatty</li>
-                            <li>maximum weight limit of 270 lbs please fatty</li>
-                            <li>maximum weight limit of 270 lbs please fatty</li>
-                        </ul>
-                    </div> <!-- /bullet points -->
-
                     <div class="sectionTop push-right">
                         <a href="#BackToTop" class="mobile_backTop">back to top</a>
                     </div>

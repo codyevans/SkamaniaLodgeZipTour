@@ -11,7 +11,7 @@
 
 	@media (max-width: 575px) {
 		height: 345px;
-		border-bottom: 27px solid #e7cd67;
+		border-bottom: 20px solid #e7cd67;
 	} // 575
 }
 
@@ -34,14 +34,6 @@
 
 
 // headlines
-
-#headline_slideshow {
-
-	@media (max-width: 768px) {
-		width: 100;
-		margin: 0 auto;
-	}
-}
 
 .headlines {
 	position: absolute;

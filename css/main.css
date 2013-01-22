@@ -426,31 +426,28 @@ ul.mobile { display: none; }
 @media (max-width: 768px) { /* line 3, ../scss/_hero.scss */
   .hero_1 { margin-top: -10px; height: 445px; } }
 @media (max-width: 575px) { /* line 3, ../scss/_hero.scss */
-  .hero_1 { height: 345px; border-bottom: 27px solid #e7cd67; } }
+  .hero_1 { height: 345px; border-bottom: 20px solid #e7cd67; } }
 
 /* line 21, ../scss/_hero.scss */
 .title_banner { background: url(../assets/bkgd_img/title_banner.png) no-repeat 0 0; width: 568px; height: 95px; position: absolute; z-index: 12; top: 57px; left: 147px; }
 @media (max-width: 768px) { /* line 21, ../scss/_hero.scss */
   .title_banner { display: none; } }
 
-@media (max-width: 768px) { /* line 38, ../scss/_hero.scss */
-  #headline_slideshow { width: 100; margin: 0 auto; } }
-
-/* line 46, ../scss/_hero.scss */
+/* line 38, ../scss/_hero.scss */
 .headlines { position: absolute; top: 173px; left: 231px; }
-@media (max-width: 768px) { /* line 46, ../scss/_hero.scss */
+@media (max-width: 768px) { /* line 38, ../scss/_hero.scss */
   .headlines { position: relative; top: 0px; left: 0px; margin: 0 auto; } }
-@media (max-width: 575px) { /* line 46, ../scss/_hero.scss */
+@media (max-width: 575px) { /* line 38, ../scss/_hero.scss */
   .headlines { display: none; } }
-/* line 64, ../scss/_hero.scss */
+/* line 56, ../scss/_hero.scss */
 .headlines .lines { margin-top: -45px; }
-/* line 68, ../scss/_hero.scss */
+/* line 60, ../scss/_hero.scss */
 .headlines .bridges { margin-top: -45px; }
-/* line 72, ../scss/_hero.scss */
+/* line 64, ../scss/_hero.scss */
 .headlines .mph { margin-left: -45px; }
-/* line 76, ../scss/_hero.scss */
+/* line 68, ../scss/_hero.scss */
 .headlines .ft { margin-left: -35px; margin-top: -10px; }
-/* line 81, ../scss/_hero.scss */
+/* line 73, ../scss/_hero.scss */
 .headlines img { width: 442px; height: 392px; }
 
 /* --- Giant Button ------------------------------------------------------------

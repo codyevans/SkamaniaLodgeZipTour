@@ -137,7 +137,7 @@
                         The SLZT Tour
                     </h1>
                     <p class="col-1-2">
-                        Lorem <a href="#" id="navOn">ipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        Welcome to the tour. Consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse

@@ -503,21 +503,21 @@ section h1 { font-size: 26px; margin-bottom: 30px; }
 /* --- reservations ------------------------------------------------------------ */
 /* --- about ------------------------------------------------------------------- */
 /* --- contact ----------------------------------------------------------------- */
-/* line 237, ../scss/main.scss */
+/* line 235, ../scss/main.scss */
 .map { height: 500px; }
 
-/* line 241, ../scss/main.scss */
+/* line 239, ../scss/main.scss */
 #map_canvas { width: 100%; height: 100%; }
 
-/* line 250, ../scss/main.scss */
+/* line 248, ../scss/main.scss */
 .copyright { background: #4d5b61; border-top: 2px solid #f1ebdc; }
-@media (max-width: 768px) { /* line 250, ../scss/main.scss */
+@media (max-width: 768px) { /* line 248, ../scss/main.scss */
   .copyright { text-align: center; } }
-/* line 258, ../scss/main.scss */
+/* line 256, ../scss/main.scss */
 .copyright p { color: #f1ebdc; text-shadow: none; font-size: 14px; margin: 10px 0px; }
-@media (max-width: 768px) { /* line 258, ../scss/main.scss */
+@media (max-width: 768px) { /* line 256, ../scss/main.scss */
   .copyright p { font-size: 14px; } }
-@media (max-width: 575px) { /* line 258, ../scss/main.scss */
+@media (max-width: 575px) { /* line 256, ../scss/main.scss */
   .copyright p { font-size: 10px; } }
 
 /* line 2, ../scss/_backtotop.scss */
@@ -527,131 +527,130 @@ section h1 { font-size: 26px; margin-bottom: 30px; }
 /* line 25, ../scss/_backtotop.scss */
 .topBtn:after { content: url(../assets/bkgd_img/upArrow.png); width: 35px; height: 25px; line-height: 80px; }
 
-/* line 283, ../scss/main.scss */
+/* line 281, ../scss/main.scss */
 .sectionTop { display: none; }
 
 /* ========================================================================== Helper classes ========================================================================== */
 /* Image replacement */
-/* line 296, ../scss/main.scss */
+/* line 294, ../scss/main.scss */
 .ir { background-color: transparent; border: 0; overflow: hidden; /* IE 6/7 fallback */ *text-indent: -9999px; }
 
-/* line 304, ../scss/main.scss */
+/* line 302, ../scss/main.scss */
 .ir:before { content: ""; display: block; width: 0; height: 100%; }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 315, ../scss/main.scss */
+/* line 313, ../scss/main.scss */
 .hidden { display: none !important; visibility: hidden; }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 324, ../scss/main.scss */
+/* line 322, ../scss/main.scss */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 341, ../scss/main.scss */
+/* line 339, ../scss/main.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 354, ../scss/main.scss */
+/* line 352, ../scss/main.scss */
 .invisible { visibility: hidden; }
 
 /* Clearfix: contain floats  For modern browsers 1. The space content is one way to avoid an Opera bug when the `contenteditable` attribute is included anywhere else in the document. Otherwise it causes space to appear at the top and bottom of elements that receive the `clearfix` class. 2. The use of `table` rather than `block` is only necessary if using `:before` to contain the top-margins of child elements. */
-/* line 371, ../scss/main.scss */
+/* line 369, ../scss/main.scss */
 .clearfix:before, .clearfix:after { content: " "; /* 1 */ display: table; /* 2 */ }
 
-/* line 376, ../scss/main.scss */
+/* line 374, ../scss/main.scss */
 .clearfix:after { clear: both; }
 
 /* For IE 6/7 only Include this rule to trigger hasLayout and contain floats. */
-/* line 385, ../scss/main.scss */
+/* line 383, ../scss/main.scss */
 .clearfix { *zoom: 1; }
 
 /* ========================================================================== EXAMPLE Media Queries for Responsive Design. Theses examples override the primary ('mobile first') styles. Modify as content requires. ========================================================================== */
-@media only screen and (max-width: 768px) { /* line 399, ../scss/main.scss */
+@media only screen and (max-width: 768px) { /* line 397, ../scss/main.scss */
   .mobile_header_wrap { position: relative; }
-  /* line 402, ../scss/main.scss */
+  /* line 400, ../scss/main.scss */
   .mobile_header_wrap .mobile_header { background: url(../assets/mobile/mobile_header.png) repeat-x 0 0; width: 100%; height: 73px; position: relative; z-index: 100; }
-  /* line 409, ../scss/main.scss */
+  /* line 407, ../scss/main.scss */
   .mobile_header_wrap .mobile_header .mobile_logo { width: 55px; height: 54px; position: absolute; top: 4px; left: 20px; display: block; }
-  /* line 418, ../scss/main.scss */
+  /* line 416, ../scss/main.scss */
   .mobile_header_wrap .mobile_header .navicon { background: url(../assets/mobile/navicon.png) no-repeat 0 0; width: 72px; height: 99px; position: absolute; right: 15px; cursor: pointer; }
-  /* line 430, ../scss/main.scss */
+  /* line 428, ../scss/main.scss */
   .mobile_header_wrap .mobile_sub_header { width: 100%; height: 50px; background: url(../assets/mobile/sub_headTex.gif) repeat; border-bottom: 2px solid #e8e7de; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); position: relative; top: -10px; z-index: 20; }
-  /* line 440, ../scss/main.scss */
+  /* line 438, ../scss/main.scss */
   .mobile_header_wrap .mobile_sub_header h1.mobile { color: #f1ebdc; text-shadow: 0px -1px 0px #133b49; font-size: 18px; margin: 0px; padding: 0px; line-height: 52px; display: block; }
-  /* line 453, ../scss/main.scss */
+  /* line 451, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav { width: 100%; position: absolute; top: 120px; background: url(../assets/bkgd_img/checker.gif) repeat; border-bottom: 3px solid #73797b; box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3); z-index: 10; }
-  /* line 462, ../scss/main.scss */
+  /* line 460, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav ul.mobile { display: block; margin-top: 28px; list-style: none; padding: 0px; }
-  /* line 468, ../scss/main.scss */
+  /* line 466, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav ul.mobile li { margin-bottom: 0px; border-bottom: 1px solid #c1bba9; padding-bottom: 22px; padding-top: 22px; }
-  /* line 474, ../scss/main.scss */
+  /* line 472, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav ul.mobile li:last-child { border-bottom: none; }
-  /* line 478, ../scss/main.scss */
+  /* line 476, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav ul.mobile li a { text-decoration: none; font-size: 22px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3); }
-  /* line 488, ../scss/main.scss */
+  /* line 486, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav.close { top: -240px; -webkit-transition: top 0.5s; }
-  /* line 493, ../scss/main.scss */
+  /* line 491, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav.open { top: 100px; -webkit-transition: top 0.5s; }
-  /* line 503, ../scss/main.scss */
+  /* line 501, ../scss/main.scss */
   .sectionTop { display: block; background: #979790; border-radius: 5px; }
-  /* line 508, ../scss/main.scss */
+  /* line 506, ../scss/main.scss */
   .sectionTop a.mobile_backTop { text-decoration: none; color: white; text-shadow: none; font-size: 14px; padding: 10px 20px; font-weight: 400; font-style: normal; } }
-@media only screen and (max-width: 575px) { /* line 531, ../scss/main.scss */
+@media only screen and (max-width: 575px) { /* line 529, ../scss/main.scss */
   .mobile_header_wrap { position: relative; }
-  /* line 534, ../scss/main.scss */
+  /* line 532, ../scss/main.scss */
   .mobile_header_wrap .mobile_header { background: url(../assets/mobile/mobile_header.png) repeat-x 0 0; width: 100%; height: 73px; position: relative; z-index: 100; }
-  /* line 541, ../scss/main.scss */
+  /* line 539, ../scss/main.scss */
   .mobile_header_wrap .mobile_header .mobile_logo { width: 55px; height: 54px; position: absolute; top: 4px; left: 20px; display: block; }
-  /* line 550, ../scss/main.scss */
+  /* line 548, ../scss/main.scss */
   .mobile_header_wrap .mobile_header .navicon { background: url(../assets/mobile/navicon.png) no-repeat 0 0; width: 72px; height: 99px; position: absolute; right: 15px; cursor: pointer; }
-  /* line 562, ../scss/main.scss */
+  /* line 560, ../scss/main.scss */
   .mobile_header_wrap .mobile_sub_header { width: 100%; height: 50px; background: url(../assets/mobile/sub_headTex.gif) repeat; border-bottom: 2px solid #e8e7de; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); position: relative; top: -10px; z-index: 20; }
-  /* line 572, ../scss/main.scss */
+  /* line 570, ../scss/main.scss */
   .mobile_header_wrap .mobile_sub_header h1.mobile { color: #f1ebdc; text-shadow: 0px -1px 0px #133b49; font-size: 16px; margin: 0px; padding: 0px; line-height: 52px; display: block; }
-  /* line 585, ../scss/main.scss */
+  /* line 583, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav { width: 100%; position: absolute; top: 120px; background: url(../assets/bkgd_img/checker.gif) repeat; border-bottom: 3px solid #73797b; box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3); z-index: 10; }
-  /* line 594, ../scss/main.scss */
+  /* line 592, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav ul.mobile { display: block; margin-top: 20px; list-style: none; padding: 0px; }
-  /* line 600, ../scss/main.scss */
+  /* line 598, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav ul.mobile li { margin-bottom: 0px; border-bottom: 1px solid #c1bba9; padding-bottom: 18px; padding-top: 18px; }
-  /* line 606, ../scss/main.scss */
+  /* line 604, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav ul.mobile li:last-child { border-bottom: none; }
-  /* line 610, ../scss/main.scss */
+  /* line 608, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav ul.mobile li a { text-decoration: none; font-size: 18px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3); }
-  /* line 620, ../scss/main.scss */
+  /* line 618, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav.close { top: -240px; -webkit-transition: top 0.5s; }
-  /* line 625, ../scss/main.scss */
+  /* line 623, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav.open { top: 100px; -webkit-transition: top 0.5s; }
-  /* line 634, ../scss/main.scss */
+  /* line 632, ../scss/main.scss */
   .sectionTop { display: block; background: #979790; width: 100%; height: 40px; border-radius: 5px; text-align: center; }
-  /* line 642, ../scss/main.scss */
+  /* line 640, ../scss/main.scss */
   .sectionTop a.mobile_backTop { text-decoration: none; color: white; text-shadow: none; font-size: 14px; font-weight: 400; line-height: 40px; font-style: normal; } }
-@media only screen and (max-width: 1165px) { /* line 660, ../scss/main.scss */
+@media only screen and (max-width: 1165px) { /* line 658, ../scss/main.scss */
   [class*='col-'] { width: 100%; } }
-@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
-       only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }
 /* ========================================================================== Print styles. Inlined to avoid required HTTP connection: h5bp.com/r ========================================================================== */
-@media print { /* line 681, ../scss/main.scss */
+@media print { /* line 679, ../scss/main.scss */
   * { background: transparent !important; color: #000 !important; /* Black prints faster: h5bp.com/s */ box-shadow: none !important; text-shadow: none !important; }
-  /* line 689, ../scss/main.scss */
+  /* line 687, ../scss/main.scss */
   a, a:visited { text-decoration: underline; }
-  /* line 693, ../scss/main.scss */
+  /* line 691, ../scss/main.scss */
   a[href]:after { content: " (" attr(href) ")"; }
-  /* line 697, ../scss/main.scss */
+  /* line 695, ../scss/main.scss */
   abbr[title]:after { content: " (" attr(title) ")"; }
   /* Don't show links for images, or javascript/internal links */
-  /* line 707, ../scss/main.scss */
+  /* line 705, ../scss/main.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
-  /* line 712, ../scss/main.scss */
+  /* line 710, ../scss/main.scss */
   pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  /* line 717, ../scss/main.scss */
+  /* line 715, ../scss/main.scss */
   thead { display: table-header-group; /* h5bp.com/t */ }
-  /* line 722, ../scss/main.scss */
+  /* line 720, ../scss/main.scss */
   tr, img { page-break-inside: avoid; }
-  /* line 726, ../scss/main.scss */
+  /* line 724, ../scss/main.scss */
   img { max-width: 100% !important; }
   @page { margin: 0.5cm; }
-  /* line 736, ../scss/main.scss */
+  /* line 734, ../scss/main.scss */
   p, h2, h3 { orphans: 3; widows: 3; }
-  /* line 742, ../scss/main.scss */
+  /* line 740, ../scss/main.scss */
   h2, h3 { page-break-after: avoid; } }

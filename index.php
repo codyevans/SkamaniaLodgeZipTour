@@ -133,29 +133,90 @@
 
             <section id="tour">
                 <div class="grid">
-                    <h1>
+                    <h1 class="col-1-1">
                         The SLZT Tour
                     </h1>
-                    <p class="col-1-2">
-                        Welcome to the tour. Consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p class="col-1-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    <div class="col-2-3">
+                        <p>
+                           You and your friends and family will rip down 6 different lines landing on decks suspended 
+                           in the Columbia Gorge Rain Forrest canopy and above the forest floor in majestic moss covered firs. 
+                           Our longest zip at 1,000 feet in length will launch you out of a  giant ponderosa pine parallel 
+                           to and overlooking the mighty Columbia River.  Your experienced guides will narrate your journey with 
+                           information about the plants and animals native to the Columbia Gorge and an overall history of the area.
 
-                    <div class="sectionTop push-right">
-                        <a href="#BackToTop" class="mobile_backTop">back to top</a>
+                        </p>
+                        <p>
+                           This incredible tour gives you a bird’s eye view of the surrounding mountains, Columbia River and forest. 
+                           We give you the opportunity to fly by a cable, in a tour full of adrenalin and adventure through Skamania 
+                           Lodge Reosrts natural Columbia River Gorge terrain. Fly from your comfort zone and try it because going 
+                           against all those primitive reflexes and rationales is exactly what make this adrenaline rush rock.
+                        </p>
                     </div>
+                    <div class="col-1-3">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Tour Information
+                                </h2>
+                            </li>
+                            <li>
+                                <p>6 zip lines</p>
+                            </li>
+                             <li>
+                                <p>4 sky bridges</p>
+                            </li>
+                             <li>
+                                <p>zip lines range from 100 feet to 1,000 feet in length</p>
+                            </li>
+                             <li>
+                                <p>Stunning views of the Columbia River Gorge</p>
+                            </li>
+                             <li>
+                                <p>Personalized tours with two guides leading your way</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-1-2">
+                         <ul>
+                            <li>
+                                <h2>
+                                    General Information
+                                </h2>
+                            </li>
+                            <li>
+                                <p>Tours include ramps, stairs, tree decks and short hikes</p>
+                            </li>
+                            <li>
+                                <p>The tour will last approx. 2 hours</p>
+                            </li>
+                             <li>
+                                <p>No open toed shoes allowed (hiking boots preferred)</p>
+                            </li>
+                             <li>
+                                <p>Helmet, top of the line harness and pulley system provided</p>
+                            </li>
+                             <li>
+                                <p>Weight requirements 75lbs-270lbs</p>
+                            </li>
+                             <li>
+                                <p>All gear is provided and mandatory</p>
+                            </li>
+                            <li>
+                                <p>The guest will receive a verbal orientation prior to leaving the lodge</p>
+                            </li>
+                             <li>
+                                <p>This is a totally guided experience</p>
+                            </li>
+                            <li>
+                                <p>Dress in layers</p>
+                            </li>
+                            <li>
+                                <p>No prior injuries, surgeries that limit the use of extremities and no pregnecies</p>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div> <!-- /grid -->
             </section>
 
@@ -168,34 +229,48 @@
                     <h1>
                         Rates and Reservations
                     </h1>
-                    <p class="col-1-2">
-                        Lorem <a href="#" id="navOn">ipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p class="col-1-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p class="col-1-1">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-
-                    <div class="sectionTop push-right">
-                        <a href="#BackToTop" class="mobile_backTop">back to top</a>
+                   <div class="col-2-3">
+                        <p>
+                           Book online or call us now to schedule your tour.
+                        </p>
                     </div>
+                    <div class="col-1-3">
+                        <ul>
+                            <li>
+                                <h2>
+                                    Reservation Information
+                                </h2>
+                            </li>
+                            <li>
+                                <p>Advanced reservations are advised</p>
+                            </li>
+                             <li>
+                                <p>There is no age limit, but there is a weight limit of a minimum of 75lbs to a maximum of 270lbs</p>
+                            </li>
+                             <li>
+                                <p>The tour will last approximately 2 hours</p>
+                            </li>
+                             <li>
+                                <p>Bookings will consist of groups of 8, minimum of 4 for a booking(can accommodate larger group sizes in advanced notice)</p>
+                            </li>
+                             <li>
+                                <p>Cancellations are to be 48 hours in advance of the trip for a refund. If there needs to be a cancellation due to conditions, the lead guide will make the call to cancel your trip. We will try our best to rebook your trip or we will refund the guest</p>
+                            </li>
+                            <li>
+                                <p>Payment is received at the time of the booking</p>
+                            </li>
+                            <li>
+                                <p>When a booking is made online, the guest will receive a conformation letter by email containing all of the pertinent info along with directions to the lodge</p>
+                            </li>
+                            <li>
+                                <p>Guests should arrive 30 minutes prior to their scheduled tour</p>
+                            </li>
+                            <li>
+                                <p>Guests will need to be in good condition, no pregnant women are allowed on the course</p>
+                            </li>
+                        </ul>
+                    </div>
+
                 </div> <!-- /grid -->
             </section>
 
@@ -232,9 +307,6 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <div class="sectionTop push-right">
-                        <a href="#BackToTop" class="mobile_backTop">back to top</a>
-                    </div>
                 </div> <!-- /grid -->
             </section>
 

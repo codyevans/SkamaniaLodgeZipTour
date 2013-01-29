@@ -56,7 +56,7 @@
                 <div class="header_contact">
                     <ul>
                         <li class="phone" tel="509.555.555">509.555.555</li>
-                        <li class="email"><a href="mailto:cody@isrcapital.com">info@skamaniazips.com</a></li>
+                        <li class="email"><a href="mailto:cody@isrcapital.com">info@zipnskamania.com</a></li>
                         <li>1131 Skamania Lodge Way</li>
                         <li>Stevenson, WA 986478</li>
                     </ul>
@@ -152,69 +152,59 @@
                            against all those primitive reflexes and rationales is exactly what make this adrenaline rush rock.
                         </p>
                     </div>
-                    <div class="col-1-3">
-                        <ul>
-                            <li>
-                                <h2>
-                                    Tour Information
-                                </h2>
-                            </li>
-                            <li>
-                                <p>6 zip lines</p>
-                            </li>
-                             <li>
-                                <p>4 sky bridges</p>
-                            </li>
-                             <li>
-                                <p>zip lines range from 100 feet to 1,000 feet in length</p>
-                            </li>
-                             <li>
-                                <p>Stunning views of the Columbia River Gorge</p>
-                            </li>
-                             <li>
-                                <p>Personalized tours with two guides leading your way</p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="col-1-2">
-                         <ul>
-                            <li>
-                                <h2>
-                                    General Information
-                                </h2>
-                            </li>
-                            <li>
-                                <p>Tours include ramps, stairs, tree decks and short hikes</p>
-                            </li>
-                            <li>
-                                <p>The tour will last approx. 2 hours</p>
-                            </li>
-                             <li>
-                                <p>No open toed shoes allowed (hiking boots preferred)</p>
-                            </li>
-                             <li>
-                                <p>Helmet, top of the line harness and pulley system provided</p>
-                            </li>
-                             <li>
-                                <p>Weight requirements 75lbs-270lbs</p>
-                            </li>
-                             <li>
-                                <p>All gear is provided and mandatory</p>
-                            </li>
-                            <li>
-                                <p>The guest will receive a verbal orientation prior to leaving the lodge</p>
-                            </li>
-                             <li>
-                                <p>This is a totally guided experience</p>
-                            </li>
-                            <li>
-                                <p>Dress in layers</p>
-                            </li>
-                            <li>
-                                <p>No prior injuries, surgeries that limit the use of extremities and no pregnecies</p>
-                            </li>
-                        </ul>
+                    
+                    <div class="col-1-1">
+                        <div class="info_mod">
+                             <ul class="info">
+                                <li class="info_title">
+                                    <h3>
+                                        Tour Information
+                                    </h3>
+                                </li>
+                                <li>
+                                    <p>6 zip lines</p>
+                                </li>
+                                 <li>
+                                    <p>4 sky bridges</p>
+                                </li>
+                                 <li>
+                                    <p>zip lines range from 100 feet to 1,000 feet in length</p>
+                                </li>
+                                <li>
+                                    <p>Tours include ramps, stairs, tree decks and short hikes</p>
+                                </li>
+                                <li>
+                                    <p>The tour will last approx. 2 hours</p>
+                                </li>
+                                <li>
+                                    <p>Personalized tours with two guides leading your way</p>
+                                </li>
+                                 <li>
+                                    <p>No open toed shoes allowed (hiking boots preferred)</p>
+                                </li>
+                                 <li>
+                                    <p>Helmet, top of the line harness and pulley system provided</p>
+                                </li>
+                                 <li>
+                                    <p>Weight requirements 75lbs-270lbs</p>
+                                </li>
+                                 <li>
+                                    <p>All gear is provided and mandatory</p>
+                                </li>
+                                <li>
+                                    <p>The guest will receive a verbal orientation prior to leaving the lodge</p>
+                                </li>
+                                 <li>
+                                    <p>This is a totally guided experience</p>
+                                </li>
+                                <li>
+                                    <p>Dress in layers</p>
+                                </li>
+                                <li>
+                                    <p>No prior injuries, surgeries that limit the use of extremities and no pregnecies</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div> <!-- /grid -->
@@ -226,49 +216,63 @@
 
              <section id="reservations">
                 <div class="grid">
-                    <h1>
+                    <h1 class="col-1-1">
                         Rates and Reservations
                     </h1>
-                   <div class="col-2-3">
+
+                    <div class="col-1-2">   
+                         <a href="#">
+                            <div class="res_booking">
+                                <p>
+                                    Book Now
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+
+                   <div class="col-1-2">
                         <p>
                            Book online or call us now to schedule your tour.
                         </p>
                     </div>
-                    <div class="col-1-3">
-                        <ul>
-                            <li>
-                                <h2>
-                                    Reservation Information
-                                </h2>
-                            </li>
-                            <li>
-                                <p>Advanced reservations are advised</p>
-                            </li>
-                             <li>
-                                <p>There is no age limit, but there is a weight limit of a minimum of 75lbs to a maximum of 270lbs</p>
-                            </li>
-                             <li>
-                                <p>The tour will last approximately 2 hours</p>
-                            </li>
-                             <li>
-                                <p>Bookings will consist of groups of 8, minimum of 4 for a booking(can accommodate larger group sizes in advanced notice)</p>
-                            </li>
-                             <li>
-                                <p>Cancellations are to be 48 hours in advance of the trip for a refund. If there needs to be a cancellation due to conditions, the lead guide will make the call to cancel your trip. We will try our best to rebook your trip or we will refund the guest</p>
-                            </li>
-                            <li>
-                                <p>Payment is received at the time of the booking</p>
-                            </li>
-                            <li>
-                                <p>When a booking is made online, the guest will receive a conformation letter by email containing all of the pertinent info along with directions to the lodge</p>
-                            </li>
-                            <li>
-                                <p>Guests should arrive 30 minutes prior to their scheduled tour</p>
-                            </li>
-                            <li>
-                                <p>Guests will need to be in good condition, no pregnant women are allowed on the course</p>
-                            </li>
-                        </ul>
+
+                    <div class="col-1-1">
+                        <div class="info_mod">
+                            <ul class="info">
+                                <li class="info_title">
+                                    <h3>
+                                        Reservation Information
+                                    </h3>
+                                </li>
+                                <li>
+                                    <p>Advanced reservations are advised</p>
+                                </li>
+                                 <li>
+                                    <p>There is no age limit, but there is a weight limit of a minimum of 75lbs to a maximum of 270lbs</p>
+                                </li>
+                                 <li>
+                                    <p>The tour will last approximately 2 hours</p>
+                                </li>
+                                 <li>
+                                    <p>Bookings will consist of groups of 8, minimum of 4 for a booking (can accommodate larger group sizes with advanced notice)</p>
+                                </li>
+                                 <li>
+                                    <p>Cancellations are to be 48 hours in advance of the trip for a refund. If there needs to be a cancellation due to conditions, the lead guide will make the call to cancel your trip. We will try our best to rebook your trip or we will refund the guest</p>
+                                </li>
+                                <li>
+                                    <p>Payment is received at the time of the booking</p>
+                                </li>
+                                <li>
+                                    <p>When a booking is made online, the guest will receive a conformation letter by email containing all of the pertinent info along with directions to the lodge</p>
+                                </li>
+                                <li>
+                                    <p>Guests should arrive 30 minutes prior to their scheduled tour</p>
+                                </li>
+                                <li>
+                                    <p>Guests will need to be in good condition, no pregnant women are allowed on the course</p>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
                 </div> <!-- /grid -->

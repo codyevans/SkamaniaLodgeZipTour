@@ -193,7 +193,7 @@ section {
     margin-top: 25px;
 
     h1 {
-        font-size: 26px;
+        font-size: 28px;
         margin-bottom: 30px;
     }
 }
@@ -206,7 +206,68 @@ section {
 }
 
 
-/* --- general bullets --------------------------------------------------------- */
+/* --- info lists ------------------------------------------------------------- */
+
+.info_mod {
+    box-shadow: 0px 0px 7px rgba(0,0,0,0.2);
+    border-radius: 7px;
+    overflow: hidden;
+   
+
+    ul.info {
+        margin: 0;
+        padding: 0px;
+        list-style: none;
+        background: rgba(151,151,144,0.15);
+
+        li {
+            padding: 10px;
+            margin: 0px;
+            border-bottom: 1px solid rgba(151,151,144,0.4);;
+        }
+
+        li:first-child {
+            border-bottom: none;
+        }
+
+         li:last-child {
+            border-bottom: none;
+        }
+
+        li:nth-child(even) {
+            background: rgba(255,255,255,0.8);
+
+            p {
+                color: #536168;
+                padding: 3px 10px;
+                margin: 0px;
+            }
+        }
+
+        li:nth-child(odd) {
+            
+            p {
+                color: #536168;
+                padding: 3px 10px;
+                margin: 0px;
+            }
+        }
+
+        li.info_title {
+            background: #344c57;
+
+            h3 {
+                color: #f1ebdc;
+                font-size: 22px;
+                text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+                margin: 0px;
+                padding: 10px 10px;
+            }
+        }
+    }
+
+
+}
 
 
 /* --- the tour ---------------------------------------------------------------- */

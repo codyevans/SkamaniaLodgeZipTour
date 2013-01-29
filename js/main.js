@@ -25,17 +25,17 @@ $('#headline_slideshow').cycle();
 /* ======================================================================== */
 // lightbox_me
 
-/*
-$('.module').hide();
 
-$('.giant_btn').click(function(e) {
+// $('#book').hide();
 
-	$('.module').lightbox_me();
+// $('.giant_btn').click(function(e) {
 
-	e.preventDefault();
+// 	$('#book').lightbox_me();
 
-});
-*/
+// 	e.preventDefault();
+
+// });
+
 
 
 /* ======================================================================== */

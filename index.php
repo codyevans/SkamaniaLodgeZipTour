@@ -136,8 +136,9 @@
                     <h1 class="col-1-1">
                         The SLZT Tour
                     </h1>
-                    <div class="col-2-3">
-                        <p>
+
+                    <div class="col-1-1">
+                         <p class="col-1-2">
                            You and your friends and family will rip down 6 different lines landing on decks suspended 
                            in the Columbia Gorge Rain Forrest canopy and above the forest floor in majestic moss covered firs. 
                            Our longest zip at 1,000 feet in length will launch you out of a  giant ponderosa pine parallel 
@@ -145,7 +146,7 @@
                            information about the plants and animals native to the Columbia Gorge and an overall history of the area.
 
                         </p>
-                        <p>
+                        <p class="col-1-2">
                            This incredible tour gives you a bird’s eye view of the surrounding mountains, Columbia River and forest. 
                            We give you the opportunity to fly by a cable, in a tour full of adrenalin and adventure through Skamania 
                            Lodge Reosrts natural Columbia River Gorge terrain. Fly from your comfort zone and try it because going 
@@ -153,7 +154,7 @@
                         </p>
                     </div>
                     
-                    <div class="col-1-1">
+                    <div class="col-1-3">
                         <div class="info_mod">
                              <ul class="info">
                                 <li class="info_title">
@@ -162,10 +163,7 @@
                                     </h3>
                                 </li>
                                 <li>
-                                    <p>6 zip lines</p>
-                                </li>
-                                 <li>
-                                    <p>4 sky bridges</p>
+                                    <p>6 zip lines, 4 sky bridges and some light trail walking</p>
                                 </li>
                                  <li>
                                     <p>zip lines range from 100 feet to 1,000 feet in length</p>
@@ -205,6 +203,11 @@
                                 </li>
                             </ul>
                         </div>
+                    </div>
+
+                    <div class="col-2-3">
+                        <img src="assets/img/hang.jpg" alt="" class="tour">
+                        <img src="assets/img/hang.jpg" alt="" class="tour">
                     </div>
 
                 </div> <!-- /grid -->
@@ -349,7 +352,6 @@
                     </p>
                 </div> <!-- /grid -->
             </section>
-
 
             <div class="map">
                 <div id="map_canvas"></div>

@@ -55,7 +55,7 @@
 
                 <div class="header_contact">
                     <ul>
-                        <li class="phone" tel="509.555.555">509.555.555</li>
+                        <li class="phone" tel="509.555.555">509.555.5555</li>
                         <li class="email"><a href="mailto:cody@isrcapital.com">info@zipnskamania.com</a></li>
                         <li>1131 Skamania Lodge Way</li>
                         <li>Stevenson, WA 986478</li>
@@ -222,23 +222,38 @@
                     <h1 class="col-1-1">
                         Rates and Reservations
                     </h1>
+                </div> <!-- /grid -->
 
-                    <div class="col-1-2">   
-                         <a href="#">
+                <div class="booking_section">
+                    <div class="grid">
+                       
+
+                       <div class="col-1-1">
+                            <ul class="callout">
+                                <li>
+                                    <p class="callout_paragraph">
+                                       Book online or call us now to schedule your tour.
+                                    </p>
+                                </li>
+                                <li>
+                                    <p class="callout_phone">
+                                       509.555.3458
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+
+                         <div class="col-1-1 " title="click for online reservations">   
                             <div class="res_booking">
                                 <p>
                                     Book Now
                                 </p>
                             </div>
-                        </a>
-                    </div>
+                        </div>
+                    </div> <!-- /grid -->
+                </div> <!-- /booking -->
 
-                   <div class="col-1-2">
-                        <p>
-                           Book online or call us now to schedule your tour.
-                        </p>
-                    </div>
-
+                <div class="grid">
                     <div class="col-1-1">
                         <div class="info_mod">
                             <ul class="info">

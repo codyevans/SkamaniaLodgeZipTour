@@ -344,33 +344,73 @@
 
              <section id="contact">
                 <div class="grid">
-                    <h1>
+                    <h1 class="col-1-1">
                         Contact
                     </h1>
-                    <p class="col-1-2">
-                        Lorem <a href="#" id="navOn">ipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p class="col-1-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p class="col-1-1">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+
+
+                    <div class="col-1-3">
+                        <ul class="contact_info">
+                            <li>
+                                <p class="contact_label">
+                                   Address
+                                </p>
+                            </li>
+                            <li>
+                                <p class="contact_details">
+                                   1131 Skamania Lodge Way <br> Stevenson, WA 986478
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                     <div class="col-1-3">
+                        <ul class="contact_info">
+                            <li>
+                                <p class="contact_label">
+                                   Email
+                                </p>
+                            </li>
+                            <li>
+                                <a href="mailto:cody@isrcapital.com">
+                                    <p class="contact_details">
+                                        info@zipnskamania.com
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-1-3">
+                        <ul class="contact_info">
+                            <li>
+                                <p class="contact_label">
+                                   Phone
+                                </p>
+                            </li>
+                            <li>
+                                <p class="contact_details">
+                                   509.555.4568
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                     <div class="col-1-1">
+                        <div class="info_mod">
+                             <ul class="info">
+                                <li class="info_title">
+                                    <h3>
+                                        Driving Directions
+                                    </h3>
+                                </li>
+                                <li>
+                                    <p>From I-84 take the Cascade Locks exit and cross the Columbia River via The Bridge of The Gods.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
                 </div> <!-- /grid -->
             </section>
 

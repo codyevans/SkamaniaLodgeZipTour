@@ -550,21 +550,34 @@ ul.callout li { margin-bottom: 0px; }
 
 /* --- about ------------------------------------------------------------------- */
 /* --- contact ----------------------------------------------------------------- */
-/* line 385, ../scss/main.scss */
-.map { height: 500px; }
+/* line 378, ../scss/main.scss */
+ul.contact_info { margin: 0px 0px 40px 0px; padding: 0px; list-style: none; }
+/* line 383, ../scss/main.scss */
+ul.contact_info li { margin-bottom: 0px; }
+/* line 387, ../scss/main.scss */
+ul.contact_info a { text-decoration: none; font-style: normal; font-size: 18px; }
 
-/* line 389, ../scss/main.scss */
+/* line 394, ../scss/main.scss */
+.contact_label { margin: 0px 0px 3px 0px; color: #344c57; font-size: 22px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2); }
+
+/* line 402, ../scss/main.scss */
+.contact_details { font-size: 18px; margin: 0px 0px 5px 0px; }
+
+/* line 410, ../scss/main.scss */
+.map { height: 450px; border-top: 1px solid #c1bba9; }
+
+/* line 415, ../scss/main.scss */
 #map_canvas { width: 100%; height: 100%; }
 
-/* line 398, ../scss/main.scss */
+/* line 424, ../scss/main.scss */
 .copyright { background: #4d5b61; border-top: 2px solid #f1ebdc; }
-@media (max-width: 768px) { /* line 398, ../scss/main.scss */
+@media (max-width: 768px) { /* line 424, ../scss/main.scss */
   .copyright { text-align: center; } }
-/* line 406, ../scss/main.scss */
+/* line 432, ../scss/main.scss */
 .copyright p { color: #f1ebdc; text-shadow: none; font-size: 14px; margin: 10px 0px; }
-@media (max-width: 768px) { /* line 406, ../scss/main.scss */
+@media (max-width: 768px) { /* line 432, ../scss/main.scss */
   .copyright p { font-size: 14px; } }
-@media (max-width: 575px) { /* line 406, ../scss/main.scss */
+@media (max-width: 575px) { /* line 432, ../scss/main.scss */
   .copyright p { font-size: 10px; } }
 
 /* line 2, ../scss/_backtotop.scss */
@@ -574,131 +587,131 @@ ul.callout li { margin-bottom: 0px; }
 /* line 25, ../scss/_backtotop.scss */
 .topBtn:after { content: url(../assets/bkgd_img/upArrow.png); width: 35px; height: 25px; line-height: 80px; }
 
-/* line 431, ../scss/main.scss */
+/* line 457, ../scss/main.scss */
 .sectionTop { display: none; }
 
 /* ========================================================================== Helper classes ========================================================================== */
 /* Image replacement */
-/* line 444, ../scss/main.scss */
+/* line 470, ../scss/main.scss */
 .ir { background-color: transparent; border: 0; overflow: hidden; /* IE 6/7 fallback */ *text-indent: -9999px; }
 
-/* line 452, ../scss/main.scss */
+/* line 478, ../scss/main.scss */
 .ir:before { content: ""; display: block; width: 0; height: 100%; }
 
 /* Hide from both screenreaders and browsers: h5bp.com/u */
-/* line 463, ../scss/main.scss */
+/* line 489, ../scss/main.scss */
 .hidden { display: none !important; visibility: hidden; }
 
 /* Hide only visually, but have it available for screenreaders: h5bp.com/v */
-/* line 472, ../scss/main.scss */
+/* line 498, ../scss/main.scss */
 .visuallyhidden { border: 0; clip: rect(0 0 0 0); height: 1px; margin: -1px; overflow: hidden; padding: 0; position: absolute; width: 1px; }
 
 /* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard: h5bp.com/p */
-/* line 489, ../scss/main.scss */
+/* line 515, ../scss/main.scss */
 .visuallyhidden.focusable:active, .visuallyhidden.focusable:focus { clip: auto; height: auto; margin: 0; overflow: visible; position: static; width: auto; }
 
 /* Hide visually and from screenreaders, but maintain layout */
-/* line 502, ../scss/main.scss */
+/* line 528, ../scss/main.scss */
 .invisible { visibility: hidden; }
 
 /* Clearfix: contain floats  For modern browsers 1. The space content is one way to avoid an Opera bug when the `contenteditable` attribute is included anywhere else in the document. Otherwise it causes space to appear at the top and bottom of elements that receive the `clearfix` class. 2. The use of `table` rather than `block` is only necessary if using `:before` to contain the top-margins of child elements. */
-/* line 519, ../scss/main.scss */
+/* line 545, ../scss/main.scss */
 .clearfix:before, .clearfix:after { content: " "; /* 1 */ display: table; /* 2 */ }
 
-/* line 524, ../scss/main.scss */
+/* line 550, ../scss/main.scss */
 .clearfix:after { clear: both; }
 
 /* For IE 6/7 only Include this rule to trigger hasLayout and contain floats. */
-/* line 533, ../scss/main.scss */
+/* line 559, ../scss/main.scss */
 .clearfix { *zoom: 1; }
 
 /* ========================================================================== EXAMPLE Media Queries for Responsive Design. Theses examples override the primary ('mobile first') styles. Modify as content requires. ========================================================================== */
-@media only screen and (max-width: 768px) { /* line 547, ../scss/main.scss */
+@media only screen and (max-width: 768px) { /* line 573, ../scss/main.scss */
   .mobile_header_wrap { position: relative; }
-  /* line 550, ../scss/main.scss */
+  /* line 576, ../scss/main.scss */
   .mobile_header_wrap .mobile_header { background: url(../assets/mobile/mobile_header.png) repeat-x 0 0; width: 100%; height: 73px; position: relative; z-index: 100; }
-  /* line 557, ../scss/main.scss */
+  /* line 583, ../scss/main.scss */
   .mobile_header_wrap .mobile_header .mobile_logo { width: 55px; height: 54px; position: absolute; top: 4px; left: 20px; display: block; }
-  /* line 566, ../scss/main.scss */
+  /* line 592, ../scss/main.scss */
   .mobile_header_wrap .mobile_header .navicon { background: url(../assets/mobile/navicon.png) no-repeat 0 0; width: 72px; height: 99px; position: absolute; right: 15px; cursor: pointer; }
-  /* line 578, ../scss/main.scss */
+  /* line 604, ../scss/main.scss */
   .mobile_header_wrap .mobile_sub_header { width: 100%; height: 50px; background: url(../assets/mobile/sub_headTex.gif) repeat; border-bottom: 2px solid #e8e7de; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); position: relative; top: -10px; z-index: 20; }
-  /* line 588, ../scss/main.scss */
+  /* line 614, ../scss/main.scss */
   .mobile_header_wrap .mobile_sub_header h1.mobile { color: #f1ebdc; text-shadow: 0px -1px 0px #133b49; font-size: 18px; margin: 0px; padding: 0px; line-height: 52px; display: block; }
-  /* line 601, ../scss/main.scss */
+  /* line 627, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav { width: 100%; position: absolute; top: 120px; background: url(../assets/bkgd_img/checker.gif) repeat; border-bottom: 3px solid #73797b; box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3); z-index: 10; }
-  /* line 610, ../scss/main.scss */
-  .mobile_header_wrap .mobile_nav ul.mobile { display: block; margin-top: 28px; list-style: none; padding: 0px; }
-  /* line 616, ../scss/main.scss */
-  .mobile_header_wrap .mobile_nav ul.mobile li { margin-bottom: 0px; border-bottom: 1px solid #c1bba9; padding-bottom: 22px; padding-top: 22px; }
-  /* line 622, ../scss/main.scss */
-  .mobile_header_wrap .mobile_nav ul.mobile li:last-child { border-bottom: none; }
-  /* line 626, ../scss/main.scss */
-  .mobile_header_wrap .mobile_nav ul.mobile li a { text-decoration: none; font-size: 22px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3); }
   /* line 636, ../scss/main.scss */
-  .mobile_header_wrap .mobile_nav.close { top: -240px; -webkit-transition: top 0.5s; }
-  /* line 641, ../scss/main.scss */
-  .mobile_header_wrap .mobile_nav.open { top: 100px; -webkit-transition: top 0.5s; }
-  /* line 651, ../scss/main.scss */
-  .sectionTop { display: block; background: #979790; border-radius: 5px; }
-  /* line 656, ../scss/main.scss */
-  .sectionTop a.mobile_backTop { text-decoration: none; color: white; text-shadow: none; font-size: 14px; padding: 10px 20px; font-weight: 400; font-style: normal; } }
-@media only screen and (max-width: 575px) { /* line 679, ../scss/main.scss */
-  .mobile_header_wrap { position: relative; }
-  /* line 682, ../scss/main.scss */
-  .mobile_header_wrap .mobile_header { background: url(../assets/mobile/mobile_header.png) repeat-x 0 0; width: 100%; height: 73px; position: relative; z-index: 100; }
-  /* line 689, ../scss/main.scss */
-  .mobile_header_wrap .mobile_header .mobile_logo { width: 55px; height: 54px; position: absolute; top: 4px; left: 20px; display: block; }
-  /* line 698, ../scss/main.scss */
-  .mobile_header_wrap .mobile_header .navicon { background: url(../assets/mobile/navicon.png) no-repeat 0 0; width: 72px; height: 99px; position: absolute; right: 15px; cursor: pointer; }
-  /* line 710, ../scss/main.scss */
-  .mobile_header_wrap .mobile_sub_header { width: 100%; height: 50px; background: url(../assets/mobile/sub_headTex.gif) repeat; border-bottom: 2px solid #e8e7de; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); position: relative; top: -10px; z-index: 20; }
-  /* line 720, ../scss/main.scss */
-  .mobile_header_wrap .mobile_sub_header h1.mobile { color: #f1ebdc; text-shadow: 0px -1px 0px #133b49; font-size: 16px; margin: 0px; padding: 0px; line-height: 52px; display: block; }
-  /* line 733, ../scss/main.scss */
-  .mobile_header_wrap .mobile_nav { width: 100%; position: absolute; top: 120px; background: url(../assets/bkgd_img/checker.gif) repeat; border-bottom: 3px solid #73797b; box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3); z-index: 10; }
-  /* line 742, ../scss/main.scss */
-  .mobile_header_wrap .mobile_nav ul.mobile { display: block; margin-top: 20px; list-style: none; padding: 0px; }
-  /* line 748, ../scss/main.scss */
-  .mobile_header_wrap .mobile_nav ul.mobile li { margin-bottom: 0px; border-bottom: 1px solid #c1bba9; padding-bottom: 18px; padding-top: 18px; }
-  /* line 754, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav ul.mobile { display: block; margin-top: 28px; list-style: none; padding: 0px; }
+  /* line 642, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav ul.mobile li { margin-bottom: 0px; border-bottom: 1px solid #c1bba9; padding-bottom: 22px; padding-top: 22px; }
+  /* line 648, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav ul.mobile li:last-child { border-bottom: none; }
-  /* line 758, ../scss/main.scss */
-  .mobile_header_wrap .mobile_nav ul.mobile li a { text-decoration: none; font-size: 18px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3); }
-  /* line 768, ../scss/main.scss */
+  /* line 652, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav ul.mobile li a { text-decoration: none; font-size: 22px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3); }
+  /* line 662, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav.close { top: -240px; -webkit-transition: top 0.5s; }
-  /* line 773, ../scss/main.scss */
+  /* line 667, ../scss/main.scss */
   .mobile_header_wrap .mobile_nav.open { top: 100px; -webkit-transition: top 0.5s; }
-  /* line 782, ../scss/main.scss */
+  /* line 677, ../scss/main.scss */
+  .sectionTop { display: block; background: #979790; border-radius: 5px; }
+  /* line 682, ../scss/main.scss */
+  .sectionTop a.mobile_backTop { text-decoration: none; color: white; text-shadow: none; font-size: 14px; padding: 10px 20px; font-weight: 400; font-style: normal; } }
+@media only screen and (max-width: 575px) { /* line 705, ../scss/main.scss */
+  .mobile_header_wrap { position: relative; }
+  /* line 708, ../scss/main.scss */
+  .mobile_header_wrap .mobile_header { background: url(../assets/mobile/mobile_header.png) repeat-x 0 0; width: 100%; height: 73px; position: relative; z-index: 100; }
+  /* line 715, ../scss/main.scss */
+  .mobile_header_wrap .mobile_header .mobile_logo { width: 55px; height: 54px; position: absolute; top: 4px; left: 20px; display: block; }
+  /* line 724, ../scss/main.scss */
+  .mobile_header_wrap .mobile_header .navicon { background: url(../assets/mobile/navicon.png) no-repeat 0 0; width: 72px; height: 99px; position: absolute; right: 15px; cursor: pointer; }
+  /* line 736, ../scss/main.scss */
+  .mobile_header_wrap .mobile_sub_header { width: 100%; height: 50px; background: url(../assets/mobile/sub_headTex.gif) repeat; border-bottom: 2px solid #e8e7de; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4); position: relative; top: -10px; z-index: 20; }
+  /* line 746, ../scss/main.scss */
+  .mobile_header_wrap .mobile_sub_header h1.mobile { color: #f1ebdc; text-shadow: 0px -1px 0px #133b49; font-size: 16px; margin: 0px; padding: 0px; line-height: 52px; display: block; }
+  /* line 759, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav { width: 100%; position: absolute; top: 120px; background: url(../assets/bkgd_img/checker.gif) repeat; border-bottom: 3px solid #73797b; box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.3); z-index: 10; }
+  /* line 768, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav ul.mobile { display: block; margin-top: 20px; list-style: none; padding: 0px; }
+  /* line 774, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav ul.mobile li { margin-bottom: 0px; border-bottom: 1px solid #c1bba9; padding-bottom: 18px; padding-top: 18px; }
+  /* line 780, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav ul.mobile li:last-child { border-bottom: none; }
+  /* line 784, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav ul.mobile li a { text-decoration: none; font-size: 18px; text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.3); }
+  /* line 794, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav.close { top: -240px; -webkit-transition: top 0.5s; }
+  /* line 799, ../scss/main.scss */
+  .mobile_header_wrap .mobile_nav.open { top: 100px; -webkit-transition: top 0.5s; }
+  /* line 808, ../scss/main.scss */
   .sectionTop { display: block; background: #979790; width: 100%; height: 40px; border-radius: 5px; text-align: center; }
-  /* line 790, ../scss/main.scss */
+  /* line 816, ../scss/main.scss */
   .sectionTop a.mobile_backTop { text-decoration: none; color: white; text-shadow: none; font-size: 14px; font-weight: 400; line-height: 40px; font-style: normal; } }
-@media only screen and (max-width: 1165px) { /* line 808, ../scss/main.scss */
+@media only screen and (max-width: 1165px) { /* line 834, ../scss/main.scss */
   [class*='col-'] { width: 100%; padding-right: 0px; } }
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min-resolution: 144dpi) { /* Style adjustments for high resolution devices */ }
 /* ========================================================================== Print styles. Inlined to avoid required HTTP connection: h5bp.com/r ========================================================================== */
-@media print { /* line 830, ../scss/main.scss */
+@media print { /* line 856, ../scss/main.scss */
   * { background: transparent !important; color: #000 !important; /* Black prints faster: h5bp.com/s */ box-shadow: none !important; text-shadow: none !important; }
-  /* line 838, ../scss/main.scss */
+  /* line 864, ../scss/main.scss */
   a, a:visited { text-decoration: underline; }
-  /* line 842, ../scss/main.scss */
+  /* line 868, ../scss/main.scss */
   a[href]:after { content: " (" attr(href) ")"; }
-  /* line 846, ../scss/main.scss */
+  /* line 872, ../scss/main.scss */
   abbr[title]:after { content: " (" attr(title) ")"; }
   /* Don't show links for images, or javascript/internal links */
-  /* line 856, ../scss/main.scss */
+  /* line 882, ../scss/main.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
-  /* line 861, ../scss/main.scss */
+  /* line 887, ../scss/main.scss */
   pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  /* line 866, ../scss/main.scss */
+  /* line 892, ../scss/main.scss */
   thead { display: table-header-group; /* h5bp.com/t */ }
-  /* line 871, ../scss/main.scss */
+  /* line 897, ../scss/main.scss */
   tr, img { page-break-inside: avoid; }
-  /* line 875, ../scss/main.scss */
+  /* line 901, ../scss/main.scss */
   img { max-width: 100% !important; }
   @page { margin: 0.5cm; }
-  /* line 885, ../scss/main.scss */
+  /* line 911, ../scss/main.scss */
   p, h2, h3 { orphans: 3; widows: 3; }
-  /* line 891, ../scss/main.scss */
+  /* line 917, ../scss/main.scss */
   h2, h3 { page-break-after: avoid; } }

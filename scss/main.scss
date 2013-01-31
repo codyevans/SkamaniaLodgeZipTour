@@ -375,15 +375,41 @@ ul.callout {
 
 /* --- contact ----------------------------------------------------------------- */
 
+ul.contact_info {
+    margin: 0px 0px 40px 0px;
+    padding: 0px;
+    list-style: none;
+
+    li {
+        margin-bottom: 0px;
+    }
+
+    a {
+        text-decoration: none;
+        font-style: normal;
+        font-size: 18px;
+    }
+}
+
+.contact_label {
+    margin: 0px 0px 3px 0px;
+    color: $text;
+    font-size: 22px;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.2);
+}
 
 
-
+.contact_details {
+    font-size: 18px;
+    margin: 0px 0px 5px 0px;
+}
 
 
 // google map section - work on this for fixed pos ipad 
 
 .map {
-    height: 500px;
+    height: 450px;
+    border-top: 1px solid #c1bba9;
 }
 
 #map_canvas {

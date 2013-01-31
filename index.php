@@ -146,7 +146,7 @@
                            information about the plants and animals native to the Columbia Gorge and an overall history of the area.
 
                         </p>
-                        <p class="col-1-2">
+                        <p class="col-1-2 large">
                            This incredible tour gives you a bird’s eye view of the surrounding mountains, Columbia River and forest. 
                            We give you the opportunity to fly by a cable, in a tour full of adrenalin and adventure through Skamania 
                            Lodge Reosrts natural Columbia River Gorge terrain. Fly from your comfort zone and try it because going 
@@ -213,9 +213,9 @@
                 </div> <!-- /grid -->
             </section>
 
-             <div class="grid">
-                <div class="border"></div>
-             </div>
+             
+            <div class="border"></div>
+             
 
              <section id="reservations">
                 <div class="grid">
@@ -236,7 +236,7 @@
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="callout_phone">
+                                    <p class="callout_phone" tel="509.555.5555">
                                        509.555.3458
                                     </p>
                                 </li>
@@ -302,9 +302,9 @@
                 </div> <!-- /grid -->
             </section>
 
-            <div class="grid">
-                <div class="border"></div>
-             </div>
+           
+            <div class="border"></div>
+            
 
              <section id="about">
                 <div class="grid">
@@ -338,9 +338,9 @@
                 </div> <!-- /grid -->
             </section>
 
-            <div class="grid">
-                <div class="border"></div>
-             </div>
+            
+            <div class="border"></div>
+            
 
              <section id="contact">
                 <div class="grid">
@@ -389,7 +389,7 @@
                                 </p>
                             </li>
                             <li>
-                                <p class="contact_details">
+                                <p class="contact_details" tel="509.555.5555">
                                    509.555.4568
                                 </p>
                             </li>

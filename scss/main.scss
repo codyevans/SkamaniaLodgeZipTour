@@ -205,10 +205,13 @@ section {
 }
 
 .border {
-    border-top: 1px solid #c1bba9;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
+    border-top: 1px solid #e8e7de;
+    border-bottom: 1px solid #e8e7de;
     margin-top: 10px;
     margin-bottom: 20px;
+    background: url(../assets/bkgd_img/checker.gif) repeat;
+    padding-top: 40px;
+    box-shadow: inset 0px 0px 2px rgba(0,0,0,0.15), 0px 1px 0px rgba(255,255,255,0.1), 0px -1px 0px rgba(255,255,255,0.1);
 }
 
 

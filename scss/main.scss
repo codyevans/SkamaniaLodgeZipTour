@@ -141,6 +141,11 @@ p {
     margin: 0 0 20px 0;
 }
 
+p.large {
+    font-size: 18px;
+    line-height: 31.5px;
+}
+
 /* --- links -------------------------------------------------------------- */
 
 a { 
@@ -210,6 +215,7 @@ section {
 /* --- info lists ------------------------------------------------------------- */
 
 .info_mod {
+    margin: 0px 0px 0px 0px;
     box-shadow: 0px 0px 7px rgba(0,0,0,0.2);
     border-radius: 7px;
     overflow: hidden;
@@ -338,19 +344,25 @@ img.tour {
 
 
 ul.callout {
-    margin: 0px;
+    margin: 0px 0px 40px 0px;
     padding: 0px;
     list-style: none;
+
+    li {
+        margin-bottom: 0px;
+    }
 }
 
 .callout_paragraph {
-    
+    font-size: 18px;
+    margin: 0px 0px 5px 0px;
 }
 
 
 .callout_phone {
+    margin: 0px;
     color: $text;
-    font-size: 30px;
+    font-size: 22px;
     text-shadow: 0px 1px 0px rgba(255,255,255,0.2);
 }
 

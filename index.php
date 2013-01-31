@@ -138,7 +138,7 @@
                     </h1>
 
                     <div class="col-1-1">
-                         <p class="col-1-2">
+                         <p class="col-1-2 large">
                            You and your friends and family will rip down 6 different lines landing on decks suspended 
                            in the Columbia Gorge Rain Forrest canopy and above the forest floor in majestic moss covered firs. 
                            Our longest zip at 1,000 feet in length will launch you out of a  giant ponderosa pine parallel 
@@ -262,11 +262,17 @@
                                         Reservation Information
                                     </h3>
                                 </li>
+                                 <li>
+                                    <p>$85.00 per person</p>
+                                </li>
                                 <li>
                                     <p>Advanced reservations are advised</p>
                                 </li>
                                  <li>
                                     <p>There is no age limit, but there is a weight limit of a minimum of 75lbs to a maximum of 270lbs</p>
+                                </li>
+                                <li>
+                                    <p>Children under 12 must be accompanied by an adult</p>
                                 </li>
                                  <li>
                                     <p>The tour will last approximately 2 hours</p>

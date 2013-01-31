@@ -388,14 +388,20 @@ ul.contact_info {
         text-decoration: none;
         font-style: normal;
         font-size: 18px;
+
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 
 .contact_label {
-    margin: 0px 0px 3px 0px;
+    margin: 0px 0px 7px 0px;
+    padding-bottom: 4px;
     color: $text;
     font-size: 22px;
     text-shadow: 0px 1px 0px rgba(255,255,255,0.2);
+    border-bottom: 1px solid rgba(0,0,0,0.15);
 }
 
 

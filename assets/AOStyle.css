@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+/* (1) Main Background color of all AWeb pages */ 
+body { }
+
+
+/* (2) Text color and font */ 
+body, h1, td, th, .acWebGridViewHeaderStyle, .acWebDataListHeaderStyle, .acScheduledTrip, .adventureInfo, .acWebLabelInformation, #divExtraSpecific .acBottomButtons a:link, #divExtraSpecific .acBottomButtons a:visited, #trItemHeading a { font-family: Verdana, Arial, Helvetica, Sans-Serif !important; color: #536168; } 
+
+
+/* (3) Hyperlink color */ 
+a:link, a:visited, a:hover, a:active, .acWebDescriptionTitle, #divExtraSpecific .acBottomButtons a:link, #divExtraSpecific .acBottomButtons a:visited { color: #133b49; } 
+
+
+/* (4) Table Row color */ 
+h2.acWebFormSectionTitle, h2.adventureDetail, .acWebGridViewRowStyle, .acWebDataListItemStyle, .acWebFormSectionTitle, .bgMediumColor, .detailsComponent h4, #divExtraSpecific h2.adventureDetail { background-color: rgba(151,151,144,0.15); } 
+
+
+/* (5) Table Alternating Row color */ 
+.acWebGridViewAlternatingRowStyle, .acWebDataListAlternatingItemStyle, .bgLightColor { background-color: rgba(255,255,255,0.8); } 
+
+
+/* (6) Header row background color */ 
+.acWebTableHeader, .acWebGridViewHeaderStyle, .acWebDataListHeaderStyle, h3.adventureDetail, h3.availableDates, h2.adventureResults, .detailsComponent h2, .userSections h2, .detailsComponent h3, .userSections h3, .acRatesTableFooter td, .bgDarkColor, .verificationEditMenu, .acWebFooter, .adventureInfo, #divExtraSpecific h3.adventureDetail, #divExtraSpecific h3.availableDates, #divExtraSpecific h2.adventureResults { background-color: #536168; } 
+
+
+/* (7) Calendar header row background color */ 
+#ctl00_middleContent_calAvailability tr:first-child td:first-child { background-color: #536168 !important; } 
+
+
+/* (8) Background color of traveler quantity section on Availability Booking pages */ 
+.importantSection { background-color: rgba(184,198,183,0.4); } /* (9) Table row header/footer text color */ h2.adventureResults, h3.availableDates, h4.acWebTableHeader, .acWebGridViewHeaderStyle th, .acWebGridViewHeaderStyle td, .acWebGridViewHeaderStyle th a, .acWebGridViewHeaderStyle td a, .acRatesTableFooter td, .acWebFormFieldTitle, .detailsComponent h2, #divExtraSpecific h3.availableDates, #trItemHeading a, #trItemHeading a:link, #trItemHeading a:visited, #trItemHeading a:hover, #trItemHeading a:active { color: #FFFFFF !important; } 
+
+
+/* (10) Calendar border color */ 
+#ctl00_middleContent_calAvailability { border-color: #536168 !important; }

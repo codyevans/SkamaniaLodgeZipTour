@@ -374,12 +374,40 @@ ul.callout {
 
 
 
+
+
+
+
+
+/* --- modals ------------------------------------------------------------------ */
+
+.module {
+    display: none;
+    background: #f7f4ed url(../assets/bkgd_img/background_texture.gif);
+    padding: 20px;
+    border: 3px solid #73797b;
+    border-radius: 6px;
+}
+
+.moduleDesktop {
+   height: 700px;
+}
+
+.moduleMobile {
+    width: 400px;
+}
+
+
+
 /* --- booking engine ---------------------------------------------------------- */
 
 iframe {
-    width: 320px;
+    width: 1000px;
     height: 100%;
-    scrolling: auto;
+
+    @media (max-width: 900px) {
+        width: 600px;
+    }
 }
 
 
@@ -404,6 +432,10 @@ ul.contact_info {
         &:hover {
             text-decoration: underline;
         }
+    }
+
+    a.google {
+        font-size: 14px;
     }
 }
 

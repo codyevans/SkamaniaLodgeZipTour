@@ -111,7 +111,7 @@
             </div> <!-- /hero -->
 
 
-            <div class="giant_btn" title="click for online reservations">
+            <div class="giant_btn" title="click for online reservations" id="bookingBTN">
                 <p>
                     Book your Adventure now
                 </p>
@@ -243,7 +243,7 @@
                             </ul>
                         </div>
 
-                         <div class="col-1-1 " title="click for online reservations">   
+                         <div class="col-1-1 " title="click for online reservations" id="bookingBTN2">   
                             <div class="res_booking">
                                 <p>
                                     Book Now
@@ -360,6 +360,11 @@
                                 <p class="contact_details">
                                    1131 Skamania Lodge Way <br> Stevenson, WA 986478
                                 </p>
+                                <a href="https://maps.google.com/maps?q=Skamania+Lodge,+1131+Southwest+Skamania+Lodge+Way,+Stevenson,+WA&hl=en&sll=45.494576,-114.143261&sspn=13.0764,21.005859&oq=ska&hq=Skamania+Lodge,+1131+Southwest+Skamania+Lodge+Way,+Stevenson,+WA&t=m&z=15" class="google" target="blank">
+                                    <p>
+                                        View in Google Maps
+                                    </p>
+                                </a>
                             </li>
                         </ul>
                     </div>
@@ -416,6 +421,28 @@
 
             <div class="map">
                 <div id="map_canvas"></div>
+            </div>
+
+            <!-- modals -->
+
+            <div class="module" id="bookMobile">
+                <div class="moduleMobile">
+                    <h2>Hello World</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </div>
+
+            <div class="module" id="bookDesktop">
+                <div class="moduleDesktop">
+                     <iframe src="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>
+                </div>
             </div>
 
 

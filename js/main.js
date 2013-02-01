@@ -7,7 +7,7 @@ $("a#Top").smoothScroll();
 
 $("#mobile_nav a").smoothScroll();
 
-$("a.mobile_backTop").smoothScroll();
+//$("a.mobile_backTop").smoothScroll();
 
 
 /* ======================================================================== */
@@ -26,16 +26,33 @@ $('#headline_slideshow').cycle();
 // lightbox_me
 
 
-// $('#book').hide();
+if ( $(window).width() < 768 ) {
 
-// $('.giant_btn').click(function(e) {
+	$('#bookingBTN, #bookingBTN2').click(function(e) {
 
-// 	$('#book').lightbox_me();
+		$('#bookMobile').lightbox_me({
+			centered: true
+		});
 
-// 	e.preventDefault();
+		e.preventDefault();
 
-// });
+	});
 
+}
+
+if ( $(window).width() > 768 ) {
+
+	$('#bookingBTN, #bookingBTN2').click(function(e) {
+
+		$('#bookDesktop').lightbox_me({
+			centered: true
+		});
+
+		e.preventDefault();
+
+	});
+
+}
 
 
 /* ======================================================================== */

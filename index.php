@@ -55,10 +55,10 @@
 
                 <div class="header_contact">
                     <ul>
-                        <li class="phone" tel="509.555.555">509.555.5555</li>
+                        <li class="phone" tel="509.427.2599">509.427.2599</li>
                         <li class="email"><a href="mailto:cody@isrcapital.com">info@zipnskamania.com</a></li>
                         <li>1131 Skamania Lodge Way</li>
-                        <li>Stevenson, WA 986478</li>
+                        <li>Stevenson, WA 98648</li>
                     </ul>
                 </div> <!-- /header_contact -->
 
@@ -236,8 +236,8 @@
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="callout_phone" tel="509.555.5555">
-                                       509.555.3458
+                                    <p class="callout_phone" tel="509.427.2599">
+                                       509.427.2599
                                     </p>
                                 </li>
                             </ul>
@@ -358,7 +358,7 @@
                             </li>
                             <li>
                                 <p class="contact_details">
-                                   1131 Skamania Lodge Way <br> Stevenson, WA 986478
+                                   1131 Skamania Lodge Way <br> Stevenson, WA 98648
                                 </p>
                                 <a href="https://maps.google.com/maps?q=Skamania+Lodge,+1131+Southwest+Skamania+Lodge+Way,+Stevenson,+WA&hl=en&sll=45.494576,-114.143261&sspn=13.0764,21.005859&oq=ska&hq=Skamania+Lodge,+1131+Southwest+Skamania+Lodge+Way,+Stevenson,+WA&t=m&z=15" class="google" target="blank">
                                     <p>
@@ -394,8 +394,8 @@
                                 </p>
                             </li>
                             <li>
-                                <p class="contact_details" tel="509.555.5555">
-                                   509.555.4568
+                                <p class="contact_details" tel="509.427.2599">
+                                   509.427.2599
                                 </p>
                             </li>
                         </ul>

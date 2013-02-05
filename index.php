@@ -56,7 +56,7 @@
                 <div class="header_contact">
                     <ul>
                         <li class="phone" tel="509.427.2599">509.427.2599</li>
-                        <li class="email"><a href="mailto:cody@isrcapital.com">info@zipnskamania.com</a></li>
+                        <li class="email"><a href="mailto:info@zipnskamania.com">info@zipnskamania.com</a></li>
                         <li>1131 Skamania Lodge Way</li>
                         <li>Stevenson, WA 98648</li>
                     </ul>
@@ -123,13 +123,12 @@
                      <p>
                        Get ready to fly with the eagles and soar with spirits at the Bridge of the Gods. 
                        Only our unique Canopy Zip Line Tour will send you soaring above 
-                       the scenic Columbia River Gorge. We have six zip lines, four sky bridges 
+                       the scenic Columbia River Gorge. We have seven zip lines, four sky bridges 
                        and stunning views all nestled together at the world class 
                        <a href="http://skamania.com" target="blank">Skamania Lodge Resort.</a>
                     </p>
                 </div> <!-- /grid -->
             </div> <!-- /intro -->
-
 
             <section id="tour">
                 <div class="grid">
@@ -163,43 +162,43 @@
                                     </h3>
                                 </li>
                                 <li>
-                                    <p>6 zip lines, 4 sky bridges and some light trail walking</p>
+                                    <p>7 zip lines, 4 sky bridges and some light trail walking.</p>
                                 </li>
                                  <li>
-                                    <p>zip lines range from 100 feet to 1,000 feet in length</p>
+                                    <p>Zip lines range from 100 feet to 900 feet in length.</p>
                                 </li>
                                 <li>
-                                    <p>Tours include ramps, stairs, tree decks and short hikes</p>
+                                    <p>Tours include ramps, stairs, tree decks and short hikes.</p>
                                 </li>
                                 <li>
-                                    <p>The tour will last approx. 2 hours</p>
+                                    <p>The tour will last approximately 2 hours.</p>
                                 </li>
                                 <li>
-                                    <p>Personalized tours with two guides leading your way</p>
+                                    <p>Personalized tours with two guides leading your way.</p>
                                 </li>
                                  <li>
-                                    <p>No open toed shoes allowed (hiking boots preferred)</p>
+                                    <p>No open toed shoes allowed (hiking boots preferred).</p>
                                 </li>
                                  <li>
-                                    <p>Helmet, top of the line harness and pulley system provided</p>
+                                    <p>Helmet, top of the line harness and pulley system provided.</p>
                                 </li>
                                  <li>
-                                    <p>Weight requirements 75lbs-270lbs</p>
+                                    <p>Weight requirements of 75lbs to 270lbs.</p>
                                 </li>
                                  <li>
-                                    <p>All gear is provided and mandatory</p>
+                                    <p>All gear is provided and mandatory.</p>
                                 </li>
                                 <li>
-                                    <p>The guest will receive a verbal orientation prior to leaving the lodge</p>
+                                    <p>The guest will receive a verbal orientation prior to leaving the lodge.</p>
                                 </li>
                                  <li>
-                                    <p>This is a totally guided experience</p>
+                                    <p>This is a totally guided experience.</p>
                                 </li>
                                 <li>
-                                    <p>Dress in layers</p>
+                                    <p>Dress in layers.</p>
                                 </li>
                                 <li>
-                                    <p>No prior injuries, surgeries that limit the use of extremities and no pregnecies</p>
+                                    <p>No prior injuries, surgeries that limit the use of extremities and no pregnancies.</p>
                                 </li>
                             </ul>
                         </div>
@@ -263,37 +262,34 @@
                                     </h3>
                                 </li>
                                  <li>
-                                    <p>$85.00 per person</p>
+                                    <p>$99.00 plus tax per person.</p>
                                 </li>
                                 <li>
-                                    <p>Advanced reservations are advised</p>
+                                    <p>Advanced reservations are advised.</p>
                                 </li>
                                  <li>
-                                    <p>There is no age limit, but there is a weight limit of a minimum of 75lbs to a maximum of 270lbs</p>
-                                </li>
-                                <li>
-                                    <p>Children under 12 must be accompanied by an adult</p>
+                                    <p>There is no age limit, but there is a weight limit of a minimum of 75lbs to a maximum of 270lbs.</p>
                                 </li>
                                  <li>
-                                    <p>The tour will last approximately 2 hours</p>
+                                    <p>The tour will last approximately 2 hours.</p>
                                 </li>
                                  <li>
-                                    <p>Bookings will consist of groups of 8, minimum of 4 for a booking (can accommodate larger group sizes with advanced notice)</p>
+                                    <p>Bookings will consist of groups of 8, minimum of 4 for a booking (we can accommodate larger group sizes with advanced notice).</p>
                                 </li>
                                  <li>
-                                    <p>Cancellations are to be 48 hours in advance of the trip for a refund. If there needs to be a cancellation due to conditions, the lead guide will make the call to cancel your trip. We will try our best to rebook your trip or we will refund the guest</p>
+                                    <p>Cancellations are to be 72 hours in advance of the trip for a refund. If there needs to be a cancellation due to conditions, the lead guide will make the call to cancel your trip. We will try our best to rebook your trip or we will refund the guest. We zip in weather, but not lightning.</p>
                                 </li>
                                 <li>
-                                    <p>Payment is received at the time of the booking</p>
+                                    <p>Payment is received at the time of the booking.</p>
                                 </li>
                                 <li>
-                                    <p>When a booking is made online, the guest will receive a conformation letter by email containing all of the pertinent info along with directions to the lodge</p>
+                                    <p>When a booking is made online, the guest will receive a confirmation letter by email containing all of the pertinent info along with directions to the lodge.</p>
                                 </li>
                                 <li>
-                                    <p>Guests should arrive 30 minutes prior to their scheduled tour</p>
+                                    <p>Guests should arrive 30 minutes prior to their scheduled tour.</p>
                                 </li>
                                 <li>
-                                    <p>Guests will need to be in good condition, no pregnant women are allowed on the course</p>
+                                    <p>Guests will need to be in good condition, no pregnant women are allowed on the course.</p>
                                 </li>
                             </ul>
                         </div>
@@ -320,14 +316,6 @@
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
                     <p class="col-1-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                    <p class="col-1-1">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -377,7 +365,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="mailto:cody@isrcapital.com">
+                                <a href="mailto:info@zipnskamania.com">
                                     <p class="contact_details">
                                         info@zipnskamania.com
                                     </p>

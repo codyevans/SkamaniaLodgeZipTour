@@ -137,19 +137,13 @@
                     </h1>
 
                     <div class="col-1-1">
-                         <p class="col-1-2 large">
-                           You and your friends and family will rip down 6 different lines landing on decks suspended 
-                           in the Columbia Gorge Rain Forrest canopy and above the forest floor in majestic moss covered firs. 
-                           Our longest zip at 1,000 feet in length will launch you out of a  giant ponderosa pine parallel 
-                           to and overlooking the mighty Columbia River.  Your experienced guides will narrate your journey with 
-                           information about the plants and animals native to the Columbia Gorge and an overall history of the area.
-
-                        </p>
-                        <p class="col-1-2 large">
-                           This incredible tour gives you a bird’s eye view of the surrounding mountains, Columbia River and forest. 
-                           We give you the opportunity to fly by a cable, in a tour full of adrenalin and adventure through Skamania 
-                           Lodge Reosrts natural Columbia River Gorge terrain. Fly from your comfort zone and try it because going 
-                           against all those primitive reflexes and rationales is exactly what make this adrenaline rush rock.
+                         <p class="col-1-1 large">
+                           Together with family and friends, take in the beauty of the majestic Columbia River Gorge and surrounding 
+                           mountains; experience a tour full of adrenalin and adventure as you fly suspended by a cable over the moss 
+                           covered firs of the rain forest canopy.  Ride down seven different lines, the longest one being 900 feet in 
+                           length. Experienced guides will educate and entertain you with a vast array of information on native plants 
+                           and animals as well as the overall history of the area.  Get out of your comfort zone and come fly with us. 
+                           Going against all those primitive reflexes and rationales is exactly what makes this tour rock! 
                         </p>
                     </div>
                     
@@ -265,10 +259,13 @@
                                     <p>$99.00 plus tax per person.</p>
                                 </li>
                                 <li>
-                                    <p>Advanced reservations are advised.</p>
+                                    <p>Advanced reservations are recomended.</p>
                                 </li>
                                  <li>
-                                    <p>There is no age limit, but there is a weight limit of a minimum of 75lbs to a maximum of 270lbs.</p>
+                                    <p>There is no age limit.</p>
+                                </li>
+                                <li>
+                                    <p>Weight limit of a minimum of 75lbs to a maximum of 270lbs.</p>
                                 </li>
                                  <li>
                                     <p>The tour will last approximately 2 hours.</p>
@@ -277,7 +274,7 @@
                                     <p>Bookings will consist of groups of 8, minimum of 4 for a booking (we can accommodate larger group sizes with advanced notice).</p>
                                 </li>
                                  <li>
-                                    <p>Cancellations are to be 72 hours in advance of the trip for a refund. If there needs to be a cancellation due to conditions, the lead guide will make the call to cancel your trip. We will try our best to rebook your trip or we will refund the guest. We zip in weather, but not lightning.</p>
+                                    <p>For a refund, cancellations need to be 72 hours in advance. If there needs to be a cancellation due to conditions, the lead guide will make the call to cancel your trip. We will try our best to rebook your trip or we will refund the guest. We zip in weather, but not lightning.</p>
                                 </li>
                                 <li>
                                     <p>Payment is received at the time of the booking.</p>

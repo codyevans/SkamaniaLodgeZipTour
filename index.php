@@ -137,7 +137,7 @@
                     </h1>
 
                     <div class="col-1-1">
-                         <p class="col-1-1 large">
+                         <p class="col-1-2 large">
                            Together with family and friends, take in the beauty of the majestic Columbia River Gorge and surrounding 
                            mountains; experience a tour full of adrenalin and adventure as you fly suspended by a cable over the moss 
                            covered firs of the rain forest canopy.  Ride down seven different lines, the longest one being 900 feet in 

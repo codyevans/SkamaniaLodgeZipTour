@@ -10,6 +10,8 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
+         <meta name="apple-mobile-web-app-capable" content="yes" />
+
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/main.css">
@@ -22,6 +24,18 @@
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWzuurR1lbIy1Cv5M0s9NINNEFgFO3dRQ&sensor=false">
         </script>
         <script src="js/google_maps.js"></script>
+        <script type="text/javascript">
+
+            // When ready...
+            window.addEventListener("load",function() {
+              // Set a timeout...
+              setTimeout(function(){
+                // Hide the address bar!
+                window.scrollTo(0, 1);
+              }, 0);
+            }); 
+
+        </script>
     </head>
     <body onload="initialize()" id="BackToTop">
         <!--[if lt IE 7]>
@@ -137,7 +151,7 @@
                     </h1>
 
                     <div class="col-1-1">
-                         <p class="col-1-2 large">
+                         <p class="col-1-1 large" style="max-width: 920px">
                            Together with family and friends, take in the beauty of the majestic Columbia River Gorge and surrounding 
                            mountains; experience a tour full of adrenalin and adventure as you fly suspended by a cable over the moss 
                            covered firs of the rain forest canopy.  Ride down seven different lines, the longest one being 900 feet in 
@@ -199,7 +213,7 @@
                     </div>
 
                     <div class="col-2-3">
-                        <img src="assets/img/hang.jpg" alt="" class="tour">
+                        <img src="assets/img/hang.jpg" alt="" class="tour spacing">
                         <img src="assets/img/hang.jpg" alt="" class="tour">
                     </div>
 
@@ -304,7 +318,8 @@
                     <h1>
                         About Us
                     </h1>
-                    <p class="col-1-2">
+                    <div class="col-1-2">
+                    <p class="col-1-1 large">
                         Lorem <a href="#" id="navOn">ipsum</a> dolor sit amet, consectetur adipisicing elit, sed do eiusmod
                         tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -312,14 +327,10 @@
                         cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                         proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                     </p>
-                    <p class="col-1-2">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
+                    </div>
+                    <div class="col-1-2">
+                        <img src="assets/img/hang.jpg" alt="" class="tour">
+                    </div>
                 </div> <!-- /grid -->
             </section>
 

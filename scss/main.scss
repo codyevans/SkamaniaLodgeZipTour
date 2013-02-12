@@ -293,6 +293,14 @@ img.tour {
     border-radius: 10px;
 }
 
+img.spacing {
+    margin-bottom: 25px;
+
+    @media (max-width: 1165px) {
+        margin-top: 40px;
+    }
+}
+
 
 /* --- reservations ------------------------------------------------------------ */
 

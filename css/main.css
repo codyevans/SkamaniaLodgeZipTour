@@ -250,7 +250,7 @@ body { margin: 0px; }
 [class*='col-']:last-of-type { padding-right: 0px; }
 
 /* line 29, ../scss/_grid.scss */
-.grid { width: 100%; max-width: 1750px; margin: 0 0 0 0px; padding: 0 160px 0 230px; overflow: hidden; }
+.grid { width: 100%; max-width: 1325px; margin: 0 0 0 0px; padding: 0 160px 0 230px; overflow: hidden; }
 @media (max-width: 768px) { /* line 29, ../scss/_grid.scss */
   .grid { padding: 0px 30px; margin: 0px auto; } }
 
@@ -525,7 +525,7 @@ section h1 { font-size: 28px; margin-bottom: 30px; }
 
 /* --- the tour ---------------------------------------------------------------- */
 /* line 285, ../scss/main.scss */
-img.tour { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin: 0px 0px 12px 0px; border: 10px solid rgba(0, 0, 0, 0); box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); border-radius: 10px; }
+img.tour { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; margin: 0px 0px 12px 0px; border: 10px solid transparent; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); border-radius: 10px; }
 
 /* line 296, ../scss/main.scss */
 img.spacing { margin-bottom: 25px; }

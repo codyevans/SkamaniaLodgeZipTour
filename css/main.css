@@ -402,7 +402,7 @@ ul.mobile { display: none; }
 
 /* --- header - header_contact ------------------------------------------------ */
 /* line 97, ../scss/_header.scss */
-.header_contact { position: absolute; top: 200px; left: 23px; text-align: right; font-size: 12px; line-height: 20px; color: #0e2c36; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4); }
+.header_contact { position: absolute; top: 240px; left: 23px; text-align: right; font-size: 12px; line-height: 20px; color: #0e2c36; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.4); }
 
 /* line 108, ../scss/_header.scss */
 .header_contact ul { list-style: none; margin: 0px; padding: 0px; }

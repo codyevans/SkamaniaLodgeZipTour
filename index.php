@@ -64,6 +64,9 @@
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
+                        <li>
+                            <a href="http://www.weather.com/weather/right-now/Stevenson+WA+98648" target="blank">The Weather</a>
+                        </li>
                     </ul>
                 </nav> <!-- /nav -->
 

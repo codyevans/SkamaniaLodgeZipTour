@@ -216,6 +216,7 @@
                     </div>
 
                     <div class="col-2-3">
+                        <img src="assets/img/hang.jpg" alt="" class="tour spacing tour-first">
                         <img src="assets/img/hang.jpg" alt="" class="tour spacing">
                         <img src="assets/img/hang.jpg" alt="" class="tour">
                     </div>

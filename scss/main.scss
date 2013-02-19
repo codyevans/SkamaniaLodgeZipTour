@@ -304,6 +304,10 @@ img.spacing {
 
 /* --- reservations ------------------------------------------------------------ */
 
+a.bookings-link {
+    text-decoration: none;
+    font-style: normal;
+}
 
 .res_booking {
     margin-top: -2px; // for click btn state

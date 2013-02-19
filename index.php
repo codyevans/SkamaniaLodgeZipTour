@@ -127,13 +127,13 @@
 
             </div> <!-- /hero -->
 
-
+            <a href="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" target="blank" class="bookings-link">
             <div class="giant_btn" title="click for online reservations" id="bookingBTN">
                 <p>
                     Book your Adventure now
                 </p>
             </div> <!-- /giant_btn -->
-
+            </a>
 
             <div id="intro">
                 <div class="intro_container">
@@ -253,12 +253,14 @@
                             </ul>
                         </div>
 
+                        <a href="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" target="blank" class="bookings-link">
                          <div class="col-1-1 " title="click for online reservations" id="bookingBTN2">   
                             <div class="res_booking">
                                 <p>
                                     Book Now
                                 </p>
                             </div>
+                        </a>
                         </div>
                     </div> <!-- /grid -->
                 </div> <!-- /booking -->

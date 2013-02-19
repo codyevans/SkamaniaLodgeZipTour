@@ -25,21 +25,6 @@ $('#headline_slideshow').cycle();
 /* ======================================================================== */
 // lightbox_me
 
-
-if ( $(window).width() < 768 ) {
-
-	$('#bookingBTN, #bookingBTN2').click(function(e) {
-
-		$('#bookMobile').lightbox_me({
-			centered: true
-		});
-
-		e.preventDefault();
-
-	});
-
-}
-
 if ( $(window).width() > 768 ) {
 
 	$('#bookingBTN, #bookingBTN2').click(function(e) {

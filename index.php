@@ -323,12 +323,11 @@
                     </h1>
                     <div class="col-1-2">
                     <p class="col-1-1 large">
-                        Skamania Lodge Zip Line Tour is ecstatic to provide southwestern Washington’s only Zip Line Course. 
-                        We are tucked away in a quiet corner of Stevenson, WA – a short, scenic 45-minute drive from Portland, OR. 
-                        Our Zip Line Tour resides on the property of Skamania Lodge, a classic-Cascadian style lodge set amidst the 
-                        grandeur of the Columbia River Gorge. This full-service, upscale, destination resort features 254 luxurious 
-                        rooms, two restaurants and a modern conference room. To learn more about our freinds at 
-                        Skamaia Lodge please visit <a href="http://skamania.com" target="blank">Skamania.com</a>.
+                        Skamania Lodge Zip Line Tour is delighted to provide southwestern Washington’s only zip line course. 
+                        Tucked away in a quiet corner of Stevenson, WA; a scenic, 45 minute drive from Portland, OR, our zip line 
+                        is nestled amidst the grandeur of the Columbia River Gorge.  A classic, Cascadian-style lodge, this full 
+                        service, upscale destination resort features 254 luxurious rooms, two restaurants and a modern conference room. 
+                        To learn more, please visit us at <a href="http://skamania.com" target="blank">www.skamania.com.</a>
                     </p>
                     </div>
                     <div class="col-1-2">
@@ -422,21 +421,8 @@
                 <div id="map_canvas"></div>
             </div>
 
-            <!-- modals -->
 
-            <div class="module" id="bookMobile">
-                <div class="moduleMobile">
-                    <h2>Hello World</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-            </div>
+            <!-- modals -->
 
             <div class="module" id="bookDesktop">
                 <div class="moduleDesktop">
@@ -448,7 +434,6 @@
             <a href="#BackToTop" id="Top" title="Back to Top">
                 <div class="topBtn"></div>
             </a> <!-- /back to top -->
-
 
             <div class="copyright">
                 <div class="grid">

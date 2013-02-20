@@ -754,7 +754,6 @@ ul.contact_info {
 
    .mobile_header_wrap {
     position: relative;
-
         
 
         .mobile_sub_header {
@@ -863,13 +862,8 @@ ul.contact_info {
     /* Style adjustments for high resolution devices */
 
     .navicon {
-                background: url(../assets/mobile/NewNavicon.png) no-repeat 0 0;
-                width: 58px;
-                height: 88px;
-                position: absolute;
-                right: 11px;
-                top: -1px;
-                cursor: pointer;
+                background: url(../assets/mobile/NewNavicon@2x.png) no-repeat 0 0;
+                background-size: 50%;
 
             } // navicon retina 
 }

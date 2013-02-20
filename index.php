@@ -84,18 +84,12 @@
 
 
         <div class="mobile_header_wrap">
-            
-            <div class="mobile_header">
-                <div class="mobile_logo">
-                    <a href="#"><img src="assets/mobile/mobile_logo.png" alt="Logo"></a>
-                </div>
-                <div class="navicon" id="navicon" title="Menu"></div>
-            </div>
 
             <div class="mobile_sub_header">
                 <div class="grid">
                     <h1 class="mobile">Skamania Lodge Zip line Tour</h1>
                 </div>
+                <div class="navicon" id="navicon" title="Menu"></div>
             </div>
 
             <div class="mobile_nav close" id="mobile_nav">

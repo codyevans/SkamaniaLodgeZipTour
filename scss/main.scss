@@ -639,37 +639,9 @@ ul.contact_info {
    .mobile_header_wrap {
     position: relative;
 
-        .mobile_header {
-            background: url(../assets/mobile/mobile_header.png) repeat-x 0 0;
-            width: 100%;
-            height: 73px;
-            position: relative;
-            z-index: 100;
-
-            .mobile_logo {
-                width: 55px;
-                height: 54px;
-                position: absolute;
-                top: 4px;
-                left: 20px;
-                display: block;
-            }
-
-            .navicon {
-                background: url(../assets/mobile/navicon.png) no-repeat 0 0;
-                width: 72px;
-                height: 99px;
-                position: absolute;
-                right: 15px;
-                cursor: pointer;
-
-            } // navicon
-
-        } // m_header
-
         .mobile_sub_header {
             width: 100%;
-            height: 50px;
+            height: 60px;
             background: url(../assets/mobile/sub_headTex.gif) repeat;
             border-bottom: 2px solid #e8e7de;
             box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
@@ -682,10 +654,22 @@ ul.contact_info {
                 text-shadow: 0px -1px 0px #133b49;
                 font-size: 18px;
                 margin: 0px;
+                margin-left: -10px;
                 padding: 0px;
-                line-height: 52px;
+                line-height: 65px;
                 display: block;
             } //h2
+
+             .navicon {
+                background: url(../assets/mobile/NewNavicon.png) no-repeat 0 0;
+                width: 58px;
+                height: 88px;
+                position: absolute;
+                right: 11px;
+                top: -1px;
+                cursor: pointer;
+
+            } // navicon
 
         } // sub header
 
@@ -726,12 +710,12 @@ ul.contact_info {
         } // nav
 
         .mobile_nav.close {
-            top: -240px;
+            top: -320px;
              -webkit-transition: top 0.5s;
         }
 
          .mobile_nav.open {
-            top: 100px;
+            top: 30px;
             -webkit-transition: top 0.5s;
         }
 
@@ -771,37 +755,11 @@ ul.contact_info {
    .mobile_header_wrap {
     position: relative;
 
-        .mobile_header {
-            background: url(../assets/mobile/mobile_header.png) repeat-x 0 0;
-            width: 100%;
-            height: 73px;
-            position: relative;
-            z-index: 100;
-
-            .mobile_logo {
-                width: 55px;
-                height: 54px;
-                position: absolute;
-                top: 4px;
-                left: 20px;
-                display: block;
-            }
-
-            .navicon {
-                background: url(../assets/mobile/navicon.png) no-repeat 0 0;
-                width: 72px;
-                height: 99px;
-                position: absolute;
-                right: 15px;
-                cursor: pointer;
-
-            } // navicon
-
-        } // m_header
+        
 
         .mobile_sub_header {
             width: 100%;
-            height: 50px;
+            height: 60px;
             background: url(../assets/mobile/sub_headTex.gif) repeat;
             border-bottom: 2px solid #e8e7de;
             box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
@@ -812,10 +770,11 @@ ul.contact_info {
             h1.mobile {
                 color: #f1ebdc;
                 text-shadow: 0px -1px 0px #133b49;
-                font-size: 16px;
+                font-size: 15px;
                 margin: 0px;
+                margin-left: -16px;
                 padding: 0px;
-                line-height: 52px;
+                line-height: 64px;
                 display: block;
             } //h2
 
@@ -857,15 +816,7 @@ ul.contact_info {
             }
         } // nav
 
-        .mobile_nav.close {
-            top: -240px;
-            -webkit-transition: top 0.5s;
-        }
-
-         .mobile_nav.open {
-            top: 100px;
-            -webkit-transition: top 0.5s;
-        }
+        
 
    } // m_wrap
 
@@ -910,6 +861,17 @@ ul.contact_info {
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
        only screen and (min-resolution: 144dpi) {
     /* Style adjustments for high resolution devices */
+
+    .navicon {
+                background: url(../assets/mobile/NewNavicon.png) no-repeat 0 0;
+                width: 58px;
+                height: 88px;
+                position: absolute;
+                right: 11px;
+                top: -1px;
+                cursor: pointer;
+
+            } // navicon retina 
 }
 
 

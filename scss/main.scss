@@ -476,6 +476,10 @@ ul.contact_info {
 .map {
     height: 450px;
     border-top: 1px solid #c1bba9;
+
+    @media (max-width: 575px) {
+        height: 300px;
+    }
 }
 
 #map_canvas {
@@ -665,9 +669,18 @@ ul.contact_info {
                 width: 58px;
                 height: 88px;
                 position: absolute;
-                right: 11px;
+                right: 10px;
                 top: -1px;
                 cursor: pointer;
+
+                @media only screen and (-webkit-min-device-pixel-ratio: 2),
+                only screen and (min-resolution: 192dpi) {
+                /* Style adjustments for high resolution devices */
+                    background: url(../assets/mobile/NewNavicon@2x.png) no-repeat 0 0;
+                    width: 58px;
+                    height: 88px;
+
+                } // retina
 
             } // navicon
 
@@ -861,11 +874,6 @@ ul.contact_info {
        only screen and (min-resolution: 144dpi) {
     /* Style adjustments for high resolution devices */
 
-    .navicon {
-                background: url(../assets/mobile/NewNavicon@2x.png) no-repeat 0 0;
-                background-size: 50%;
-
-            } // navicon retina 
 }
 
 

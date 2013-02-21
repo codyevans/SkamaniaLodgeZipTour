@@ -5,7 +5,7 @@ $(".main_nav a").smoothScroll();
 
 $("a#Top").smoothScroll();
 
-$("#mobile_nav a").smoothScroll();
+//$("#mobile_nav a").smoothScroll();
 
 //$("a.mobile_backTop").smoothScroll();
 
@@ -69,7 +69,7 @@ $('#navicon').click(function(e) {
 
 $('ul.mobile a').click(function(e) {
 	$('#mobile_nav').removeClass('open');
-	e.preventDefault();
+	//e.preventDefault();
 });
 
 

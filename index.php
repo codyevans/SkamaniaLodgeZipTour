@@ -322,7 +322,7 @@
                     <p class="col-1-1 large">
                         Skamania Lodge Zip Line Tour is delighted to provide southwestern Washington’s only zip line course. 
                         Tucked away in a quiet corner of Stevenson, WA; a scenic, 45 minute drive from Portland, OR, our zip line 
-                        is nestled amidst the grandeur of the Columbia River Gorge.  A classic, Cascadian-style lodge, this full 
+                        is nestled amidst the grandeur of the Columbia River Gorge.  Partnered with Skamania Lodge, a classic, Cascadian-style lodge, this full 
                         service, upscale destination resort features 254 luxurious rooms, two restaurants and a modern conference room. 
                         To learn more, please visit us at <a href="http://skamania.com" target="blank">www.skamania.com.</a>
                     </p>

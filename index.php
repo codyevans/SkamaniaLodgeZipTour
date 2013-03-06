@@ -72,7 +72,7 @@
 
                 <div class="header_contact">
                     <ul>
-                        <li class="phone" tel="509.427.2599">509.427.2599</li>
+                        <li class="phone" tel="509.427.3800">509.427.3800</li>
                         <li class="email"><a href="mailto:info@zipnskamania.com">info@zipnskamania.com</a></li>
                         <li>1131 Skamania Lodge Way</li>
                         <li>Stevenson, WA 98648</li>
@@ -241,8 +241,8 @@
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="callout_phone" tel="509.427.2599">
-                                       509.427.2599
+                                    <p class="callout_phone" tel="509.427.3800">
+                                       509.427.3800
                                     </p>
                                 </li>
                             </ul>
@@ -343,23 +343,17 @@
                         Contact
                     </h1>
 
-
                     <div class="col-1-3">
                         <ul class="contact_info">
                             <li>
                                 <p class="contact_label">
-                                   Address
+                                   Phone
                                 </p>
                             </li>
                             <li>
-                                <p class="contact_details">
-                                   1131 Skamania Lodge Way <br> Stevenson, WA 98648
+                                <p class="contact_details" tel="509.427.3800">
+                                   509.427.3800
                                 </p>
-                                <a href="https://maps.google.com/maps?q=Skamania+Lodge,+1131+Southwest+Skamania+Lodge+Way,+Stevenson,+WA&hl=en&sll=45.494576,-114.143261&sspn=13.0764,21.005859&oq=ska&hq=Skamania+Lodge,+1131+Southwest+Skamania+Lodge+Way,+Stevenson,+WA&t=m&z=15" class="google" target="blank">
-                                    <p>
-                                        View in Google Maps
-                                    </p>
-                                </a>
                             </li>
                         </ul>
                     </div>
@@ -385,13 +379,18 @@
                         <ul class="contact_info">
                             <li>
                                 <p class="contact_label">
-                                   Phone
+                                   Address
                                 </p>
                             </li>
                             <li>
-                                <p class="contact_details" tel="509.427.2599">
-                                   509.427.2599
+                                <p class="contact_details">
+                                   1131 Skamania Lodge Way <br> Stevenson, WA 98648
                                 </p>
+                                <a href="https://maps.google.com/maps?q=Skamania+Lodge,+1131+Southwest+Skamania+Lodge+Way,+Stevenson,+WA&hl=en&sll=45.494576,-114.143261&sspn=13.0764,21.005859&oq=ska&hq=Skamania+Lodge,+1131+Southwest+Skamania+Lodge+Way,+Stevenson,+WA&t=m&z=15" class="google" target="blank">
+                                    <p>
+                                        View in Google Maps
+                                    </p>
+                                </a>
                             </li>
                         </ul>
                     </div>

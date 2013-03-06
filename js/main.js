@@ -30,7 +30,8 @@ if ( $(window).width() > 768 ) {
 	$('#bookingBTN, #bookingBTN2').click(function(e) {
 
 		$('#bookDesktop').lightbox_me({
-			centered: true
+			centered: true,
+			closeSelector: "span.close"
 		});
 
 		e.preventDefault();

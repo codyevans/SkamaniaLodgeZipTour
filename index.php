@@ -421,6 +421,7 @@
             <!-- modals -->
 
             <div class="module" id="bookDesktop">
+                <span class="close" title="close"></span>
                 <div class="moduleDesktop">
                      <iframe src="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>
                 </div>

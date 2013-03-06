@@ -405,6 +405,16 @@ ul.callout {
     border-radius: 8px;
 }
 
+span.close  {
+    position: absolute;
+    top: 5px;
+    right: -16px;
+    width: 31px;
+    height: 30px;
+    cursor: pointer;
+    background: url(../assets/close-btn.png); 
+}
+
 .moduleDesktop {
    height: 700px;
 }

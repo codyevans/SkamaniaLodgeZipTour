@@ -38,6 +38,23 @@ if ( $(window).width() > 768 ) {
 
 	});
 
+	$('#employbtn').click(function(e) {
+
+		$('#employment').lightbox_me({
+			centered: true,
+			closeSelector: "span.close"
+		});
+
+		e.preventDefault();
+
+	});
+
+
+	$('#GrandOpen').lightbox_me({
+			centered: true,
+			closeSelector: "span.close"
+		});
+
 }
 
 

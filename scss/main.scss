@@ -389,8 +389,30 @@ ul.callout {
 /* --- about ------------------------------------------------------------------- */
 
 
+/* --- employ ------------------------------------------------------------------- */
+
+a.employ {
+    text-decoration: none;
+    font-style: normal;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+a.app {
+    color: #536168;
+}
+
+p.emp {
+    margin-bottom: 8px;
+}
 
 
+// intro
+
+h4.modalIntro {
+    margin-bottom: 0px;
+}
 
 
 
@@ -421,6 +443,16 @@ span.close  {
 
 .moduleMobile {
     width: 400px;
+}
+
+.moduleEmploy {
+    width: 650px;
+
+}
+
+img.modalLogo {
+    width: 343px;
+    height: 113px;
 }
 
 

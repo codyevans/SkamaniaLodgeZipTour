@@ -65,7 +65,7 @@
                             <a href="#contact">Contact</a>
                         </li>
                         <li>
-                            <a href="http://www.weather.com/weather/right-now/Stevenson+WA+98648" target="blank">The Weather</a>
+                            <a href="#" id="employbtn">Employment</a>
                         </li>
                     </ul>
                 </nav> <!-- /nav -->
@@ -113,10 +113,10 @@
                <div class="title_banner"></div>
 
                <div id="headline_slideshow" class="headlines">
-                   <img src="assets/hero/headlines/6lines.png" class="lines" alt="headlines"> <!-- 6lines -->
-                   <img src="assets/hero/headlines/4bridges.png" class="bridges" alt="headlines"> <!-- 4bridges -->
-                   <img src="assets/hero/headlines/45mph.png" class="mph" alt="headlines"> <!-- 45mph -->
-                   <img src="assets/hero/headlines/50ft.png" class="ft" alt="headlines"> <!-- 50ft -->
+                   <img src="assets/hero/headlines/7lines.png" class="lines" alt="Seven zip lines"> <!-- 6lines -->
+                   <img src="assets/hero/headlines/4bridges.png" class="bridges" alt="4 sky bridges"> <!-- 4bridges -->
+                   <img src="assets/hero/headlines/45mph.png" class="mph" alt="Speeds up to 45 mph"> <!-- 45mph -->
+                   <img src="assets/hero/headlines/50ft.png" class="ft" alt="Up to 50ft in the air"> <!-- 50ft -->
                </div> <!-- /headlines -->
 
             </div> <!-- /hero -->
@@ -210,8 +210,8 @@
                     </div>
 
                     <div class="col-2-3">
-                        <img src="assets/img/hang.jpg" alt="" class="tour spacing tour-first">
-                        <img src="assets/img/hang.jpg" alt="" class="tour spacing">
+                        <img src="assets/img/zip3.jpg" alt="" class="tour spacing tour-first">
+                        <img src="assets/img/zip2.jpg" alt="" class="tour spacing">
                         <img src="assets/img/hang.jpg" alt="" class="tour">
                     </div>
 
@@ -273,7 +273,7 @@
                                     <p>$99.00 plus tax per person.</p>
                                 </li>
                                 <li>
-                                    <p>Advanced reservations are recomended.</p>
+                                    <p>Advanced reservations are recommended.</p>
                                 </li>
                                  <li>
                                     <p>There is no age limit.</p>
@@ -328,7 +328,7 @@
                     </p>
                     </div>
                     <div class="col-1-2">
-                        <img src="assets/img/hang.jpg" alt="" class="tour">
+                        <img src="assets/img/zip3.jpg" alt="" class="tour">
                     </div>
                 </div> <!-- /grid -->
             </section>
@@ -424,6 +424,57 @@
                 <span class="close" title="close"></span>
                 <div class="moduleDesktop">
                      <iframe src="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>
+                </div>
+            </div>
+
+             <div class="module" id="employment">
+                <span class="close" title="close"></span>
+                <div class="moduleEmploy">
+                     <img src="assets/SkamaniaLogo.png" class="modalLogo">
+                    
+                     <h2>
+                        We are on the lookout for experienced guides to join our team. 
+                     </h2>
+                    
+                     <p class="emp">
+                        If you are an adventurous, passionate and highly motivated individual,
+
+                        please submit your resume and guide application to <a href="mailto:employment@zipnskamania.com" class="employ">employment@zipnskamania.com</a>.
+                    </p>
+                    <p>
+                         Download
+                        <a href="downloads/SkamaniaGuideApplication.pdf" class="employ app" target="blank">Guide Applicaton</a>
+                     </p>
+    
+                </div>
+            </div>
+
+             <div class="module" id="GrandOpen">
+                <span class="close" title="close"></span>
+                <div class="moduleEmploy">
+                     <img src="assets/SkamaniaLogo.png" class="modalLogo">
+                    
+                     <h2>
+                        We will be Zipping May 4th!
+                     </h2>
+
+                     <p>
+                        SLZT is pleased to annouce that we will be open to
+                        the public on May 4th, 2013. We are excited to see
+                        everybody and their smiles. Please remeber that 
+                        advanced reservations are recommended.
+                     </p>
+
+                    
+                    <h4 class="modalIntro">
+                        Get in Touch
+                    </h4>
+                    <p>
+                        Phone: 509.427.3800 
+                        <br>
+                        Email: <a href="mailto:info@zipnskamania.com" class="employ app">info@zipnskamania.com</a>
+                    </p> 
+    
                 </div>
             </div>
 

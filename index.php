@@ -210,9 +210,9 @@
                     </div>
 
                     <div class="col-2-3">
-                        <img src="assets/img/zip3.jpg" alt="" class="tour spacing tour-first">
-                        <img src="assets/img/zip2.jpg" alt="" class="tour spacing">
-                        <img src="assets/img/hang.jpg" alt="" class="tour">
+                        <img src="assets/img/zip3.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing tour-first">
+                        <img src="assets/img/zip2.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing">
+                        <img src="assets/img/hang.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour">
                     </div>
 
                 </div> <!-- /grid -->
@@ -328,7 +328,7 @@
                     </p>
                     </div>
                     <div class="col-1-2">
-                        <img src="assets/img/zip3.jpg" alt="" class="tour">
+                        <img src="assets/img/merchandise.jpg" alt="SLZT Merchandise" class="tour">
                     </div>
                 </div> <!-- /grid -->
             </section>

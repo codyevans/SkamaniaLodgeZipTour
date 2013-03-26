@@ -6,8 +6,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Welcome | Skamania Lodge Zip Line Tour</title>
-        <meta name="description" content="">
+        <title>Skamania Lodge Zip Line Tour</title>
+        <meta name="description" content="Zip Line Canopy Tour located at Skamania Lodge in Stevenson, Washington.">
         <meta name="viewport" content="width=device-width">
 
          <meta name="apple-mobile-web-app-capable" content="yes" />

@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Skamania Lodge Zip Line Tour</title>
+        <title>Zip Line Tour on the Columbia River Gorge | Skamania Lodge Zip Line Tour</title>
         <meta name="description" content="Zip Line Canopy Tour located at Skamania Lodge in Stevenson, Washington.">
         <meta name="viewport" content="width=device-width">
 
@@ -44,7 +44,7 @@
          <div class="header_wrap">
 
             <div class="logo_wrap">
-                <a href="#">
+                <a href="/">
                     <h1 class="logo" title="home">Skamania Lodge Zip Line Tour</h1>
                 </a>
             </div> <!-- /logo_wrap -->

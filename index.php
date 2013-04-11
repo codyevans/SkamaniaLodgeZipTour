@@ -15,6 +15,12 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/main.css">
+
+        <!-- basic stylesheet -->
+        <link rel="stylesheet" href="royalslider/royalslider.css">
+        <!-- skin stylesheet (change it if you use another) -->
+        <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic' rel='stylesheet' type='text/css'>
@@ -109,9 +115,19 @@
         <div class="shell"> <!-- content shell -->
 
             <div class="hero_1">
-                
-               <!-- <div class="title_banner"></div> -->              
 
+                <div class="royalSlider rsDefault">
+    
+                    <div class="rsContent">
+                        <img class="rsImg" src="assets/hero/325.jpg" data-rsTmb="small-image.jpg" alt="image description" />
+                    </div>
+
+                     <div class="rsContent">
+                        <img class="rsImg" src="assets/hero/325.jpg" data-rsTmb="small-image.jpg" alt="image description" />
+                    </div>
+
+                </div> <!-- /slider --> 
+                
             </div> <!-- /hero -->
 
             <a href="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" target="blank" class="bookings-link">
@@ -490,6 +506,17 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="js/plugins.min.js"></script>
         <script src="js/main.js"></script>
+        <script src="royalslider/jquery.royalslider.min.js"></script>
+        <script>
+            jQuery(document).ready(function($) {
+                $(".royalSlider").royalSlider({
+                    // options go here
+                    // as an example, enable keyboard arrows nav
+                    keyboardNavEnabled: true,
+                    imageScaleMode: 'fill',
+                });  
+            });
+        </script>
 
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

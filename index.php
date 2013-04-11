@@ -112,12 +112,7 @@
                 
                <div class="title_banner"></div>
 
-               <div id="headline_slideshow" class="headlines">
-                   <img src="assets/hero/headlines/7lines.png" class="lines" alt="Seven zip lines"> <!-- 6lines -->
-                   <img src="assets/hero/headlines/4bridges.png" class="bridges" alt="4 sky bridges"> <!-- 4bridges -->
-                   <img src="assets/hero/headlines/45mph.png" class="mph" alt="Speeds up to 45 mph"> <!-- 45mph -->
-                   <img src="assets/hero/headlines/50ft.png" class="ft" alt="Up to 50ft in the air"> <!-- 50ft -->
-               </div> <!-- /headlines -->
+              
 
             </div> <!-- /hero -->
 

@@ -19,7 +19,16 @@
         <!-- basic stylesheet -->
         <link rel="stylesheet" href="royalslider/royalslider.css">
         <!-- skin stylesheet (change it if you use another) -->
-        <link rel="stylesheet" href="royalslider/skins/default/rs-default.css"> 
+        <link rel="stylesheet" href="royalslider/skins/minimal-white/rs-minimal-white.css"> 
+
+        <style type="text/css">
+
+            .royalSlider {
+              width: 100%;
+              height: 500px;
+            }
+
+        </style>
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
@@ -116,7 +125,7 @@
 
             <div class="hero_1">
 
-                <div class="royalSlider rsDefault">
+                <div class="royalSlider rsMinW">
     
                     <div class="rsContent">
                         <img class="rsImg" src="assets/hero/325.jpg" data-rsTmb="small-image.jpg" alt="image description" />

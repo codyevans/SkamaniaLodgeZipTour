@@ -110,9 +110,7 @@
 
             <div class="hero_<?php echo rand(1,1); ?>">
                 
-               <div class="title_banner"></div>
-
-              
+               <!-- <div class="title_banner"></div> -->              
 
             </div> <!-- /hero -->
 

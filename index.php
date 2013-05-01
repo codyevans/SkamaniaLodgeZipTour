@@ -36,6 +36,7 @@
                 .royalSlider {
                 width: 100%;
                 height: 595px;
+                padding-left: 200px;
                 }
             }
         </style> 
@@ -138,11 +139,11 @@
                 <div class="royalSlider rsMinW">
     
                     <div class="rsContent">
-                        <img class="rsImg" src="assets/hero/325.jpg" data-rsTmb="small-image.jpg" alt="image description" />
+                        <img class="rsImg" src="assets/hero/test.jpg" data-rsTmb="small-image.jpg" alt="image description" />
                     </div>
 
                      <div class="rsContent">
-                        <img class="rsImg" src="assets/hero/325.jpg" data-rsTmb="small-image.jpg" alt="image description" />
+                        <img class="rsImg" src="assets/hero/test2.jpg" data-rsTmb="small-image.jpg" alt="image description" />
                     </div>
 
                 </div> <!-- /slider --> 
@@ -448,12 +449,12 @@
 
             <!-- modals -->
 
-            <div class="module" id="bookDesktop">
+           <!--  <div class="module" id="bookDesktop">
                 <span class="close" title="close"></span>
                 <div class="moduleDesktop">
                      <iframe src="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>
                 </div>
-            </div>
+            </div> -->
 
              <div class="module" id="employment">
                 <span class="close" title="close"></span>

@@ -29,6 +29,7 @@
                 .royalSlider {
                 width: 100%;
                 height: 445px;
+                font-size: 32px;
                 }
             }
 
@@ -139,7 +140,7 @@
                 <div class="royalSlider rsMinW">
     
                     <div class="rsContent">
-                        <img class="rsImg" src="assets/hero/test.jpg" data-rsTmb="small-image.jpg" alt="image description" />
+                        <img class="rsImg" src="assets/hero/slider/zipping-between-trees.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
                     </div>
 
                      <div class="rsContent">

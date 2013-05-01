@@ -20,12 +20,24 @@
         <link rel="stylesheet" href="royalslider/skins/minimal-white/rs-minimal-white.css">
 
         <style type="text/css">
-
             .royalSlider {
                 width: 100%;
                 height: 270px;
             }
 
+            @media (min-width: 575px) {
+                .royalSlider {
+                width: 100%;
+                height: 445px;
+                }
+            }
+
+            @media (min-width: 768px) {
+                .royalSlider {
+                width: 100%;
+                height: 595px;
+                }
+            }
         </style> 
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>

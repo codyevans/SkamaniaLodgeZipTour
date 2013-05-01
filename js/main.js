@@ -1,4 +1,16 @@
 /* ======================================================================== */
+// royal slider
+
+jQuery(document).ready(function($) {
+                $(".royalSlider").royalSlider({
+                    // options go here
+                    // as an example, enable keyboard arrows nav
+                    keyboardNavEnabled: true,
+                    imageScaleMode: 'fill',
+                });  
+            });
+
+/* ======================================================================== */
 // smoothScroll
 
 $(".main_nav a").smoothScroll();

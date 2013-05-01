@@ -17,16 +17,16 @@
         <!-- basic stylesheet -->
         <link rel="stylesheet" href="royalslider/royalslider.css">
         <!-- skin stylesheet (change it if you use another) -->
-        <link rel="stylesheet" href="royalslider/skins/minimal-white/rs-minimal-white.css"> 
+        <link rel="stylesheet" href="royalslider/skins/minimal-white/rs-minimal-white.css">
 
         <style type="text/css">
 
             .royalSlider {
-              width: 100%;
-              height: 500px;
+                width: 100%;
+                height: 270px;
             }
 
-        </style>
+        </style> 
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
@@ -511,21 +511,9 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="js/plugins.min.js"></script>
+        <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <script src="royalslider/jquery.royalslider.min.js"></script>
-        <script>
-            jQuery(document).ready(function($) {
-                $(".royalSlider").royalSlider({
-                    // options go here
-                    // as an example, enable keyboard arrows nav
-                    keyboardNavEnabled: true,
-                    imageScaleMode: 'fill',
-                });  
-            });
-        </script>
-
-
+       
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];

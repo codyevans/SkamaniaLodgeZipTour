@@ -10,9 +10,7 @@
         <meta name="description" content="Zip Line Canopy Tour located at Skamania Lodge in Stevenson, Washington.">
         <meta name="viewport" content="width=device-width">
 
-         <meta name="apple-mobile-web-app-capable" content="yes" />
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <meta name="apple-mobile-web-app-capable" content="yes" />
 
         <link rel="stylesheet" href="css/main.css">
 
@@ -152,7 +150,7 @@
                      <p>
                        Get ready to fly with the eagles and soar with spirits at the Bridge of the Gods. 
                        Only our unique Canopy Zip Line Tour will send you soaring above 
-                       the scenic Columbia River Gorge. We have seven zip lines, four sky bridges 
+                       the scenic Columbia River Gorge. We have seven zip lines, three sky bridges 
                        and stunning views all nestled together at the world class 
                        <a href="http://skamania.com" target="blank">Skamania Lodge Resort.</a>
                     </p>
@@ -169,7 +167,7 @@
                          <p class="col-1-1 large" style="max-width: 920px">
                            Together with family and friends, take in the beauty of the majestic Columbia River Gorge and surrounding 
                            mountains; experience a tour full of adrenalin and adventure as you fly suspended by a cable over the moss 
-                           covered firs of the rain forest canopy.  Ride down seven different lines, the longest one being 900 feet in 
+                           covered firs of the rain forest canopy.  Ride down seven different lines, the longest one being over 800 feet in 
                            length. Experienced guides will educate and entertain you with a vast array of information on native plants 
                            and animals as well as the overall history of the area.  Get out of your comfort zone and come fly with us. 
                            Going against all those primitive reflexes and rationales is exactly what makes this tour rock! 
@@ -185,16 +183,16 @@
                                     </h3>
                                 </li>
                                 <li>
-                                    <p>7 zip lines, 4 sky bridges and some light trail walking.</p>
+                                    <p>7 zip lines, 3 sky bridges, an auto rappel and some light trail walking.</p>
                                 </li>
                                  <li>
-                                    <p>Zip lines range from 100 feet to 900 feet in length.</p>
+                                    <p>Zip lines range from 100 feet to over 800 feet in length.</p>
                                 </li>
                                 <li>
                                     <p>Tours include ramps, stairs, tree decks and short hikes.</p>
                                 </li>
                                 <li>
-                                    <p>The tour will last approximately 2 hours.</p>
+                                    <p>The tour will last approximately 2.5 hours.</p>
                                 </li>
                                 <li>
                                     <p>Personalized tours with two guides leading your way.</p>
@@ -221,7 +219,7 @@
                                     <p>Dress in layers.</p>
                                 </li>
                                 <li>
-                                    <p>No prior injuries, surgeries that limit the use of extremities and no pregnancies.</p>
+                                    <p>No prior injuries and/or surgeries that limit the use of extremities and no pregnancies.</p>
                                 </li>
                             </ul>
                         </div>
@@ -300,7 +298,7 @@
                                     <p>Weight limit of a minimum of 75lbs to a maximum of 270lbs.</p>
                                 </li>
                                  <li>
-                                    <p>The tour will last approximately 2 hours.</p>
+                                    <p>The tour will last approximately 2.5 hours.</p>
                                 </li>
                                  <li>
                                     <p>Bookings will consist of groups of 8, minimum of 4 for a booking (we can accommodate larger group sizes with advanced notice).</p>
@@ -467,7 +465,7 @@
                 </div>
             </div>
 
-             <div class="module" id="GrandOpen">
+             <!-- <div class="module" id="GrandOpen">
                 <span class="close" title="close"></span>
                 <div class="moduleEmploy">
                      <img src="assets/SkamaniaLogo.png" class="modalLogo">
@@ -494,7 +492,7 @@
                     </p> 
     
                 </div>
-            </div>
+            </div> -->
 
 
             <a href="#BackToTop" id="Top" title="Back to Top">

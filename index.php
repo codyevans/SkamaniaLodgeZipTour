@@ -159,6 +159,14 @@
                         <img class="rsImg" src="assets/hero/slider/long-zip-line.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
                     </div>
 
+                    <div class="rsContent">
+                        <img class="rsImg" src="assets/hero/slider/kid-zipping.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
+                    </div>
+
+                    <div class="rsContent">
+                        <img class="rsImg" src="assets/hero/slider/zipping-towards-the-group.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
+                    </div>
+
                 </div> <!-- /slider --> 
                 
             </div> <!-- /hero -->

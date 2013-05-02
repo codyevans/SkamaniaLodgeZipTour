@@ -7,9 +7,6 @@ jQuery(document).ready(function($) {
                     // as an example, enable keyboard arrows nav
                     keyboardNavEnabled: true,
                     imageScaleMode: 'fill',
-                    autoPlay: {
-                    	enabled: true
-                    }
                 });  
             });
 

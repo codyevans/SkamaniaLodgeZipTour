@@ -144,7 +144,19 @@
                     </div>
 
                      <div class="rsContent">
-                        <img class="rsImg" src="assets/hero/test2.jpg" data-rsTmb="small-image.jpg" alt="image description" />
+                        <img class="rsImg" src="assets/hero/slider/man-walking-sky-bridge.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
+                    </div>
+
+                     <div class="rsContent">
+                        <img class="rsImg" src="assets/hero/slider/tina-zipping-in.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
+                    </div>
+
+                     <div class="rsContent">
+                        <img class="rsImg" src="assets/hero/slider/zipping-the-brush.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
+                    </div>
+
+                     <div class="rsContent">
+                        <img class="rsImg" src="assets/hero/slider/long-zip-line.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
                     </div>
 
                 </div> <!-- /slider --> 
@@ -240,9 +252,9 @@
                     </div>
 
                     <div class="col-2-3">
-                        <img src="assets/img/zip3.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing tour-first">
-                        <img src="assets/img/zip2.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing">
-                        <img src="assets/img/hang.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour">
+                        <img src="assets/hero/kid-walking-sky-bridge.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing tour-first">
+                        <img src="assets/hero/posing-on-the-line.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing tour-first">
+                        <img src="assets/hero/underneath-sky-bridge.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing">
                     </div>
 
                 </div> <!-- /grid -->
@@ -358,7 +370,7 @@
                     </p>
                     </div>
                     <div class="col-1-2">
-                        <img src="assets/img/merchandise.jpg" alt="SLZT Merchandise" class="tour">
+                        <img src="assets/hero/view-from-the-sky-bridge.jpg" alt="SLZT Merchandise" class="tour">
                     </div>
                 </div> <!-- /grid -->
             </section>
@@ -450,7 +462,7 @@
 
             <!-- modals -->
 
-           <!--  <div class="module" id="bookDesktop">
+         <!--    <div class="module" id="bookDesktop">
                 <span class="close" title="close"></span>
                 <div class="moduleDesktop">
                      <iframe src="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>

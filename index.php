@@ -200,8 +200,8 @@
                     <div class="col-1-1">
                          <p class="col-1-1 large" style="max-width: 920px">
                            Together with family and friends, take in the beauty of the majestic Columbia River Gorge and surrounding 
-                           mountains; experience a tour full of adrenalin and adventure as you fly suspended by a cable over the moss 
-                           covered firs of the rain forest canopy.  Ride down seven different lines, the longest one being over 800 feet in 
+                           mountains; experience a tour full of adrenaline and adventure as you fly suspended by a cable over the moss 
+                           covered firs of the rain forest canopy. Ride down seven different lines, the longest one being over 800 feet in 
                            length. Experienced guides will educate and entertain you with a vast array of information on native plants 
                            and animals as well as the overall history of the area.  Get out of your comfort zone and come fly with us. 
                            Going against all those primitive reflexes and rationales is exactly what makes this tour rock! 

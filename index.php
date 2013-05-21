@@ -393,7 +393,7 @@
                         Contact
                     </h1>
 
-                    <div class="col-1-3">
+                    <div class="col-1-2">
                         <ul class="contact_info">
                             <li>
                                 <p class="contact_label">
@@ -408,7 +408,7 @@
                         </ul>
                     </div>
 
-                     <div class="col-1-3">
+                     <div class="col-1-2">
                         <ul class="contact_info">
                             <li>
                                 <p class="contact_label">
@@ -425,7 +425,7 @@
                         </ul>
                     </div>
 
-                    <div class="col-1-3">
+                    <div class="col-1-2">
                         <ul class="contact_info">
                             <li>
                                 <p class="contact_label">
@@ -439,6 +439,32 @@
                                 <a href="https://maps.google.com/maps?q=Skamania+Lodge,+1131+Southwest+Skamania+Lodge+Way,+Stevenson,+WA&hl=en&sll=45.494576,-114.143261&sspn=13.0764,21.005859&oq=ska&hq=Skamania+Lodge,+1131+Southwest+Skamania+Lodge+Way,+Stevenson,+WA&t=m&z=15" class="google" target="blank">
                                     <p>
                                         View in Google Maps
+                                    </p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-1-2">
+                        <ul class="contact_info">
+                            <li>
+                                <p class="contact_label">
+                                   Social
+                                </p>
+                            </li>
+                            <li>
+                                <a href="https://www.facebook.com/pages/Skamania-Lodge-Zipline-Tour/599025176782738">
+                                    <p class="contact_details">
+                                        <i class="foundicon-facebook"></i>
+                                        Facebook
+                                    </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://twitter.com/SkamaniaZipline">
+                                    <p class="contact_details">
+                                        <i class="foundicon-twitter"></i>
+                                        Twitter
                                     </p>
                                 </a>
                             </li>

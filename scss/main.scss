@@ -187,6 +187,7 @@ img {
 /* --- Sections ----------------------------------------------------------------
 ================================================================================ */
 
+@import "icons";
 
 /* --- intro ----------------------------------------------------------------- */
 
@@ -500,6 +501,18 @@ ul.contact_info {
 
         &:hover {
             text-decoration: underline;
+
+            .contact_details {
+                font-size: 18px;
+                margin: 0px 0px 5px 0px;
+
+                i {
+                   position: relative;
+                   top: 0px;
+                   -webkit-transition: 0.3s;
+                   transition: 0.3s;
+                }
+            }
         }
     }
 
@@ -521,6 +534,11 @@ ul.contact_info {
 .contact_details {
     font-size: 18px;
     margin: 0px 0px 5px 0px;
+
+    i {
+       position: relative;
+       top: 3px;
+    }
 }
 
 

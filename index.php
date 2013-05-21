@@ -99,7 +99,7 @@
 
                 <div class="header_contact">
                     <ul>
-                        <li class="phone" tel="509.427.3800">509.427.3800</li>
+                        <li class="phone" tel="509.427.0202">509.427.0202</li>
                         <li class="email"><a href="mailto:info@zipnskamania.com">info@zipnskamania.com</a></li>
                         <li>1131 Skamania Lodge Way</li>
                         <li>Stevenson, WA 98648</li>
@@ -291,8 +291,8 @@
                                     </p>
                                 </li>
                                 <li>
-                                    <p class="callout_phone" tel="509.427.3800">
-                                       509.427.3800
+                                    <p class="callout_phone" tel="509.427.0202">
+                                       509.427.0202
                                     </p>
                                 </li>
                             </ul>
@@ -335,7 +335,7 @@
                                     <p>The tour will last approximately 2.5 hours.</p>
                                 </li>
                                  <li>
-                                    <p>Bookings will consist of groups of 8, minimum of 4 for a booking (we can accommodate larger group sizes with advanced notice).</p>
+                                    <p>Bookings will consist of groups of 10, minimum of 2 for a booking (we can accommodate larger group sizes with advanced notice).</p>
                                 </li>
                                  <li>
                                     <p>For a refund, cancellations need to be 72 hours in advance. If there needs to be a cancellation due to conditions, the lead guide will make the call to cancel your trip. We will try our best to rebook your trip or we will refund the guest. We zip in weather, but not lightning.</p>
@@ -401,8 +401,8 @@
                                 </p>
                             </li>
                             <li>
-                                <p class="contact_details" tel="509.427.3800">
-                                   509.427.3800
+                                <p class="contact_details" tel="509.427.0202">
+                                   509.427.0202
                                 </p>
                             </li>
                         </ul>
@@ -498,36 +498,6 @@
     
                 </div>
             </div>
-
-             <!-- <div class="module" id="GrandOpen">
-                <span class="close" title="close"></span>
-                <div class="moduleEmploy">
-                     <img src="assets/SkamaniaLogo.png" class="modalLogo">
-                    
-                     <h2>
-                        We will be Zipping May 4th!
-                     </h2>
-
-                     <p>
-                        SLZT is pleased to annouce that we will be open to
-                        the public on May 4th, 2013. We are excited to see
-                        everybody and their smiles. Please remeber that 
-                        advanced reservations are recommended.
-                     </p>
-
-                    
-                    <h4 class="modalIntro">
-                        Get in Touch
-                    </h4>
-                    <p>
-                        Phone: 509.427.3800 
-                        <br>
-                        Email: <a href="mailto:info@zipnskamania.com" class="employ app">info@zipnskamania.com</a>
-                    </p> 
-    
-                </div>
-            </div> -->
-
 
             <a href="#BackToTop" id="Top" title="Back to Top">
                 <div class="topBtn"></div>

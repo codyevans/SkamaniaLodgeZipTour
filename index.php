@@ -261,7 +261,7 @@
 
                     <div class="col-2-3">
                         <img src="assets/hero/kid-walking-sky-bridge.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing tour-first">
-                        <img src="assets/hero/posing-on-the-line.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing tour-first">
+                        <img src="assets/hero/posing-on-the-line.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing">
                         <img src="assets/hero/underneath-sky-bridge.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing">
                     </div>
 

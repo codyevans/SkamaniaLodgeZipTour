@@ -50,7 +50,7 @@
         <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWzuurR1lbIy1Cv5M0s9NINNEFgFO3dRQ&sensor=false">
         </script>
-        <script src="js/google_maps.js"></script>
+        <script src="js/google_maps.js?05292013"></script>
         <script type="text/javascript">
 
             // When ready...
@@ -525,6 +525,23 @@
                 </div>
             </div>
 
+            <!-- closed module - remove Aug. 13 -->
+
+            <div class="module" id="closed">
+                <span class="close" title="close"></span>
+                <div class="moduleEmploy">
+                     <img src="assets/SkamaniaLogo.png" class="modalLogo">
+                    
+                     <h2>
+                        We will be closed for maintenance August 13, 2013. 
+                     </h2>
+                    
+                     <p class="emp">
+                        We apologize for any inconvenience. To schedule a tour, please call 509.427.0202 or book your adventure online.
+                    </p>
+                </div>
+            </div>
+
             <a href="#BackToTop" id="Top" title="Back to Top">
                 <div class="topBtn"></div>
             </a> <!-- /back to top -->
@@ -542,7 +559,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="js/plugins.min.js"></script>
-        <script src="js/main.js"></script>
+        <script src="js/main.js?ver=1.2"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

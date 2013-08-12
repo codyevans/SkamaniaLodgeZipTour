@@ -52,10 +52,10 @@ if ( $(window).width() > 768 ) {
 	});
 
 
-	// $('#GrandOpen').lightbox_me({
-	// 		centered: true,
-	// 		closeSelector: "span.close"
-	// 	});
+	$('#closed').lightbox_me({
+		centered: true,
+		closeSelector: "span.close"
+	});
 
 }
 

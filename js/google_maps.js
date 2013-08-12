@@ -1,4 +1,3 @@
-
  function initialize() {
  	var myLatLng = new google.maps.LatLng(45.685622,-121.905244);
  	var myOptions = {
@@ -16,4 +15,5 @@
        	icon: markerIcon
    	});
  }
-  
+ 
+ google.maps.event.addDomListener(window, 'load', initialize);

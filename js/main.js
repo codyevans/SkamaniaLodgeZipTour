@@ -50,13 +50,7 @@ if ( $(window).width() > 768 ) {
 		e.preventDefault();
 
 	});
-
-
-	$('#closed').lightbox_me({
-		centered: true,
-		closeSelector: "span.close"
-	});
-
+	
 }
 
 

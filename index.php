@@ -138,6 +138,8 @@
             <div class="hero_1">
 
                 <div class="royalSlider rsMinW">
+
+                     <a class="rsImg" data-rsVideo="http://youtu.be/2BIy8Gxrejs" href="assets/hero/slider/poster.jpg"></a> 
     
                     <div class="rsContent">
                         <img class="rsImg" src="assets/hero/slider/zipping-between-trees.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
@@ -525,23 +527,6 @@
                 </div>
             </div>
 
-            <!-- closed module - remove Aug. 13 -->
-
-            <div class="module" id="closed">
-                <span class="close" title="close"></span>
-                <div class="moduleEmploy">
-                     <img src="assets/SkamaniaLogo.png" class="modalLogo">
-                    
-                     <h2>
-                        We will be closed for maintenance August 13, 2013. 
-                     </h2>
-                    
-                     <p class="emp">
-                        We apologize for any inconvenience. To schedule a tour, please call 509.427.0202 or book your adventure online.
-                    </p>
-                </div>
-            </div>
-
             <a href="#BackToTop" id="Top" title="Back to Top">
                 <div class="topBtn"></div>
             </a> <!-- /back to top -->
@@ -559,7 +544,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="js/plugins.min.js"></script>
-        <script src="js/main.js?ver=1.2"></script>
+        <script src="js/main.js?ver=1.3"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

@@ -40,6 +40,10 @@
                 padding-left: 200px;
                 }
             }
+
+            .hours {
+                margin-bottom: 10px;
+            }
         </style> 
 
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
@@ -252,7 +256,7 @@
                                     <p>This is a totally guided experience.</p>
                                 </li>
                                 <li>
-                                    <p>Dress in layers.</p>
+                                    <p>We operate rain or shine. Dressing in layers is advised.</p>
                                 </li>
                                 <li>
                                     <p>No prior injuries and/or surgeries that limit the use of extremities and no pregnancies.</p>
@@ -340,7 +344,7 @@
                                     <p>Bookings will consist of groups of 10, minimum of 2 for a booking (we can accommodate larger group sizes with advanced notice).</p>
                                 </li>
                                  <li>
-                                    <p>For a refund, cancellations need to be 72 hours in advance. If there needs to be a cancellation due to conditions, the lead guide will make the call to cancel your trip. We will try our best to rebook your trip or we will refund the guest. We zip in weather, but not lightning.</p>
+                                    <p>For a refund, cancellations need to be 72 hours in advance. If there needs to be a cancellation due to conditions, the lead guide will make the call to cancel your trip. We will try our best to rebook your trip or we will refund the guest. We zip in weather, but not lightning or high winds.</p>
                                 </li>
                                 <li>
                                     <p>Payment is received at the time of the booking.</p>
@@ -391,9 +395,10 @@
 
              <section id="contact">
                 <div class="grid">
-                    <h1 class="col-1-1">
+                    <h1 class="col-1-1 hours">
                         Contact
                     </h1>
+                    <p>Our office is open daily from 9am-5pm.</p>
 
                     <div class="col-1-2">
                         <ul class="contact_info">
@@ -505,6 +510,43 @@
                 </div>
             </div>
 
+            <!-- WINTER OPERATIONS MODULE -->
+             <div class="module" id="winter-operations">
+                <span class="close" title="close"></span>
+                <div class="moduleEmploy">
+                     <img src="assets/SkamaniaLogo.png" class="modalLogo">
+                    
+                     <h2>
+                       2013-2014 Winter Operations
+                     </h2>
+                    
+                     <p class="emp">
+                        Office Hours Daily from 9am-5pm.
+                    </p>
+                    <h3 style="margin-bottom: 0;">November:</h3>
+                    <p>
+                        Regular Scheduled Tour Times. <br>
+                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
+                        <strong>Base Rate:</strong> $89.
+                    </p>
+                     <h3 style="margin-bottom: 0;">December/January:</h3>
+                    <p>
+                        Regular Scheduled Tour Times. <br>
+                        <strong>Saturday/Sunday:</strong> 10:00am and 1:00pm <br>
+                        <strong>Base Rate:</strong> $79.
+                    </p>
+                    <h3 style="margin-bottom: 0;">February:</h3>
+                    <p>
+                        Regular Scheduled Tour Times. <br>
+                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
+                        <strong>Base Rate:</strong> $89.
+                    </p>
+                    <p>
+                        <strong>*</strong>Full Operations will resume in March at the $99 rate. Please call for additional information. 509-427-0202
+                    </p>
+                </div>
+            </div>
+
              <div class="module" id="employment">
                 <span class="close" title="close"></span>
                 <div class="moduleEmploy">
@@ -544,7 +586,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="js/plugins.min.js"></script>
-        <script src="js/main.js?ver=1.3"></script>
+        <script src="js/main.js?ver=1.4"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

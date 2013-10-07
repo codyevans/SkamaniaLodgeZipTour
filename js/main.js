@@ -53,6 +53,13 @@ if ( $(window).width() > 768 ) {
 	
 }
 
+// 2013-2014 Winter Schedule
+
+$('#winter-operations').lightbox_me({
+	centered: true,
+	closeSelector: "span.close"
+});
+
 
 /* ======================================================================== */
 // back to top fade in-out

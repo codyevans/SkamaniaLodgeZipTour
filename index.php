@@ -522,19 +522,13 @@
                     
                      <p class="emp" style="line-height: 21px;">
                         <strong>Office Hours Daily from 9am-5pm.</strong> <br>
-                        <span style="font-size: 14px;">*Excluding <strong>November 27th-28th</strong> and <strong>December 23rd-26th</strong>.</span>
+                        <span style="font-size: 14px;">*Excluding <strong>November 25th-28th</strong> and <strong>December 23rd-27th</strong>.</span>
                     </p>
                     <hr>
                     <p style="font-style: italic;">
                         Tours are available daily, must book over phone or in person if not a regular scheduled day or 
                         time (24 hour notice necessary). Walk-ins available on regular tour days. All winter tours 
                         are weather permitting, any cancellation by SLZT will be eligible for full refund.
-                    </p>
-                     <h3 style="margin-bottom: 0;">October:</h3>
-                    <p>
-                        Regular Scheduled Tour Times. <br>
-                        <strong>Daily Tours:</strong> 10:00am, 11:00am, 12:00pm, 1:00pm, 2:00pm and 3:00pm <br>
-                        <strong>Base Rate:</strong> $99.
                     </p>
                     <h3 style="margin-bottom: 0;">November:</h3>
                     <p>

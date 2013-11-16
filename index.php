@@ -12,7 +12,7 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main.css?ver=1.2">
 
         <!-- basic stylesheet -->
         <link rel="stylesheet" href="royalslider/royalslider.css">
@@ -510,6 +510,59 @@
                 </div>
             </div>
 
+            <!-- NEW FEATURE -->
+            <div id="fullscreen-overlay"></div>
+            <div id="submenu-info-overlay" class="info-overlay winter-schedule">
+
+
+                <div>
+                    <!--  <img src="assets/SkamaniaLogo.png" class="modalLogo"> -->
+                    
+                     <h2>
+                       2013-2014 Winter Operations
+                     </h2>
+                    
+                     <p class="emp" style="line-height: 21px;">
+                        <strong>Office Hours Daily from 9am-5pm.</strong> <br>
+                        <span style="font-size: 14px;">*Excluding <strong>November 25th-28th</strong> and <strong>December 23rd-27th</strong>.</span>
+                    </p>
+                    <hr>
+                    <p style="font-style: italic;">
+                        Tours are available daily, must book over phone or in person if not a regular scheduled day or 
+                        time (24 hour notice necessary). Walk-ins available on regular tour days. All winter tours 
+                        are weather permitting, any cancellation by SLZT will be eligible for full refund.
+                    </p>
+                    <h3 style="margin-bottom: 0;">November:</h3>
+                    <p>
+                        Regular Scheduled Tour Times. <br>
+                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
+                        <strong>Base Rate:</strong> $89.
+                    </p>
+                     <h3 style="margin-bottom: 0;">December/January:</h3>
+                    <p>
+                        Regular Scheduled Tour Times. <br>
+                        <strong>Saturday/Sunday:</strong> 10:00am and 1:00pm <br>
+                        <strong>Base Rate:</strong> $79.
+                    </p>
+                    <h3 style="margin-bottom: 0;">February:</h3>
+                    <p>
+                        Regular Scheduled Tour Times. <br>
+                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
+                        <strong>Base Rate:</strong> $89.
+                    </p>
+                    <p>
+                        <strong>*</strong>Full Operations will resume in March at the $99 rate. Please call for additional information. 509-427-0202
+                    </p>
+                </div>
+                
+
+
+
+
+
+            </div>
+
+
             <!-- WINTER OPERATIONS MODULE -->
              <div class="module" id="winter-operations">
                 <span class="close" title="close"></span>
@@ -593,7 +646,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="js/plugins.min.js"></script>
-        <script src="js/main.js?ver=1.4"></script>
+        <script src="js/main.js?ver=1.5"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

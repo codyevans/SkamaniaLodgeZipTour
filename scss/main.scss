@@ -748,14 +748,6 @@ ul.contact_info {
                 cursor: pointer;
                 -webkit-tap-highlight-color: rgba(0,0,0,0);
 
-                @media only screen and (-webkit-min-device-pixel-ratio: 2),
-                only screen and (min-resolution: 192dpi) {
-                /* Style adjustments for high resolution devices */
-                    background: url(../assets/mobile/NewNavicon@2x.png) no-repeat 0 0;
-                    width: 58px;
-                    height: 88px;
-
-                } // retina
 
             } // navicon
 

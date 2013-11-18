@@ -12,7 +12,7 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/main.css?ver=1.2">
 
         <!-- basic stylesheet -->
         <link rel="stylesheet" href="royalslider/royalslider.css">
@@ -95,9 +95,12 @@
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
-                        <li>
-                            <a href="#" id="employbtn">Employment</a>
+                         <li>
+                            <a id="winter-operations-btn" href="#">Winter Hours</a>
                         </li>
+                       <!--  <li>
+                            <a href="#" id="employbtn">Employment</a>
+                        </li> -->
                     </ul>
                 </nav> <!-- /nav -->
 
@@ -130,6 +133,7 @@
                         <li><a href="#reservations">Reservations</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#contact">Contact</a></li>
+                         <li><a id="winter-operations-mobile-btn" href="#">Winter Hours</a></li>
                     </ul>
                 </div>
             </div> <!-- /mobile nav -->
@@ -500,7 +504,6 @@
                 <div id="map_canvas"></div>
             </div>
 
-
             <!-- modals -->
 
             <div class="module" id="bookDesktop">
@@ -510,11 +513,12 @@
                 </div>
             </div>
 
-            <!-- WINTER OPERATIONS MODULE -->
-             <div class="module" id="winter-operations">
-                <span class="close" title="close"></span>
-                <div class="moduleEmploy">
-                     <img src="assets/SkamaniaLogo.png" class="modalLogo">
+            <!-- NEW FEATURE -->
+            <div id="fullscreen-overlay"></div>
+            <div id="submenu-info-overlay" class="info-overlay overlayOff">
+                <span class="close-overlay" title="close"></span>
+                <div>
+                    <!--  <img src="assets/SkamaniaLogo.png" class="modalLogo"> -->
                     
                      <h2>
                        2013-2014 Winter Operations
@@ -552,7 +556,8 @@
                         <strong>*</strong>Full Operations will resume in March at the $99 rate. Please call for additional information. 509-427-0202
                     </p>
                 </div>
-            </div>
+
+            </div> <!-- /info-overlay -->
 
              <div class="module" id="employment">
                 <span class="close" title="close"></span>
@@ -593,7 +598,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="js/plugins.min.js"></script>
-        <script src="js/main.js?ver=1.4"></script>
+        <script src="js/main.js?ver=1.5"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

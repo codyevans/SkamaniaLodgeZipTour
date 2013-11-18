@@ -53,12 +53,27 @@ if ( $(window).width() > 768 ) {
 	
 }
 
+
 // 2013-2014 Winter Schedule
 
-$('#winter-operations').lightbox_me({
-	centered: true,
-	closeSelector: "span.close"
+$('#winter-operations-btn, #winter-operations-mobile-btn').on("click", function(e) {
+
+	$('#fullscreen-overlay').fadeIn();
+	$('.info-overlay').addClass('overlayOn');
+
+	e.preventDefault();
+
 });
+
+$('.close-overlay').on("click", function(e) {
+
+	$('#fullscreen-overlay').fadeOut();
+	$('.info-overlay').removeClass('overlayOn');
+
+	e.preventDefault();
+
+});
+
 
 
 /* ======================================================================== */
@@ -79,6 +94,9 @@ if ( $(window).width() > 768 ) {
 
 /* ======================================================================== */
 // mobile nav and navicon
+
+// add active states to touch devices
+document.addEventListener("touchstart", function(){}, true);
 
 $('#navicon').click(function(e) {
 

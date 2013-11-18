@@ -12,7 +12,7 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="css/main.css?ver=1.2">
+        <link rel="stylesheet" href="css/main.css?ver=1.4">
 
         <!-- basic stylesheet -->
         <link rel="stylesheet" href="royalslider/royalslider.css">

@@ -153,6 +153,7 @@ a {
     color: #344c57;
     font-style: italic;
     font-weight: 700;
+     -webkit-tap-highlight-color: rgba(0,0,0,0);
 
     &:hover { text-decoration: none; }
     &:active { color: #73797b; }
@@ -791,12 +792,12 @@ ul.contact_info {
 
         .mobile_nav.close {
             top: -328px;
-             -webkit-transition: top 0.5s;
+             -webkit-transition: top 0.2s;
         }
 
          .mobile_nav.open {
             top: 30px;
-            -webkit-transition: top 0.5s;
+            -webkit-transition: top 0.2s;
         }
 
    } // m_wrap

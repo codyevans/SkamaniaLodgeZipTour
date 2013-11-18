@@ -17,6 +17,7 @@
 .info-overlay {
 	position: fixed;
 	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
 	max-width: 1000px;
 	min-width: 700px;
 	width: 70%;

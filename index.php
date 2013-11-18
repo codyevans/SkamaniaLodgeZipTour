@@ -95,9 +95,12 @@
                         <li>
                             <a href="#contact">Contact</a>
                         </li>
-                        <li>
-                            <a href="#" id="employbtn">Employment</a>
+                         <li>
+                            <a id="winter-operations-btn" href="#">Winter Hours</a>
                         </li>
+                       <!--  <li>
+                            <a href="#" id="employbtn">Employment</a>
+                        </li> -->
                     </ul>
                 </nav> <!-- /nav -->
 
@@ -130,6 +133,7 @@
                         <li><a href="#reservations">Reservations</a></li>
                         <li><a href="#about">About Us</a></li>
                         <li><a href="#contact">Contact</a></li>
+                         <li><a id="winter-operations-mobile-btn" href="#">Winter Hours</a></li>
                     </ul>
                 </div>
             </div> <!-- /mobile nav -->
@@ -500,7 +504,6 @@
                 <div id="map_canvas"></div>
             </div>
 
-
             <!-- modals -->
 
             <div class="module" id="bookDesktop">
@@ -512,9 +515,8 @@
 
             <!-- NEW FEATURE -->
             <div id="fullscreen-overlay"></div>
-            <div id="submenu-info-overlay" class="info-overlay winter-schedule">
-
-
+            <div id="submenu-info-overlay" class="info-overlay overlayOff">
+                <span class="close-overlay" title="close"></span>
                 <div>
                     <!--  <img src="assets/SkamaniaLogo.png" class="modalLogo"> -->
                     
@@ -554,58 +556,8 @@
                         <strong>*</strong>Full Operations will resume in March at the $99 rate. Please call for additional information. 509-427-0202
                     </p>
                 </div>
-                
 
-
-
-
-
-            </div>
-
-
-            <!-- WINTER OPERATIONS MODULE -->
-             <div class="module" id="winter-operations">
-                <span class="close" title="close"></span>
-                <div class="moduleEmploy">
-                     <img src="assets/SkamaniaLogo.png" class="modalLogo">
-                    
-                     <h2>
-                       2013-2014 Winter Operations
-                     </h2>
-                    
-                     <p class="emp" style="line-height: 21px;">
-                        <strong>Office Hours Daily from 9am-5pm.</strong> <br>
-                        <span style="font-size: 14px;">*Excluding <strong>November 25th-28th</strong> and <strong>December 23rd-27th</strong>.</span>
-                    </p>
-                    <hr>
-                    <p style="font-style: italic;">
-                        Tours are available daily, must book over phone or in person if not a regular scheduled day or 
-                        time (24 hour notice necessary). Walk-ins available on regular tour days. All winter tours 
-                        are weather permitting, any cancellation by SLZT will be eligible for full refund.
-                    </p>
-                    <h3 style="margin-bottom: 0;">November:</h3>
-                    <p>
-                        Regular Scheduled Tour Times. <br>
-                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
-                        <strong>Base Rate:</strong> $89.
-                    </p>
-                     <h3 style="margin-bottom: 0;">December/January:</h3>
-                    <p>
-                        Regular Scheduled Tour Times. <br>
-                        <strong>Saturday/Sunday:</strong> 10:00am and 1:00pm <br>
-                        <strong>Base Rate:</strong> $79.
-                    </p>
-                    <h3 style="margin-bottom: 0;">February:</h3>
-                    <p>
-                        Regular Scheduled Tour Times. <br>
-                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
-                        <strong>Base Rate:</strong> $89.
-                    </p>
-                    <p>
-                        <strong>*</strong>Full Operations will resume in March at the $99 rate. Please call for additional information. 509-427-0202
-                    </p>
-                </div>
-            </div>
+            </div> <!-- /info-overlay -->
 
              <div class="module" id="employment">
                 <span class="close" title="close"></span>

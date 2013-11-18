@@ -1,5 +1,6 @@
 
 #fullscreen-overlay {
+	display: none;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -28,7 +29,40 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
 	z-index: 99;
 
+	-webkit-transition: left 0.3s;
+			transition: left 0.3s;
+
 	 @media (max-width: 768px) {
-        display: none;
+        min-width: 0px;
+        max-width: none;
+        width: 100%;
+        padding: 30px;
+        border: none;
+        box-shadow: none;
+
     }
+
+    .close-overlay  {
+	    position: absolute;
+	    top: 12px;
+	    right: 12px;
+	    width: 31px;
+	    height: 30px;
+	    cursor: pointer;
+	    background: url(../assets/close-btn.png);
+	    -webkit-tap-highlight-color: rgba(0,0,0,0);
+	}
+
+}
+
+.overlayOff {
+	left: -800px;
+
+	@media (max-width: 768px) {
+		left: -770px;
+	}
+}
+
+.overlayOn {
+	left: 0px;
 }

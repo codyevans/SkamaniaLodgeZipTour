@@ -12,7 +12,7 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="css/main.css?ver=1.4">
+        <link rel="stylesheet" href="css/main.css?ver=1.5">
 
         <!-- basic stylesheet -->
         <link rel="stylesheet" href="royalslider/royalslider.css">
@@ -597,8 +597,8 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="js/plugins.min.js"></script>
-        <script src="js/main.js?ver=1.5"></script>
+        <script src="js/plugins.min.js?ver1.2"></script>
+        <script src="js/main.js?ver=1.6"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

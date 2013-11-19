@@ -54,7 +54,7 @@ if ( $(window).width() > 768 ) {
 }
 
 
-// 2013-2014 Winter Schedule
+// Overlay Feature - 2013-2014 Winter Schedule
 
 $('#winter-operations-btn, #winter-operations-mobile-btn').on("click", function(e) {
 
@@ -98,6 +98,10 @@ if ( $(window).width() > 768 ) {
 // add active states to touch devices
 document.addEventListener("touchstart", function(){}, true);
 
+// remove 300ms delay on touch
+$('a, #navicon, .close-overlay').fasttap();
+
+// navicon
 $('#navicon').click(function(e) {
 
 	$('#mobile_nav').toggleClass('open');

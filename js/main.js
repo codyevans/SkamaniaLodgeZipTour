@@ -25,7 +25,7 @@ $('#headline_slideshow').cycle();
 
 
 /* ======================================================================== */
-// lightbox_me
+// overlay modules
 
 if ( $(window).width() > 768 ) {
 
@@ -59,7 +59,16 @@ if ( $(window).width() > 768 ) {
 $('#winter-operations-btn, #winter-operations-mobile-btn').on("click", function(e) {
 
 	$('#fullscreen-overlay').fadeIn();
-	$('.info-overlay').addClass('overlayOn');
+	$('#winter-hours').addClass('overlayOn');
+
+	e.preventDefault();
+
+});
+
+$('#night-zips-btn, #night-zips-mobile-btn').on("click", function(e) {
+
+	$('#fullscreen-overlay').fadeIn();
+	$('#night-zips').addClass('overlayOn');
 
 	e.preventDefault();
 

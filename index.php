@@ -118,6 +118,7 @@
 
             </header> <!-- /header -->
         </div> <!-- /header_wrap -->
+        <div class="new-tab" id="tab"></div>
 
 
         <div class="mobile_header_wrap">

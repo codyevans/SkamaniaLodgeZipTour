@@ -71,3 +71,27 @@
 .overlayOn {
 	left: 0px;
 }
+
+
+// NEW tab graphic - for night zips 
+
+.new-tab {
+	position: fixed;
+	top: 387px;
+	left: 40px;
+	background: url(../assets/new-tab.png);
+	width: 162px;
+	height: 38px;
+	z-index: 98;
+
+	-webkit-transition: left 0.2s;
+			transition: left 0.2s;
+}
+
+.on {
+	@extend .new-tab;
+	left: 118px;
+}
+
+
+

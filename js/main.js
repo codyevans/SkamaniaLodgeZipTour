@@ -84,6 +84,22 @@ $('.close-overlay').on("click", function(e) {
 });
 
 
+// night zips new tab
+
+$('#night-zips-btn').hover( 
+	function(e) {
+
+		$("#tab").addClass('on');
+
+	e.preventDefault();
+}, function(e) {
+
+		$("#tab").removeClass('on');
+
+	e.preventDefault();
+});
+
+
 
 /* ======================================================================== */
 // back to top fade in-out

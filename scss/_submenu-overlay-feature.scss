@@ -7,7 +7,7 @@
 	width: 100%;
 	height: 100%;
 	background: rgba(0,0,0,0.5);
-	z-index: 98;
+	z-index: 97;
 
 	 @media (max-width: 768px) {
         display: none;
@@ -29,7 +29,7 @@
   	background: #f7f4ed url(../assets/bkgd_img/background_texture.gif);
     border-right: 3px solid #c1bba9;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-	z-index: 99;
+	z-index: 98;
 
 	-webkit-transition: left 0.3s;
 			transition: left 0.3s;
@@ -82,10 +82,14 @@
 	background: url(../assets/new-tab.png);
 	width: 162px;
 	height: 38px;
-	z-index: 98;
+	z-index: 99;
 
 	-webkit-transition: left 0.15s;
 			transition: left 0.15s;
+
+	@media (max-width: 769px) {
+        display: none;
+    }
 }
 
 .on {

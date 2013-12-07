@@ -58,6 +58,10 @@ if ( $(window).width() > 768 ) {
 
 $('#winter-operations-btn, #winter-operations-mobile-btn').on("click", function(e) {
 
+	if ( $('#night-zips').hasClass('overlayOn') ) {
+		$('.info-overlay').removeClass('overlayOn');
+	}
+
 	$('#fullscreen-overlay').fadeIn();
 	$('#winter-hours').addClass('overlayOn');
 
@@ -66,6 +70,10 @@ $('#winter-operations-btn, #winter-operations-mobile-btn').on("click", function(
 });
 
 $('#night-zips-btn, #night-zips-mobile-btn').on("click", function(e) {
+
+	if ( $('#winter-hours').hasClass('overlayOn') ) {
+		$('.info-overlay').removeClass('overlayOn');
+	}
 
 	$('#fullscreen-overlay').fadeIn();
 	$('#night-zips').addClass('overlayOn');

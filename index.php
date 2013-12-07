@@ -567,45 +567,44 @@
              <div id="night-zips" class="info-overlay overlayOff">
                 <span class="close-overlay" title="close"></span>
                 <div>
-                    <!--  <img src="assets/SkamaniaLogo.png" class="modalLogo"> -->
-                    
                      <h2>
                         Night Zips
                      </h2>
-                    
-                     <p class="emp" style="line-height: 21px;">
-                        <strong>Office Hours Daily from 9am-5pm.</strong> <br>
-                        <span style="font-size: 14px;">*Excluding <strong>November 25th-28th</strong> and <strong>December 23rd-27th</strong>.</span>
-                    </p>
                     <hr>
+                    <img src="assets/Night-zip.jpg" style="margin-bottom: 18px;">
                     <p style="font-style: italic;">
-                        Tours are available daily, must book over phone or in person if not a regular scheduled day or 
-                        time (24 hour notice necessary). Walk-ins available on regular tour days. All winter tours 
-                        are weather permitting, any cancellation by SLZT will be eligible for full refund.
+                       7 lines in the dark forest await you during twilight hours. 
+                       It's the same course as our day zip, but at night you zip away 
+                       from the platform with no points of reference and fly through the 
+                       darkness from tree to tree! Feel the speed of a 35mph ride through 
+                       the canopy in pitch blackness! This zip is tons of fun as we pump up 
+                       the tunes and party at night! Illumination is provided. Wind down after 
+                       the tour with dinner and/or drinks in the beautiful Skamania Lodge. Dress warmly!
                     </p>
-                    <h3 style="margin-bottom: 0;">November:</h3>
+                    <h3 style="margin-bottom: 0;">Dates:</h3>
                     <p>
-                        Regular Scheduled Tour Times. <br>
-                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
-                        <strong>Base Rate:</strong> $89.
+                        <strong>December:</strong> 7th, 14th, 20th, 21st and 28th
                     </p>
-                     <h3 style="margin-bottom: 0;">December/January:</h3>
+                    <h3 style="margin-bottom: 0;">Time:</h3>
                     <p>
-                        Regular Scheduled Tour Times. <br>
-                        <strong>Saturday/Sunday:</strong> 10:00am and 1:00pm <br>
-                        <strong>Base Rate:</strong> $79.
+                        <strong>5:00pm</strong> departure, return by <strong>7:30pm</strong>
                     </p>
-                    <h3 style="margin-bottom: 0;">February:</h3>
+                     <h3 style="margin-bottom: 0;">Rate:</h3>
                     <p>
-                        Regular Scheduled Tour Times. <br>
-                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
-                        <strong>Base Rate:</strong> $89.
+                        <strong>$99.00</strong> + tax per person
+                    </p>
+                     <h3 style="margin-bottom: 0;">Tour Size:</h3>
+                    <p>
+                        Maximum <strong>8</strong> persons per tour
                     </p>
                     <p>
-                        <strong>*</strong>Full Operations will resume in March at the $99 rate. Please call for additional information. 509-427-0202
+                        <strong>*</strong>Reservations are required. <br> 
+                        Book over phone <strong>509-427-0202</strong> or on line at <strong>www.zipnskamania.com</strong> <br> 
+                        All daytime zip information and policies apply to night tours. <br> 
+                        All tours are weather permitting. 
                     </p>
                 </div>
-
+                
             </div> <!-- /night-zip-overlay -->
 
              <div class="module" id="employment">

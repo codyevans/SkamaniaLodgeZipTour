@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Zipline Tours | Skamania Lodge Zip Line Tour</title>
+        <title>Night Zips | Skamania Lodge Zip Line Tour</title>
         <meta name="description" content="Zip Line Canopy Tour located at Skamania Lodge in Stevenson, Washington.">
       <!--   <meta name="viewport" content="width=device-width"> -->
 
@@ -56,12 +56,44 @@
             </div> <!-- END header -->
 
             <div class="landing-page-content">
-                <img src="../assets/landing-page/landing-page.jpg" alt="Zipping through the trees at Skamania Lodge Zipline Tour" class="tour">
-                <h2>About Us</h2>
+                <img src="../assets/Night-zip.jpg" alt="Zipping through the trees at Skamania Lodge Zipline Tour" class="tour">
+                <h2>Night Zips</h2>
                 <hr>
                 <p>
-                    Skamania Lodge Zipline Tour is Southwestern Washington's best and most FUN tree-to-tree zipline course! With breathtaking views of the Columbia Gorge, this top of the line course stretches through the beautiful Douglas-Fir forest surrounding Skamania Lodge. The tour has multiple elements including an autobelayed rappel, 3 suspended bridges, and 7 ziplines of different lengths, with the longest over 900 feet!  Book your tour today!
+                   7 lines in the dark forest await you during twilight hours. 
+                   It's the same course as our day zip, but at night you zip away 
+                   from the platform with no points of reference and fly through the 
+                   darkness from tree to tree! Feel the speed of a 35mph ride through 
+                   the canopy in pitch blackness! This zip is tons of fun as we pump up 
+                   the tunes and party at night! Illumination is provided. Wind down after 
+                   the tour with dinner and/or drinks in the beautiful Skamania Lodge. Dress warmly!
                 </p>
+
+                <div class="night-zip-info">
+                    <h3>Dates:</h3>
+                    <p>
+                        <strong>December:</strong> 7th, 14th, 20th, 21st and 28th
+                    </p>
+                    <h3>Time:</h3>
+                    <p>
+                        <strong>5:00pm</strong> departure, return by <strong>7:30pm</strong>
+                    </p>
+                     <h3>Rate:</h3>
+                    <p>
+                        <strong>$99.00</strong> + tax per person
+                    </p>
+                     <h3>Tour Size:</h3>
+                    <p>
+                        Maximum <strong>8</strong> persons per tour
+                    </p>
+                    <p>
+                        <strong>Reservations are required.</strong> <br> 
+                        Book over phone <strong>509-427-0202</strong> or on line at <strong>www.zipnskamania.com</strong> <br> 
+                        All daytime zip information and policies apply to night tours. <br> 
+                        All tours are weather permitting. 
+                    </p>
+                </div>
+
                 <div id="landing-video">
                     <iframe width="960" height="720" src="//www.youtube.com/embed/n-Pe46jiKXU?rel=0" frameborder="0" allowfullscreen></iframe>
                 </div>

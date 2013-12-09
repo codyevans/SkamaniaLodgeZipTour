@@ -29,7 +29,7 @@ $('#headline_slideshow').cycle();
 
 if ( $(window).width() > 768 ) {
 
-	$('#bookingBTN, #bookingBTN2').click(function(e) {
+	$('#bookingBTN, #bookingBTN2, #bookingBTN-landing, #bookingBTN-landing2').click(function(e) {
 
 		$('#bookDesktop').lightbox_me({
 			centered: true,

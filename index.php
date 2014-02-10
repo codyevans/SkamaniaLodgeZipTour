@@ -20,7 +20,15 @@
                 height: 270px;
             }
 
-            @media (min-width: 575px) {
+             @media (max-width: 241px) {
+                .royalSlider {
+                width: 100%;
+                height: 230px;
+                font-size: 32px;
+                }
+            }
+
+             @media (min-width: 576px) {
                 .royalSlider {
                 width: 100%;
                 height: 445px;
@@ -28,7 +36,7 @@
                 }
             }
 
-            @media (min-width: 768px) {
+            @media (min-width: 769px) {
                 .royalSlider {
                 width: 100%;
                 height: 595px;

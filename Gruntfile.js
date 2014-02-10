@@ -7,8 +7,8 @@ module.exports = function(grunt) {
         concat: {
             dist: {
                 src: [
-                    'js/libs/*.js', // All js in the libs folder
-                    'js/global.js'  // Authored js file
+                    'js/plugins.js', // All js in the libs folder
+                    'js/main.js'  // Authored js file
                 ],
                 dest: 'js/build/production.js',
             }
@@ -27,7 +27,7 @@ module.exports = function(grunt) {
                     style: 'compressed'
                 },
                 files: {
-                    'css/build/global.css': 'css/global.scss'
+                    'css/build/global.css': 'scss/main.scss'
                 }
             } 
         },
@@ -38,7 +38,7 @@ module.exports = function(grunt) {
                     browsers: ['last 2 version', 'ie 8', 'ie 9']
                 },
                 src: 'css/build/global.css',
-                dest: 'css/build/prefixed/global.css'
+                dest: 'css/build/global-prefixed.css'
             },
         },
 

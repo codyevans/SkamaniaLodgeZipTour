@@ -108,7 +108,7 @@ html {
 
 body {
     height: 100%;
-    background: #f7f4ed url(../assets/bkgd_img/background_texture.gif);
+    background: #f7f4ed url(../../assets/bkgd_img/background_texture.gif);
     font-family: Ubuntu, sans-serif;
     font-size: 16px;
     line-height: 28px;
@@ -212,7 +212,7 @@ section {
     border-bottom: 1px solid #e8e7de;
     margin-top: 10px;
     margin-bottom: 20px;
-    background: url(../assets/bkgd_img/checker.gif) repeat;
+    background: url(../../assets/bkgd_img/checker.gif) repeat;
     padding-top: 40px;
     box-shadow: inset 0px 0px 2px rgba(0,0,0,0.15), 0px 1px 0px rgba(255,255,255,0.1), 0px -1px 0px rgba(255,255,255,0.1);
 }
@@ -434,7 +434,7 @@ h4.modalIntro {
 
 .module {
     display: none;
-    background: #f7f4ed url(../assets/bkgd_img/background_texture.gif);
+    background: #f7f4ed url(../../assets/bkgd_img/background_texture.gif);
     padding: 20px;
     border: 3px solid #c1bba9;
     border-radius: 8px;
@@ -447,7 +447,7 @@ span.close  {
     width: 31px;
     height: 30px;
     cursor: pointer;
-    background: url(../assets/close-btn.png); 
+    background: url(../../assets/close-btn.png); 
 }
 
 .moduleDesktop {
@@ -604,6 +604,11 @@ ul.contact_info {
 }
 
 
+// royal slider css
+
+@import "royalslider";
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -721,7 +726,7 @@ ul.contact_info {
         .mobile_sub_header {
             width: 100%;
             height: 60px;
-            background: url(../assets/mobile/sub_headTex.gif) repeat;
+            background: url(../../assets/mobile/sub_headTex.gif) repeat;
             border-bottom: 2px solid #e8e7de;
             box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
             position: relative;
@@ -740,7 +745,7 @@ ul.contact_info {
             } //h2
 
              .navicon {
-                background: url(../assets/mobile/NewNavicon.png) no-repeat 0 0;
+                background: url(../../assets/mobile/NewNavicon.png) no-repeat 0 0;
                 width: 58px;
                 height: 88px;
                 position: absolute;
@@ -759,7 +764,7 @@ ul.contact_info {
             width: 100%;
             position: absolute;
             top: 120px;
-            background: url(../assets/bkgd_img/checker.gif) repeat;
+            background: url(../../assets/bkgd_img/checker.gif) repeat;
             border-bottom: 3px solid #73797b;
             box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
             z-index: 10;
@@ -840,7 +845,7 @@ ul.contact_info {
         .mobile_sub_header {
             width: 100%;
             height: 60px;
-            background: url(../assets/mobile/sub_headTex.gif) repeat;
+            background: url(../../assets/mobile/sub_headTex.gif) repeat;
             border-bottom: 2px solid #e8e7de;
             box-shadow: 0px 4px 10px rgba(0,0,0,0.4);
             position: relative;
@@ -865,7 +870,7 @@ ul.contact_info {
             width: 100%;
             position: absolute;
             top: 120px;
-            background: url(../assets/bkgd_img/checker.gif) repeat;
+            background: url(../../assets/bkgd_img/checker.gif) repeat;
             border-bottom: 3px solid #73797b;
             box-shadow: 0px 2px 8px rgba(0,0,0,0.3);
             z-index: 10;

@@ -14,7 +14,7 @@
 /* --- header - logo -------------------------------------------------------- */
 
 .logo_wrap {
-    background: url(../assets/bkgd_img/header_top.png) no-repeat 0 0;
+    background: url(../../assets/bkgd_img/header_top.png) no-repeat 0 0;
     width: 210px;
     height: 217px;
 }
@@ -22,7 +22,7 @@
 h1.logo {
     position: absolute;
     text-indent: -9999px;
-    background: url(../assets/bkgd_img/logo.png) no-repeat;
+    background: url(../../assets/bkgd_img/logo.png) no-repeat;
     width: 158px;  
     height: 157px;
     margin: 0px;
@@ -53,7 +53,7 @@ h1.mobile { display: none; }
 
 header {
     position: absolute;
-    background: url(../assets/bkgd_img/header_bottom.png) repeat-y 0 0;
+    background: url(../../assets/bkgd_img/header_bottom.png) repeat-y 0 0;
     width: 210px;
     height: 100%;
     top: 217px;

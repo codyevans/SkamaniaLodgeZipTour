@@ -12,12 +12,7 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="css/main.css?ver=1.6">
-
-        <!-- basic stylesheet -->
-        <link rel="stylesheet" href="royalslider/royalslider.css">
-        <!-- skin stylesheet (change it if you use another) -->
-        <link rel="stylesheet" href="royalslider/skins/minimal-white/rs-minimal-white.css">
+        <link rel="stylesheet" href="css/build/global-prefixed.css?ver=1.1">
 
         <style type="text/css">
             .royalSlider {
@@ -25,7 +20,15 @@
                 height: 270px;
             }
 
-            @media (min-width: 575px) {
+             @media (max-width: 241px) {
+                .royalSlider {
+                width: 100%;
+                height: 230px;
+                font-size: 32px;
+                }
+            }
+
+             @media (min-width: 576px) {
                 .royalSlider {
                 width: 100%;
                 height: 445px;
@@ -33,7 +36,7 @@
                 }
             }
 
-            @media (min-width: 768px) {
+            @media (min-width: 769px) {
                 .royalSlider {
                 width: 100%;
                 height: 595px;
@@ -45,8 +48,6 @@
                 margin-bottom: 10px;
             }
         </style> 
-
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
@@ -504,10 +505,8 @@
 
                 </div> <!-- /grid -->
             </section>
-
-            <div class="map">
-                <div id="map_canvas"></div>
-            </div>
+                
+            <div id="map-load"></div>
 
             <!-- modals -->
 
@@ -645,8 +644,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="js/plugins.min.js?ver1.2"></script>
-        <script src="js/main.js?ver=1.8"></script>
+        <script src="js/build/production.min.js?ver1.1"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

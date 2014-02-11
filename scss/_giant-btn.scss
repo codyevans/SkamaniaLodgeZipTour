@@ -73,6 +73,11 @@ $text: #344c57;
 			line-height: 86px;
 		}
 
+		@media (max-width: 241px) {
+			font-size: 16px;
+			line-height: 86px;
+		}
+
 	} // p
 
 } // btn

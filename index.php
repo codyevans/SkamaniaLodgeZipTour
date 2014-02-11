@@ -505,10 +505,8 @@
 
                 </div> <!-- /grid -->
             </section>
-
-            <div class="map">
-                <div id="map_canvas"></div>
-            </div>
+                
+            <div id="map-load"></div>
 
             <!-- modals -->
 

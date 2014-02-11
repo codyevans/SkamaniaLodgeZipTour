@@ -126,6 +126,16 @@ if ( $(window).width() > 768 ) {
 
 
 /* ======================================================================== */
+// Add Map for large screens
+
+if ( $(window).width() > 768 ) {
+
+	$('#map-load').append('<div class="map"><div id="map_canvas"></div></div> ');
+
+}
+
+
+/* ======================================================================== */
 // mobile nav and navicon
 
 // add active states to touch devices

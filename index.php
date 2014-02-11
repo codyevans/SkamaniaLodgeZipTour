@@ -56,18 +56,6 @@
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWzuurR1lbIy1Cv5M0s9NINNEFgFO3dRQ&sensor=false">
         </script>
         <script src="js/google_maps.js?05292013"></script>
-        <script type="text/javascript">
-
-            // When ready...
-            window.addEventListener("load",function() {
-              // Set a timeout...
-              setTimeout(function(){
-                // Hide the address bar!
-                window.scrollTo(0, 1);
-              }, 0);
-            }); 
-
-        </script>
     </head>
     <body onload="initialize()" id="BackToTop">
         <!--[if lt IE 7]>
@@ -102,9 +90,6 @@
                          <li>
                             <a id="winter-operations-btn" href="#">Winter Hours</a>
                         </li>
-                       <!--  <li>
-                            <a href="#" id="employbtn">Employment</a>
-                        </li> -->
                     </ul>
                 </nav> <!-- /nav -->
 
@@ -151,7 +136,7 @@
 
             <div class="hero_1">
 
-                <div class="royalSlider rsMinW">
+                <div class="royalSlider rsMinW" id="hero-slider">
 
                      <a class="rsImg" data-rsVideo="http://youtu.be/2BIy8Gxrejs" href="assets/hero/slider/poster.jpg"></a> 
     
@@ -160,27 +145,7 @@
                     </div>
 
                      <div class="rsContent">
-                        <img class="rsImg" src="assets/hero/slider/man-walking-sky-bridge.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
-                    </div>
-
-                     <div class="rsContent">
-                        <img class="rsImg" src="assets/hero/slider/tina-zipping-in.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
-                    </div>
-
-                     <div class="rsContent">
-                        <img class="rsImg" src="assets/hero/slider/zipping-the-brush.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
-                    </div>
-
-                     <div class="rsContent">
                         <img class="rsImg" src="assets/hero/slider/long-zip-line.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
-                    </div>
-
-                    <div class="rsContent">
-                        <img class="rsImg" src="assets/hero/slider/kid-zipping.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
-                    </div>
-
-                    <div class="rsContent">
-                        <img class="rsImg" src="assets/hero/slider/zipping-towards-the-group.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
                     </div>
 
                 </div> <!-- /slider --> 
@@ -275,9 +240,8 @@
                         </div>
                     </div>
 
-                    <div class="col-2-3">
-                        <img src="assets/hero/kid-walking-sky-bridge.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing tour-first">
-                        <img src="assets/hero/posing-on-the-line.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing">
+                    <div class="col-2-3" id="desktop-add-image-1">
+                        <img src="assets/hero/posing-on-the-line.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing tour-first">
                         <img src="assets/hero/underneath-sky-bridge.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing">
                     </div>
 
@@ -393,9 +357,7 @@
                         To learn more, please visit us at <a href="http://skamania.com" target="blank">www.skamania.com.</a>
                     </p>
                     </div>
-                    <div class="col-1-2">
-                        <img src="assets/hero/view-from-the-sky-bridge.jpg" alt="SLZT Merchandise" class="tour">
-                    </div>
+                    <div class="col-1-2" id="desktop-add-image-2"></div>
                 </div> <!-- /grid -->
             </section>
 
@@ -522,8 +484,6 @@
             <div id="winter-hours" class="info-overlay overlayOff">
                 <span class="close-overlay" title="close"></span>
                 <div>
-                    <!--  <img src="assets/SkamaniaLogo.png" class="modalLogo"> -->
-                    
                      <h2>
                        2013-2014 Winter Operations
                      </h2>
@@ -605,28 +565,6 @@
                 </div>
                 
             </div> <!-- /night-zip-overlay -->
-
-             <div class="module" id="employment">
-                <span class="close" title="close"></span>
-                <div class="moduleEmploy">
-                     <img src="assets/SkamaniaLogo.png" class="modalLogo">
-                    
-                     <h2>
-                        We are on the lookout for experienced guides to join our team. 
-                     </h2>
-                    
-                     <p class="emp">
-                        If you are an adventurous, passionate and highly motivated individual,
-
-                        please submit your resume and guide application to <a href="mailto:employment@zipnskamania.com" class="employ">employment@zipnskamania.com</a>.
-                    </p>
-                    <p>
-                         Download
-                        <a href="downloads/SkamaniaGuideApplication.pdf" class="employ app" target="blank">Guide Applicaton</a>
-                     </p>
-    
-                </div>
-            </div>
 
             <a href="#BackToTop" id="Top" title="Back to Top">
                 <div class="topBtn"></div>

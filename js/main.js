@@ -126,11 +126,28 @@ if ( $(window).width() > 768 ) {
 
 
 /* ======================================================================== */
-// Add Map for large screens
+// Add Map for large screens + other mobile image stuff
 
 if ( $(window).width() > 768 ) {
 
 	$('#map-load').append('<div class="map"><div id="map_canvas"></div></div> ');
+
+}
+
+if ( $(window).width() > 768 ) {
+
+	var $hero = $('#hero-slider');
+
+	// main content body images
+	$('#desktop-add-image-1').append('<img src="assets/hero/kid-walking-sky-bridge.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour">');
+	$('#desktop-add-image-2').append('<img src="assets/hero/view-from-the-sky-bridge.jpg" alt="A walk on the Skamania Zipline Sky Bridge" class="tour">');
+
+	// hero slider images
+	$hero.append('<div class="rsContent"><img class="rsImg" src="assets/hero/slider/man-walking-sky-bridge.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." /></div>');
+	$hero.append('<div class="rsContent"><img class="rsImg" src="assets/hero/slider/tina-zipping-in.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." /></div>');
+	$hero.append('div class="rsContent"><img class="rsImg" src="assets/hero/slider/zipping-the-brush.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." /></div>');
+	$hero.append('<div class="rsContent"><img class="rsImg" src="assets/hero/slider/kid-zipping.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." /></div>');
+	$hero.append('<div class="rsContent"><img class="rsImg" src="assets/hero/slider/zipping-towards-the-group.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." /></div>');
 
 }
 

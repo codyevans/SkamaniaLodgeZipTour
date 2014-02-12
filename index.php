@@ -51,7 +51,7 @@
 
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
-
+        
         <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWzuurR1lbIy1Cv5M0s9NINNEFgFO3dRQ&sensor=false">
         </script>
@@ -474,9 +474,7 @@
 
             <div class="module" id="bookDesktop">
                 <span class="close" title="close"></span>
-                <div class="moduleDesktop">
-                     <iframe src="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>
-                </div>
+                <div class="moduleDesktop" id="moduleDesktop-load"></div>
             </div>
 
             <!-- NEW FEATURE -->

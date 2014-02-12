@@ -128,12 +128,14 @@ if ( $(window).width() > 768 ) {
 /* ======================================================================== */
 // Add Map for large screens + other mobile image stuff
 
+// google map
 if ( $(window).width() > 768 ) {
 
 	$('#map-load').append('<div class="map"><div id="map_canvas"></div></div> ');
 
 }
 
+// content images
 if ( $(window).width() > 768 ) {
 
 	var $hero = $('#hero-slider');

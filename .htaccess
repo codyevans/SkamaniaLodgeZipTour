@@ -1,3 +1,20 @@
+# ----------------------------------------------------------------------
+# Maintenance Mode Page
+# ----------------------------------------------------------------------
+
+RewriteEngine On
+
+# Maintenance Page Redirect
+# RewriteCond %{REQUEST_URI} !^/maintenance/.*$
+# RewriteRule ^(.*)$ /maintenance/index.html [R=307,L]
+
+ RewriteRule ^maintenance/index.html$ / [R=307,L]
+
+ 
+# ----------------------------------------------------------------------
+# H5BP
+# ----------------------------------------------------------------------
+
 # Apache configuration file
 # httpd.apache.org/docs/2.2/mod/quickreference.html
 

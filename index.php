@@ -111,7 +111,9 @@
 
             <div class="mobile_sub_header">
                 <div class="grid">
-                    <h1 class="mobile">Skamania Lodge Zip line Tour</h1>
+                    <a class="mobile-text-logo" href="/">
+                        <h1 class="mobile">Skamania Lodge Zip line Tour</h1>
+                    </a>
                 </div>
                 <div class="navicon" id="navicon" title="Menu"></div>
             </div>

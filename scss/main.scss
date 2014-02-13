@@ -309,6 +309,27 @@ img.tour-first {
     }
 }
 
+// pictureFill - Tour Section
+
+.pictureFill_tour .small img, .pictureFill_tour .med img {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin: 0px 0px 12px 0px;
+    margin-bottom: 25px;
+    border: 10px solid #f2eee6;
+    border: 10px solid transparent;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.tour-first .small img, .tour-first .med img {
+    @media (max-width: 1165px) {
+        margin-top: 40px;
+    }
+}
+
 
 /* --- reservations ------------------------------------------------------------ */
 

@@ -241,9 +241,26 @@
                     </div>
 
                     <div class="col-2-3" id="desktop-add-image-1">
-                        <img src="assets/hero/posing-on-the-line.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing tour-first">
-                        <img src="assets/hero/underneath-sky-bridge.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour spacing">
-                    </div>
+
+                         <span class="pictureFill_tour tour-first" data-picture data-alt="Zip Lining through the forest at Skamania Lodge.">
+                            <span class="small" data-src="assets/hero/pictureFill/posing-on-the-line_small.jpg"></span>
+                            <span class="med" data-src="assets/hero/pictureFill/posing-on-the-line_med.jpg" data-media="(min-width: 500px)"></span>
+                             <!-- <span data-src="external/imgs/large.jpg" data-media="(min-width: 800px)"></span> -->
+
+                            <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                            <!-- <noscript><img src="external/imgs/small.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia"></noscript> -->
+                        </span>
+
+                        <span class="pictureFill_tour" data-picture data-alt="Zip Lining through the forest at Skamania Lodge.">
+                            <span class="small" data-src="assets/hero/underneath-sky-bridge.jpg"></span>
+                            <span data-src="assets/hero/pictureFill/underneath-sky-bridge_med.jpg" data-media="(min-width: 500px)"></span>
+                              <!-- <span data-src="external/imgs/large.jpg" data-media="(min-width: 800px)"></span> -->
+
+                            <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                            <!--   <noscript><img src="external/imgs/small.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia"></noscript> -->
+                        </span>
+
+                    </div> <!-- /content images -->
 
                 </div> <!-- /grid -->
             </section>

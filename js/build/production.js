@@ -23,6 +23,76 @@
 
 // Place any jQuery/helper plugins in here.
 
+
+/*! Picturefill - Responsive Images that work today. (and mimic the proposed Picture element with span elements). Author: Scott Jehl, Filament Group, 2012 | License: MIT/GPLv2 */
+
+(function( w ){
+
+    // Enable strict mode
+    "use strict";
+
+    w.picturefill = function() {
+        var ps = w.document.getElementsByTagName( "span" );
+
+        // Loop the pictures
+        for( var i = 0, il = ps.length; i < il; i++ ){
+            if( ps[ i ].getAttribute( "data-picture" ) !== null ){
+
+                var sources = ps[ i ].getElementsByTagName( "span" ),
+                    matches = [];
+
+                // See if which sources match
+                for( var j = 0, jl = sources.length; j < jl; j++ ){
+                    var media = sources[ j ].getAttribute( "data-media" );
+                    // if there's no media specified, OR w.matchMedia is supported 
+                    if( !media || ( w.matchMedia && w.matchMedia( media ).matches ) ){
+                        matches.push( sources[ j ] );
+                    }
+                }
+
+            // Find any existing img element in the picture element
+            var picImg = ps[ i ].getElementsByTagName( "img" )[ 0 ];
+
+            if( matches.length ){
+                var matchedEl = matches.pop();
+                if( !picImg || picImg.parentNode.nodeName === "NOSCRIPT" ){
+                    picImg = w.document.createElement( "img" );
+                    picImg.alt = ps[ i ].getAttribute( "data-alt" );
+                }
+                else if( matchedEl === picImg.parentNode ){
+                    // Skip further actions if the correct image is already in place
+                    continue;
+                }
+
+                picImg.src =  matchedEl.getAttribute( "data-src" );
+                matchedEl.appendChild( picImg );
+                picImg.removeAttribute("width");
+                picImg.removeAttribute("height");
+            }
+            else if( picImg ){
+                picImg.parentNode.removeChild( picImg );
+            }
+        }
+        }
+    };
+
+    // Run on resize and domready (w.load as a fallback)
+    if( w.addEventListener ){
+        w.addEventListener( "resize", w.picturefill, false );
+        w.addEventListener( "DOMContentLoaded", function(){
+            w.picturefill();
+            // Run once only
+            w.removeEventListener( "load", w.picturefill, false );
+        }, false );
+        w.addEventListener( "load", w.picturefill, false );
+    }
+    else if( w.attachEvent ){
+        w.attachEvent( "onload", w.picturefill );
+    }
+
+}( this ));
+
+
 // jquery.royalslider v9.4.8
 (function(l){function t(b,f){var c,h,a=this,e=navigator.userAgent.toLowerCase();a.uid=l.rsModules.uid++;a.ns=".rs"+a.uid;var d=document.createElement("div").style,j=["webkit","Moz","ms","O"],g="",k=0;for(c=0;c<j.length;c++)h=j[c],!g&&h+"Transform"in d&&(g=h),h=h.toLowerCase(),window.requestAnimationFrame||(window.requestAnimationFrame=window[h+"RequestAnimationFrame"],window.cancelAnimationFrame=window[h+"CancelAnimationFrame"]||window[h+"CancelRequestAnimationFrame"]);window.requestAnimationFrame||
 (window.requestAnimationFrame=function(a){var b=(new Date).getTime(),d=Math.max(0,16-(b-k)),c=window.setTimeout(function(){a(b+d)},d);k=b+d;return c});window.cancelAnimationFrame||(window.cancelAnimationFrame=function(a){clearTimeout(a)});a.isIPAD=e.match(/(ipad)/);j=/(chrome)[ \/]([\w.]+)/.exec(e)||/(webkit)[ \/]([\w.]+)/.exec(e)||/(opera)(?:.*version|)[ \/]([\w.]+)/.exec(e)||/(msie) ([\w.]+)/.exec(e)||0>e.indexOf("compatible")&&/(mozilla)(?:.*? rv:([\w.]+)|)/.exec(e)||[];c=j[1]||"";h=j[2]||"0";
@@ -404,75 +474,6 @@ a._i7:a.slider}),a.ev.on("rsAfterSizePropSet",function(){var b,c=a.st.visibleNea
 })(jQuery);
 
 
-/*! Picturefill - Responsive Images that work today. (and mimic the proposed Picture element with span elements). Author: Scott Jehl, Filament Group, 2012 | License: MIT/GPLv2 */
-
-(function( w ){
-
-    // Enable strict mode
-    "use strict";
-
-    w.picturefill = function() {
-        var ps = w.document.getElementsByTagName( "span" );
-
-        // Loop the pictures
-        for( var i = 0, il = ps.length; i < il; i++ ){
-            if( ps[ i ].getAttribute( "data-picture" ) !== null ){
-
-                var sources = ps[ i ].getElementsByTagName( "span" ),
-                    matches = [];
-
-                // See if which sources match
-                for( var j = 0, jl = sources.length; j < jl; j++ ){
-                    var media = sources[ j ].getAttribute( "data-media" );
-                    // if there's no media specified, OR w.matchMedia is supported 
-                    if( !media || ( w.matchMedia && w.matchMedia( media ).matches ) ){
-                        matches.push( sources[ j ] );
-                    }
-                }
-
-            // Find any existing img element in the picture element
-            var picImg = ps[ i ].getElementsByTagName( "img" )[ 0 ];
-
-            if( matches.length ){
-                var matchedEl = matches.pop();
-                if( !picImg || picImg.parentNode.nodeName === "NOSCRIPT" ){
-                    picImg = w.document.createElement( "img" );
-                    picImg.alt = ps[ i ].getAttribute( "data-alt" );
-                }
-                else if( matchedEl === picImg.parentNode ){
-                    // Skip further actions if the correct image is already in place
-                    continue;
-                }
-
-                picImg.src =  matchedEl.getAttribute( "data-src" );
-                matchedEl.appendChild( picImg );
-                picImg.removeAttribute("width");
-                picImg.removeAttribute("height");
-            }
-            else if( picImg ){
-                picImg.parentNode.removeChild( picImg );
-            }
-        }
-        }
-    };
-
-    // Run on resize and domready (w.load as a fallback)
-    if( w.addEventListener ){
-        w.addEventListener( "resize", w.picturefill, false );
-        w.addEventListener( "DOMContentLoaded", function(){
-            w.picturefill();
-            // Run once only
-            w.removeEventListener( "load", w.picturefill, false );
-        }, false );
-        w.addEventListener( "load", w.picturefill, false );
-    }
-    else if( w.attachEvent ){
-        w.attachEvent( "onload", w.picturefill );
-    }
-
-}( this ));
-
-
 // jquery.fasttap.js v1.0.0
 // (c) Tim Hall
 // License: MIT (http://www.opensource.org/licenses/mit-license.php)
@@ -634,7 +635,6 @@ if ( $(window).width() > 768 ) {
 
 }
 
-
 // Overlay Feature - 2013-2014 Winter Schedule
 
 $('#winter-operations-btn, #winter-operations-mobile-btn').on("click", function(e) {
@@ -672,7 +672,6 @@ $('.close-overlay').on("click", function(e) {
 
 });
 
-
 // night zips new tab
 
 $('#night-zips-btn').hover( 
@@ -687,7 +686,6 @@ $('#night-zips-btn').hover(
 
 	e.preventDefault();
 });
-
 
 
 /* ======================================================================== */
@@ -709,21 +707,21 @@ if ( $(window).width() > 768 ) {
 /* ======================================================================== */
 // Add Map for large screens + other mobile image stuff
 
-// google map
+// google map append for large screens
 if ( $(window).width() > 768 ) {
 
 	$('#map-load').append('<div class="map"><div id="map_canvas"></div></div> ');
 
 }
 
-// content images
+// image append for large screens
 if ( $(window).width() > 768 ) {
 
 	var $hero = $('#hero-slider');
 
 	// main content body images
-	$('#desktop-add-image-1').append('<img src="assets/hero/kid-walking-sky-bridge.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour">');
-	$('#desktop-add-image-2').append('<img src="assets/hero/view-from-the-sky-bridge.jpg" alt="A walk on the Skamania Zipline Sky Bridge" class="tour">');
+	$('#desktop-add-image-1').append('<img src="assets/hero/content-images/kid-walking-sky-bridge.jpg" alt="Zip Lining throuhg the forest at Skamania Lodge." class="tour">');
+	$('#desktop-add-image-2').append('<img src="assets/hero/content-images/view-from-the-sky-bridge.jpg" alt="A walk on the Skamania Zipline Sky Bridge" class="tour">');
 
 	// hero slider images
 	$hero.append('<div class="rsContent"><img class="rsImg" src="assets/hero/slider/man-walking-sky-bridge.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." /></div>');
@@ -731,6 +729,21 @@ if ( $(window).width() > 768 ) {
 	$hero.append('div class="rsContent"><img class="rsImg" src="assets/hero/slider/zipping-the-brush.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." /></div>');
 	$hero.append('<div class="rsContent"><img class="rsImg" src="assets/hero/slider/kid-zipping.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." /></div>');
 	$hero.append('<div class="rsContent"><img class="rsImg" src="assets/hero/slider/zipping-towards-the-group.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." /></div>');
+
+}
+
+// image swap on slider
+if ( $(window).width() > 500 ) {
+
+	$('#slider-image-2').attr( "src", "assets/hero/slider/pictureFill/zipping-between-trees_med.jpg" );
+	$('#slider-image-3').attr( "src", "assets/hero/slider/pictureFill/long-zip-line_med.jpg" );
+
+}
+
+if ( $(window).width() > 768 ) {
+
+	$('#slider-image-2').attr( "src", "assets/hero/slider/pictureFill/zipping-between-trees_large.jpg" );
+	$('#slider-image-3').attr( "src", "assets/hero/slider/pictureFill/long-zip-line_large.jpg" );
 
 }
 

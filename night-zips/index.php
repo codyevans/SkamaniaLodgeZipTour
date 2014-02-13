@@ -12,7 +12,7 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="../css/main.css?ver=1.6">
+        <link rel="stylesheet" href="../css/build/global-prefixed.css?ver=1.3">
         <link rel="stylesheet" href="../css/landing-pages.css">
 
         <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
@@ -56,7 +56,7 @@
             </div> <!-- END header -->
 
             <div class="landing-page-content">
-                <img src="../assets/Night-zip.jpg" alt="Zipping through the trees at Skamania Lodge Zipline Tour" class="tour">
+                <img src="../assets/hero/content-images/Night-zip.jpg" alt="Zipping through the trees at Skamania Lodge Zipline Tour" class="tour">
                 <h2>Night Zips</h2>
                 <hr>
                 <p>
@@ -130,8 +130,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="../js/plugins.min.js?ver1.2"></script>
-        <script src="../js/main.js?ver=1.8"></script>
+        <script src="../js/build/production.min.js?ver1.3"></script>
         <script src="../js/jquery.fitvids.js"></script>
         <script>
             $(document).ready(function(){

@@ -138,18 +138,18 @@
 
                 <div class="royalSlider rsMinW" id="hero-slider">
 
-                     <a class="rsImg" data-rsVideo="http://youtu.be/2BIy8Gxrejs" href="assets/hero/slider/poster.jpg"></a> 
+                     <a class="rsImg" data-rsVideo="http://youtu.be/2BIy8Gxrejs" href="assets/hero/slider/pictureFill/poster_large.jpg"></a>
     
                     <div class="rsContent">
-                        <img class="rsImg" src="assets/hero/slider/zipping-between-trees.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
+                        <img id="slider-image-2" class="rsImg" src="assets/hero/slider/pictureFill/zipping-between-trees_small.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between the trees at Skamania Lodge." />
                     </div>
 
                      <div class="rsContent">
-                        <img class="rsImg" src="assets/hero/slider/long-zip-line.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between to trees at Skamania Lodge." />
+                        <img id="slider-image-3" class="rsImg" src="assets/hero/slider/pictureFill/long-zip-line_small.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between the trees at Skamania Lodge." />
                     </div>
 
                 </div> <!-- /slider --> 
-                
+        
             </div> <!-- /hero -->
 
             <a href="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" class="bookings-link">
@@ -243,21 +243,29 @@
                     <div class="col-2-3" id="desktop-add-image-1">
 
                          <span class="pictureFill_tour tour-first" data-picture data-alt="Zip Lining through the forest at Skamania Lodge.">
-                            <span class="small" data-src="assets/hero/pictureFill/posing-on-the-line_small.jpg"></span>
-                            <span class="med" data-src="assets/hero/pictureFill/posing-on-the-line_med.jpg" data-media="(min-width: 500px)"></span>
-                             <!-- <span data-src="external/imgs/large.jpg" data-media="(min-width: 800px)"></span> -->
+                            <span class="small" data-src="assets/hero/content-images/pictureFill/posing-on-the-line_small.jpg"></span>
+                            <span class="med" data-src="assets/hero/content-images/pictureFill/posing-on-the-line_med.jpg" data-media="(min-width: 500px)"></span>
+                            <span class="large" data-src="assets/hero/content-images/pictureFill/posing-on-the-line_large.jpg" data-media="(min-width: 769px)"></span>
+
+                            <!--[if (lt IE 9) & (!IEMobile)]>
+                                <span class="med" data-src="assets/hero/content-images/pictureFill/posing-on-the-line_med.jpg"></span>
+                            <![endif]-->
 
                             <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-                            <!-- <noscript><img src="external/imgs/small.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia"></noscript> -->
+                            <noscript><img src="assets/hero/content-images/pictureFill/posing-on-the-line_med.jpg" alt="Zip Lining through the forest at Skamania Lodge."></noscript>
                         </span>
 
                         <span class="pictureFill_tour" data-picture data-alt="Zip Lining through the forest at Skamania Lodge.">
-                            <span class="small" data-src="assets/hero/underneath-sky-bridge.jpg"></span>
-                            <span data-src="assets/hero/pictureFill/underneath-sky-bridge_med.jpg" data-media="(min-width: 500px)"></span>
-                              <!-- <span data-src="external/imgs/large.jpg" data-media="(min-width: 800px)"></span> -->
+                            <span class="small" data-src="assets/hero/content-images/pictureFill/underneath-sky-bridge_small.jpg"></span>
+                            <span class="med" data-src="assets/hero/content-images/pictureFill/underneath-sky-bridge_med.jpg" data-media="(min-width: 500px)"></span>
+                            <span class="large" data-src="assets/hero/content-images/pictureFill/underneath-sky-bridge_large.jpg" data-media="(min-width: 769px)"></span>
+
+                             <!--[if (lt IE 9) & (!IEMobile)]>
+                                <span class="med" data-src="assets/hero/content-images/pictureFill/underneath-sky-bridge_med.jpg"></span>
+                            <![endif]-->
 
                             <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-                            <!--   <noscript><img src="external/imgs/small.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia"></noscript> -->
+                            <noscript><img src="assets/hero/content-images/pictureFill/underneath-sky-bridge_med.jpg" alt="Zip Lining through the forest at Skamania Lodge."></noscript>
                         </span>
 
                     </div> <!-- /content images -->
@@ -513,18 +521,6 @@
                         time (24 hour notice necessary). Walk-ins available on regular tour days. All winter tours 
                         are weather permitting, any cancellation by SLZT will be eligible for full refund.
                     </p>
-                    <h3 style="margin-bottom: 0;">November:</h3>
-                    <p>
-                        Regular Scheduled Tour Times. <br>
-                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
-                        <strong>Base Rate:</strong> $89.
-                    </p>
-                     <h3 style="margin-bottom: 0;">December/January:</h3>
-                    <p>
-                        Regular Scheduled Tour Times. <br>
-                        <strong>Saturday/Sunday:</strong> 10:00am and 1:00pm <br>
-                        <strong>Base Rate:</strong> $79.
-                    </p>
                     <h3 style="margin-bottom: 0;">February:</h3>
                     <p>
                         Regular Scheduled Tour Times. <br>
@@ -545,7 +541,18 @@
                         Night Zips
                      </h2>
                     <hr>
-                    <img src="assets/Night-zip.jpg" style="margin-bottom: 18px;">
+                    <span class="pictureFill_tour" data-picture data-alt="Zip Lining through the forest at Skamania Lodge.">
+                        <span class="small" data-src="assets/hero/content-images/pictureFill/Night-zip_small.jpg"></span>
+                        <span class="med" data-src="assets/hero/content-images/pictureFill/Night-zip_med.jpg" data-media="(min-width: 500px)"></span>
+                        <span class="large" data-src="assets/hero/content-images/pictureFill/Night-zip_large.jpg" data-media="(min-width: 769px)"></span>
+
+                        <!--[if (lt IE 9) & (!IEMobile)]>
+                            <span class="med" data-src="assets/hero/content-images/pictureFill/Night-zip_med.jpg"></span>
+                        <![endif]-->
+
+                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
+                        <noscript><img src="assets/hero/content-images/pictureFill/Night-zip_med.jpg" alt="Zip Lining through the forest at Skamania Lodge."></noscript>
+                    </span>
                     <p style="font-style: italic;">
                        7 lines in the dark forest await you during twilight hours. 
                        It's the same course as our day zip, but at night you zip away 

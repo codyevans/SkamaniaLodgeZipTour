@@ -24,7 +24,7 @@ $("a#Top").smoothScroll();
 if ( $(window).width() > 768 ) {
 
 	// load booking form on large screen
-	$('#moduleDesktop-load').append('<iframe src="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>');
+	$('#moduleDesktop-load').append('<iframe src="http://www.adventurecentral.com/user/web/cart/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>');
 
 	// modal the bookings form
 	$('#bookingBTN, #bookingBTN2, #bookingBTN-landing, #bookingBTN-landing2').click(function(e) {

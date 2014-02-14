@@ -12,7 +12,7 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="css/build/global-prefixed.css?ver=1.4">
+        <link rel="stylesheet" href="css/build/global-prefixed.css?ver=1.5">
 
         <style type="text/css">
             .royalSlider {
@@ -70,7 +70,7 @@
             </div> <!-- /logo_wrap -->
 
             <header>
-                <nav class="main_nav">
+                <nav class="main_nav" id="main-nav_smooth">
                     <ul>
                         <li>
                             <a href="#tour">The Tour</a>
@@ -154,8 +154,8 @@
         
             </div> <!-- /hero -->
 
-            <a href="http://www.adventurecentral.com/user/web/m/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" class="bookings-link">
-            <div class="giant_btn" title="click for online reservations" id="bookingBTN">
+            <a id="bookingBTN" href="http://www.adventurecentral.com/user/web/m/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" class="bookings-link">
+            <div class="giant_btn" title="click for online reservations">
                 <p>
                     Book your Adventure now
                 </p>
@@ -305,8 +305,8 @@
                             </ul>
                         </div>
 
-                        <a href="http://www.adventurecentral.com/user/web/m/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" class="bookings-link">
-                         <div class="col-1-1 " title="click for online reservations" id="bookingBTN2">   
+                        <a id="bookingBTN2" href="http://www.adventurecentral.com/user/web/m/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" class="bookings-link">
+                         <div class="col-1-1 " title="click for online reservations">   
                             <div class="res_booking">
                                 <p>
                                     Book Now
@@ -606,7 +606,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="js/build/production.min.js?ver1.4"></script>
+        <script src="js/build/production.min.js?ver1.5"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

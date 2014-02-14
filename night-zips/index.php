@@ -7,7 +7,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Night Zips | Skamania Lodge Zip Line Tour</title>
-        <meta name="description" content="Zip Line Canopy Tour located at Skamania Lodge in Stevenson, Washington.">
+        <meta name="description" content="Zip into Darkness on the Night Zip at Skamania Lodge Zip Line Tours.">
       <!--   <meta name="viewport" content="width=device-width"> -->
 
         <meta name="apple-mobile-web-app-capable" content="yes" />

@@ -13,31 +13,17 @@ jQuery(document).ready(function($) {
 /* ======================================================================== */
 // smoothScroll
 
-$(".main_nav a").smoothScroll();
+$("#main-nav_smooth a").smoothScroll();
 
 $("a#Top").smoothScroll();
 
 
 /* ======================================================================== */
-// overlay modules
+// Bookings Page
 
 if ( $(window).width() > 768 ) {
 
-	// load booking form on large screen
-	$('#moduleDesktop-load').append('<iframe src="http://www.adventurecentral.com/user/web/cart/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>');
-
-	// modal the bookings form
-	$('#bookingBTN, #bookingBTN2, #bookingBTN-landing, #bookingBTN-landing2').click(function(e) {
-
-		$('#bookDesktop').lightbox_me({
-			centered: true,
-			closeSelector: "span.close"
-		});
-
-		e.preventDefault();
-
-	});
-
+	$('#bookingBTN, #bookingBTN2, #bookingBTN-landing, #bookingBTN-landing2').attr( "href", "/bookings/" );
 }
 
 // Overlay Feature - 2013-2014 Winter Schedule

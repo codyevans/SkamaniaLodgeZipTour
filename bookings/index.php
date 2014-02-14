@@ -8,7 +8,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title>Bookings | Skamania Lodge Zip Line Tour</title>
         <meta name="description" content="Book your Zipline Tour online">
-
+            
+        <meta name="viewport" content="width=device-width">
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
         <link rel="stylesheet" href="../css/build/global-prefixed.css?ver=1.3">
@@ -32,7 +33,7 @@
             </div> <!-- END header -->
 
             <div class="landing-page-content moduleDesktop">        
-               <iframe src="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>
+               <iframe src="http://www.adventurecentral.com/user/web/cart/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>
             </div>
 
             <div class="landing-copyright">

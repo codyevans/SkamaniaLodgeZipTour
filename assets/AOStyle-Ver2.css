@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+/* Change all fonts */
+body, div, ul, ol, li, h1, h2, h3, h4, h5, h6, 
+input, button, p, table, th, td, a, 
+.acWebTableHeader a {
+	font-family: Verdana, Arial, Helvetica, Sans-Serif;
+}
+
+h1 {
+    color: #344c57;
+}
+
+/* (1) MainBg */
+body {
+    background-color: #f7f4ed !important;
+    background-image: url(http://zipnskamania.com/assets/bkgd_img/background_texture.gif) !important;
+}
+
+/* (2) HyperLink */
+a, a:link, 
+a:visited,
+a:hover,
+a:active,
+.acCartTopMenu a,
+.acCartTopMenu a:link,
+.acCartTopMenu a:visited,
+.acCartTopMenu a.acCartLink,
+.acCartSteps span {
+    color: #344c57;
+}
+
+/* MainHeader-Right (Cart(0), Contact Us buttons) */
+.acCartTopMenu a:hover,
+.acCartTopMenu a:active {
+    color: #FFFFFF !important;
+    background: #344c57;
+}
+
+/* (3) MainHeaderBg (Home, Activities, Lodging, Add-Ons buttons) */
+.acCartMenu {
+    background-color: #e7cd67;
+}
+
+.acCartMenu a, .acCartMenu a:link, .acCartMenu a:visited {
+     color: #344c57;
+}
+
+.acCartMenu a:hover, .acCartMenu a:active {
+    background: #344c57;
+    color: white;
+}
+
+/* (4) HeaderBg/Text */
+.acWebTableHeader,
+#divExtraSpecific h3.adventureDetail,
+h2.acHeaderTitle,
+div.acHeaderBg {
+	background-color: #344c57;
+    color: #FFFFFF;
+}
+
+/* (5) SubHeaderBg/Text */
+h2.adventureDetail,
+.bgMediumColor,
+div.acToggleHeader {
+	background-color: #EBF5FF;
+    color: #344c57;
+}
+
+/* (6) Header/SubHeader hover effects */
+.acHoverBox a,
+.acHoverBox span {
+    color: #FFFFFF;
+}
+div.acToggleHeader:hover,
+.acHoverBox:hover {
+    background-color: #344c57;
+    color: #FFFFFF;
+}
+
+/* (7) Table Header/Footer Bg/Text */
+.acWebGridViewHeaderStyle,
+.acWebGridViewHeaderStyle td,
+.acWebGridViewHeaderStyle th,
+.acWebGridViewFooterStyle,
+.acWebGridViewFooterStyle td {
+    color: #FFFFFF;
+    background-color: #344c57;
+}
+
+/* (8) Table Row */
+.acWebGridViewRowStyle {
+	background-color: #e9e6df;
+}
+/* (9) Table Alt Row */
+.acWebGridViewAlternatingRowStyle {
+	background-color: #FFFFFF;
+}
+
+/* (10) Shopping Cart: ContactInfo, Payment page sidebar */
+.acCartSidebar {
+    background-color: #EEFFFF;
+    border-color: #4682B4;
+}
+
+/* (11) Calendar header */
+.acCalendarAvailability tr:first-child td:first-child,
+.acCalendarAvailability i {
+    color: #FFFFFF !important;
+    background-color: #344c57 !important;
+}
+/* (12) Calendar border */
+.acCalendarAvailability {
+    border-color: #344c57 !important;
+}
+
+/* (13) Footer line */
+.acCartHr {
+    background-color: #E0E0E0;
+}
+
+/* (14) Shopping Cart: Summary, Contact Info, Payment page header steps  */
+.acCartSteps td.acCurrent {
+    background-color: #e9e6df;
+    border: 1px solid #344c57;
+}
+.acCartSteps .acCurrent div.acNumber {
+    background-color: #344c57;
+}

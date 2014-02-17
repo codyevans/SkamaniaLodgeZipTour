@@ -377,7 +377,7 @@
                     </h1>
                     <div class="col-1-2">
                     <p class="col-1-1 large">
-                        Skamania Lodge Zip Line Tour is delighted to provide southwestern Washington’s only zip line course. 
+                        Skamania Lodge Zip Line Tour is delighted to provide southwestern Washington's only zip line course. 
                         Tucked away in a quiet corner of Stevenson, WA; a scenic, 45 minute drive from Portland, OR, our zip line 
                         is nestled amidst the grandeur of the Columbia River Gorge.  Partnered with Skamania Lodge, a classic, Cascadian-style lodge, this full 
                         service, upscale destination resort features 254 luxurious rooms, two restaurants and a modern conference room. 
@@ -514,8 +514,7 @@
                      </h2>
                     
                      <p class="emp" style="line-height: 21px;">
-                        <strong>Office Hours Daily from 9am-5pm.</strong> <br>
-                        <span style="font-size: 14px;">*Excluding <strong>November 25th-28th</strong> and <strong>December 23rd-27th</strong>.</span>
+                        <strong>Office Hours Daily from 9am-5pm.</strong>
                     </p>
                     <hr>
                     <p style="font-style: italic;">
@@ -529,8 +528,14 @@
                         <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
                         <strong>Base Rate:</strong> $89.
                     </p>
+                    <h3 style="margin-bottom: 0;">March:</h3>
                     <p>
-                        <strong>*</strong>Full Operations will resume in March at the $99 rate. Please call for additional information. 509-427-0202
+                        Regular Scheduled Tour Times. <br>
+                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
+                        <strong>Base Rate:</strong> $89.
+                    </p>
+                    <p>
+                        <strong>*</strong><!-- Full Operations will resume in April at the $99 rate. -->Please call for additional information (509-427-0202).
                     </p>
                 </div>
 
@@ -559,7 +564,7 @@
                        7 lines in the dark forest await you during twilight hours. 
                        It's the same course as our day zip, but at night you zip away 
                        from the platform with no points of reference and fly through the 
-                       darkness from tree to tree! Feel the speed of a 35mph ride through 
+                       darkness from tree to tree! Feel the speed of a 35 mph ride through 
                        the canopy in pitch blackness! This zip is tons of fun as we pump up 
                        the tunes and party at night! Illumination is provided. Wind down after 
                        the tour with dinner and/or drinks in the beautiful Skamania Lodge. Dress warmly!

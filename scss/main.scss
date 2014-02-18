@@ -231,13 +231,14 @@ section {
         margin: 0;
         padding: 0px;
         list-style: none;
-        background: #e4e0d7;
+        background: #e4e0d7; // IE8 fallback
         background: rgba(151,151,144,0.15);
 
         li {
             padding: 10px;
             margin: 0px;
-            border-bottom: 1px solid rgba(151,151,144,0.4);;
+            border-bottom: 1px solid #c4c1b9; // fIE8 fallback
+            border-bottom: 1px solid rgba(151,151,144,0.4);
         }
 
         li:first-child {
@@ -249,7 +250,7 @@ section {
         }
 
         li:nth-child(even) {
-            background: white;
+            background: white; // IE8 fallback
             background: rgba(255,255,255,0.8);
 
             p {
@@ -318,7 +319,7 @@ img.tour-first {
 
     margin: 0px 0px 12px 0px;
     margin-bottom: 25px;
-    border: 10px solid #f2eee6;
+    border: 10px solid white;
     border: 10px solid transparent;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
     border-radius: 10px;
@@ -490,18 +491,6 @@ img.modalLogo {
 /* --- submenu overlay feature -------------------------------------------------- */
 
 @import "submenu-overlay-feature";
-
-
-/* --- booking engine ---------------------------------------------------------- */
-
-// iframe {
-//     width: 900px;
-//     height: 100%;
-
-//     @media (max-width: 960px) {
-//         width: 650px;
-//     }
-// }
 
 
 /* --- contact ----------------------------------------------------------------- */

@@ -12,7 +12,7 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="../css/build/global-prefixed.css?ver=1.3">
+        <link rel="stylesheet" href="../css/build/global-prefixed.css?ver=1.6">
         <link rel="stylesheet" href="../css/landing-pages.css">
 
         <script src="../js/vendor/modernizr-2.6.2.min.js"></script>

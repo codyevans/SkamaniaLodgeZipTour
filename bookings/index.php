@@ -9,7 +9,7 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="../css/build/global-prefixed.css?ver=1.5">
+        <link rel="stylesheet" href="../css/build/global-prefixed.css?ver=1.6">
 
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>

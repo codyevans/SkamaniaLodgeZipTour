@@ -9,7 +9,7 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="css/build/global-prefixed.css?ver=1.5">
+        <link rel="stylesheet" href="css/build/global-prefixed.css?ver=1.6">
 
         <style type="text/css">
             .royalSlider {

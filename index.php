@@ -9,7 +9,7 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="css/build/global-prefixed.css?ver=1.6">
+        <link rel="stylesheet" href="css/build/global-prefixed.css?ver=1.7">
 
         <style type="text/css">
             .royalSlider {
@@ -60,78 +60,8 @@
         <![endif]-->
     </head>
     <body onload="initialize()" id="BackToTop">
-         <div class="header_wrap">
 
-            <div class="logo_wrap">
-                <a href="/">
-                    <h1 class="logo" title="home">Skamania Lodge Zip Line Tour</h1>
-                </a>
-            </div> <!-- /logo_wrap -->
-
-            <header>
-                <nav class="main_nav" id="main-nav_smooth">
-                    <ul>
-                        <li>
-                            <a href="#tour">The Tour</a>
-                        </li>
-                        <li>
-                            <a href="#reservations">Reservations</a>
-                        </li>
-                        <li>
-                            <a href="#about">About Us</a>
-                        </li>
-                        <li>
-                            <a href="#contact">Contact</a>
-                        </li>
-                         <li>
-                            <a id="night-zips-btn" href="#">Night Zips</a>
-                        </li>
-                         <li>
-                            <a id="winter-operations-btn" href="#">Winter Hours</a>
-                        </li>
-                    </ul>
-                </nav> <!-- /nav -->
-
-                <div class="header_contact">
-                    <ul>
-                        <li class="phone" tel="509.427.0202">509.427.0202</li>
-                        <li class="email"><a href="mailto:info@zipnskamania.com">info@zipnskamania.com</a></li>
-                        <li>1131 Skamania Lodge Way</li>
-                        <li>Stevenson, WA 98648</li>
-                    </ul>
-                </div> <!-- /header_contact -->
-
-            </header> <!-- /header -->
-        </div> <!-- /header_wrap -->
-        <div class="new-tab" id="tab"></div>
-
-
-        <div class="mobile_header_wrap">
-
-            <div class="mobile_sub_header">
-                <div class="grid">
-                    <a class="mobile-text-logo" href="/">
-                        <h1 class="mobile">Skamania Lodge Zip line Tour</h1>
-                    </a>
-                </div>
-                <div class="navicon" id="navicon" title="Menu"></div>
-            </div>
-
-            <div class="mobile_nav close" id="mobile_nav">
-                <div class="grid">
-                    <ul class="mobile">
-                        <li><a href="#tour">The Tour</a></li>
-                        <li><a href="#reservations">Reservations</a></li>
-                        <li><a href="#about">About Us</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a id="night-zips-mobile-btn" href="#">Night Zips</a></li>
-                        <li><a id="winter-operations-mobile-btn" href="#">Winter Hours</a></li>
-                    </ul>
-                </div>
-            </div> <!-- /mobile nav -->
-
-        </div> <!-- /mobile header -->
-
+        <?php include("parts/main-nav-part.php"); ?>
 
         <div class="shell"> <!-- content shell -->
 
@@ -610,7 +540,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="js/build/production.min.js?ver1.5"></script>
+        <script src="js/build/production.min.js?ver1.6"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

@@ -9,6 +9,9 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
+        <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
         <link rel="stylesheet" href="css/build/global-prefixed.css?ver=1.7">
 
         <style type="text/css">
@@ -45,9 +48,6 @@
                 margin-bottom: 10px;
             }
         </style> 
-
-        <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
         
         <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWzuurR1lbIy1Cv5M0s9NINNEFgFO3dRQ&sensor=false">
@@ -235,14 +235,15 @@
                         </div>
 
                         <a id="bookingBTN2" href="http://www.adventurecentral.com/user/web/m/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" class="bookings-link">
-                         <div class="col-1-1 " title="click for online reservations">   
-                            <div class="res_booking">
-                                <p>
-                                    Book Now
-                                </p>
+                             <div class="col-1-1 " title="click for online reservations">   
+                                <div class="res_booking">
+                                    <p>
+                                        Book Now
+                                    </p>
+                                </div>
                             </div>
                         </a>
-                        </div>
+                        
                     </div> <!-- /grid -->
                 </div> <!-- /booking -->
 
@@ -540,7 +541,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="js/build/production.min.js?ver1.6"></script>
+        <script src="js/build/production.min.js?ver1.7"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

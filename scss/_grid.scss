@@ -39,6 +39,11 @@ body {
     }
 }
 
+.internal-grid {
+    @extend .grid;
+    padding: 0;
+}
+
 .grid:after {
     content: "";
     display: table;

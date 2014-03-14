@@ -9,40 +9,97 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="../css/build/global-prefixed.css?ver=1.7">
-
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+
+        <link rel="stylesheet" href="../css/build/global-prefixed.css?ver=1.7">
+        <link rel="stylesheet" href="../css/build/events-prefixed.css?ver=1.0">
+
         <!--[if lt IE 9]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
             <script src="js/selectivizr-min.js"></script>
             <script src="js/respond.js"></script>
         <![endif]-->
     </head>
-    <body onload="initialize()" id="BackToTop">
+    <body onload="initialize()" id="BackToTop" class="events-page">
 
         <?php include("../parts/main-nav-part.php"); ?>
         
         <div class="shell"> <!-- content shell -->
 
-            <section>
+            <section class="events-header">
                 <div class="grid">
                     <h1 class="col-1-1">
-                        SLZT Events
+                        2014 Events and Promotions
                     </h1>
                 </div> <!-- /grid -->
             </section>
 
             <div class="border"></div>
 
-            <section>
-                <div class="grid">
-                    <p class="col-1-1">
-                        List of events will start here.
-                    </p>
-                </div> <!-- /grid -->
-            </section>
+            <div class="events-grouping">
 
+                <section>
+                    <div class="grid">
+                        <div class="col-1-1">
+                            <div class="info_mod">
+                                <ul class="info">
+                                    <li class="info_title">
+                                        <h3>
+                                           One Year Anniversary Party <span>May 5-7, 2014</span>
+                                        </h3>
+                                    </li>
+                                     <li>
+                                        <div>
+                                            <p>
+                                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, at, fuga, dolorem nam nisi ullam voluptates ducimus esse sunt porro consectetur amet veniam sequi. Rem, accusantium neque modi dolor nisi.
+                                            </p>
+                                            <div class="internal-grid">
+                                                <div class="col-2-3">
+                                                    <p>Event Details</p>
+                                                    <ul class="event-details event-sub-title">
+                                                        <li>$25.00 off tour price, hurry while tour space is available.</li>
+                                                        <li>$25.00 off tour price</li>
+                                                        <li>$25.00 off tour price</li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-1-3">
+                                                    <p>Date and Time</p>
+                                                    <ul class="event-date-time event-sub-title">
+                                                        <li>Dates and Times</li>
+                                                        <li>May 5-7, 2014</li>
+                                                        <li>12:00pm - 4:00pm</li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div> <!-- /info_mod -->
+
+                            <a href="http://www.adventurecentral.com/user/web/m/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" class="bookings-link events-book-now">
+                                <div class="col-1-1 events-btn" title="click for online reservations">   
+                                    <div class="res_booking">
+                                        <p>
+                                            Book Now &rarr;
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+
+                           
+                        </div> <!-- / col -->
+                    </div> <!-- /grid -->
+                </section>
+
+                
+
+
+
+
+                
+
+            </div> <!-- / events-grouping -->
 
             <!-- modals -->
 
@@ -148,7 +205,7 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="../js/build/production.min.js?ver1.6"></script>
+        <script src="../js/build/production.min.js?ver1.7"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

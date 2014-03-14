@@ -1,0 +1,59 @@
+$yellow: #e7cd67;
+$yellow-hover: #ebd270;
+$edge: #bea74d;
+$text: #344c57;
+
+.grid > .col-1-1 {
+	padding: 3px;
+}
+
+// header spacing
+
+.events-header {
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+
+// events spacing top and bottom on page
+
+.events-grouping {
+	margin: 30px 0 150px 0;
+}
+
+// event modules
+
+.info_title span {
+	display: block;
+	font-size: 14px;
+	font-family: Ubuntu, sans-serif;
+	text-shadow: none;
+	color: $yellow;
+}
+
+
+// booking btn stuff
+
+.events-btn {
+	margin: 20px 0 0 0;
+}
+
+.events-btn > .res_booking {
+	height: 85px;
+	line-height: 78px;
+	border-bottom: 6px solid $edge;
+	margin-bottom: 10px;
+
+	&:active {
+		height: 81px;
+		border-bottom: 5px solid $edge;
+		margin-bottom: 12px;
+	}
+}
+
+// section spacing
+
+section {
+	margin-bottom: 35px;
+	margin-top: 0px;
+}
+

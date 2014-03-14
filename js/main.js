@@ -13,7 +13,7 @@ jQuery(document).ready(function($) {
 /* ======================================================================== */
 // smoothScroll
 
-$("#main-nav_smooth a").smoothScroll();
+$(".main_page #main_nav a").smoothScroll();
 
 $("a#Top").smoothScroll();
 

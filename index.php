@@ -59,7 +59,7 @@
             <script src="js/respond.js"></script>
         <![endif]-->
     </head>
-    <body onload="initialize()" id="BackToTop">
+    <body onload="initialize()" id="BackToTop" class="main_page">
 
         <?php include("parts/main-nav-part.php"); ?>
 

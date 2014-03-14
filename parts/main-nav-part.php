@@ -7,7 +7,7 @@
             </div> <!-- /logo_wrap -->
 
             <header>
-                <nav class="main_nav">
+                <nav id="main_nav" class="main_nav">
                     <ul>
                         <li>
                             <a href="/#tour">The Tour</a>

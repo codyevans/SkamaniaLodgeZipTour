@@ -46,8 +46,7 @@
                      </h2>
                     
                      <p class="emp" style="line-height: 21px;">
-                        <strong>Office Hours Daily from 9am-5pm.</strong> <br>
-                        <span style="font-size: 14px;">*Excluding <strong>November 25th-28th</strong> and <strong>December 23rd-27th</strong>.</span>
+                        <strong>Office Hours Daily from 9am-5pm.</strong>
                     </p>
                     <hr>
                     <p style="font-style: italic;">
@@ -61,8 +60,14 @@
                         <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
                         <strong>Base Rate:</strong> $89.
                     </p>
+                    <h3 style="margin-bottom: 0;">March:</h3>
                     <p>
-                        <strong>*</strong>Full Operations will resume in March at the $99 rate. Please call for additional information. 509-427-0202
+                        Regular Scheduled Tour Times. <br>
+                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
+                        <strong>Base Rate:</strong> $89.
+                    </p>
+                    <p>
+                        <strong>*</strong><!-- Full Operations will resume in April at the $99 rate. -->Please call for additional information (509-427-0202).
                     </p>
                 </div>
 

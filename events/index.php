@@ -37,6 +37,9 @@
 
             <div class="border"></div>
 
+
+
+
             <div class="events-grouping">
 
                 <section>
@@ -51,24 +54,25 @@
                                     </li>
                                      <li>
                                         <div>
-                                            <p>
+                                            <p class="event-description">
                                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, at, fuga, dolorem nam nisi ullam voluptates ducimus esse sunt porro consectetur amet veniam sequi. Rem, accusantium neque modi dolor nisi.
                                             </p>
                                             <div class="internal-grid">
                                                 <div class="col-2-3">
-                                                    <p>Event Details</p>
-                                                    <ul class="event-details event-sub-title">
+                                                    <p class="event-details-title">Event Details</p>
+                                                    <ul class="event-details">
                                                         <li>$25.00 off tour price, hurry while tour space is available.</li>
                                                         <li>$25.00 off tour price</li>
                                                         <li>$25.00 off tour price</li>
                                                     </ul>
                                                 </div>
                                                 <div class="col-1-3">
-                                                    <p>Date and Time</p>
-                                                    <ul class="event-date-time event-sub-title">
-                                                        <li>Dates and Times</li>
-                                                        <li>May 5-7, 2014</li>
-                                                        <li>12:00pm - 4:00pm</li>
+                                                    
+                                                    <ul class="event-date-time">
+                                                        <li>
+                                                            <span>Date:</span> May 5 - 7, 2014 <br/>
+                                                            <span>Time:</span> 12:00pm - 4:00pm
+                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -87,17 +91,13 @@
                                 </div>
                             </a>
 
-                           
                         </div> <!-- / col -->
                     </div> <!-- /grid -->
                 </section>
 
-                
 
+    
 
-
-
-                
 
             </div> <!-- / events-grouping -->
 
@@ -113,8 +113,7 @@
                      </h2>
                     
                      <p class="emp" style="line-height: 21px;">
-                        <strong>Office Hours Daily from 9am-5pm.</strong> <br>
-                        <span style="font-size: 14px;">*Excluding <strong>November 25th-28th</strong> and <strong>December 23rd-27th</strong>.</span>
+                        <strong>Office Hours Daily from 9am-5pm.</strong>
                     </p>
                     <hr>
                     <p style="font-style: italic;">
@@ -128,8 +127,14 @@
                         <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
                         <strong>Base Rate:</strong> $89.
                     </p>
+                    <h3 style="margin-bottom: 0;">March:</h3>
                     <p>
-                        <strong>*</strong>Full Operations will resume in March at the $99 rate. Please call for additional information. 509-427-0202
+                        Regular Scheduled Tour Times. <br>
+                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
+                        <strong>Base Rate:</strong> $89.
+                    </p>
+                    <p>
+                        <strong>*</strong><!-- Full Operations will resume in April at the $99 rate. -->Please call for additional information (509-427-0202).
                     </p>
                 </div>
 

@@ -1,10 +1,19 @@
+// btn colors
 $yellow: #e7cd67;
 $yellow-hover: #ebd270;
 $edge: #bea74d;
+// text colors
 $text: #344c57;
+$pcolor: #73797b;
+$hcolor: #344c57; 
+
 
 .grid > .col-1-1 {
 	padding: 3px;
+}
+
+.internal-grid {
+    padding: 0 5px;
 }
 
 // header spacing
@@ -17,7 +26,7 @@ $text: #344c57;
 // events spacing top and bottom on page
 
 .events-grouping {
-	margin: 30px 0 150px 0;
+	margin: 30px 0 125px 0;
 }
 
 // event modules
@@ -29,6 +38,60 @@ $text: #344c57;
 	text-shadow: none;
 	color: $yellow;
 }
+
+.info_mod ul.info li:nth-child(even) p.event-description {
+	margin-bottom: 20px;
+}
+
+.info_mod ul.info li:nth-child(even) p.event-details-title {
+	text-transform: uppercase;
+	background: $hcolor;
+	text-shadow: none;
+	padding-left: 20px;
+	padding-top: 6px;
+	padding-bottom: 6px; 
+	color: white;
+	font-size: 16px;
+}
+
+ul.event-details, ul.event-date-time {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	color: $hcolor;
+}
+
+ul.event-details {
+	list-style: disc;
+	padding-left: 20px;
+	margin-bottom: 8px;
+}
+
+ul.event-details li {
+	padding-left: 0px !important;
+}
+
+ul.event-details li, ul.event-date-time li {
+	background: none !important;
+	border-bottom: none !important;
+} 
+
+ul.event-date-time li {
+	background: #E3E3E3 !important;
+	border-radius: 4px;
+	font-size: 18px;
+}
+
+ul.event-date-time li span {
+	text-transform: uppercase;
+	font-size: 12px;
+	margin-right: 5px;
+	line-height: 32px;
+}
+
+
+
+
 
 
 // booking btn stuff
@@ -56,4 +119,8 @@ section {
 	margin-bottom: 35px;
 	margin-top: 0px;
 }
+
+
+
+
 

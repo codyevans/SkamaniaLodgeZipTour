@@ -40,14 +40,7 @@ module.exports = function(grunt) {
                 },
                 src: 'css/build/global.css',
                 dest: 'css/build/global-prefixed.css'
-            },
-             single_file: {
-                options: {
-                    browsers: ['last 2 version', 'ie 8', 'ie 9']
-                },
-                src: 'css/build/events.css',
-                dest: 'css/build/events-prefixed.css'
-            },
+            }
         },
 
         // watch js/css files + livereload css

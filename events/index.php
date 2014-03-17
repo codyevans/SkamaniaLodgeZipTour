@@ -13,7 +13,7 @@
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 
         <link rel="stylesheet" href="../css/build/global-prefixed.css?ver=1.7">
-        <link rel="stylesheet" href="../css/build/events-prefixed.css?ver=1.0">
+        <link rel="stylesheet" href="../css/build/events.css?ver=1.0">
 
         <!--[if lt IE 9]>
             <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

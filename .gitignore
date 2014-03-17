@@ -1,3 +1,6 @@
 
 node_modules/
 .sass-cache/
+
+/events/
+!/events/wp-content/themes/Events/*

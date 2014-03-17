@@ -64,11 +64,21 @@ ul.event-details, ul.event-date-time {
 ul.event-details {
 	list-style: disc;
 	padding-left: 20px;
-	margin-bottom: 8px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+ul.event-date-time {
+	margin-bottom: 10px;
 }
 
 ul.event-details li {
 	padding-left: 0px !important;
+}
+
+.info_mod ul.event-details li {
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 ul.event-details li, ul.event-date-time li {
@@ -88,9 +98,6 @@ ul.event-date-time li span {
 	margin-right: 5px;
 	line-height: 32px;
 }
-
-
-
 
 
 
@@ -116,7 +123,7 @@ ul.event-date-time li span {
 // section spacing
 
 section {
-	margin-bottom: 35px;
+	margin-bottom: 32px;
 	margin-top: 0px;
 }
 

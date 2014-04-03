@@ -3,8 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Zip Line Tour on the Columbia River Gorge | Skamania Lodge Zip Line Tour</title>
-        <meta name="description" content="Zip Line Canopy Tour located at Skamania Lodge in Stevenson, Washington.">
+        <title>Zip Skamania | Skamania Lodge Zip Line Tour | Stevenson, WA</title>
+        <meta name="description" content="Experience 7 zip lines and 3 sky bridges ranging from 100-900ft in length at Skamania Lodge Zip Line Tour (SLZT). Located in Stevenson, WA on the Columbia River Gorge.">
         <meta name="viewport" content="width=device-width">
 
         <meta name="apple-mobile-web-app-capable" content="yes" />

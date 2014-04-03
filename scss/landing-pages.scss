@@ -30,13 +30,17 @@
 			color: #344C57;
 			line-height: 21px;
 
-			span {
-				text-transform: uppercase;
+			div {
+				display: inline;
 
-				a {
-					font-weight: 700;
-					font-size: 20px;
-					line-height: 38px;
+				span {
+					text-transform: uppercase;
+
+					a {
+						font-weight: 700;
+						font-size: 20px;
+						line-height: 38px;
+					}
 				}
 			}
 		}

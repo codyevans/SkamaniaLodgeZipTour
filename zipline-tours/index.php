@@ -12,8 +12,8 @@
 
         <meta name="apple-mobile-web-app-capable" content="yes" />
 
-        <link rel="stylesheet" href="../css/build/global-prefixed.css?ver=1.6">
-        <link rel="stylesheet" href="../css/landing-pages.css">
+        <link rel="stylesheet" href="../css/build/global-prefixed.css?ver=2.0">
+        <link rel="stylesheet" href="../css/landing-pages.css?ver=2.0">
 
         <script src="../js/vendor/modernizr-2.6.2.min.js"></script>
 
@@ -49,9 +49,9 @@
                 <div class="right">
                     <p>
                         509.427.0202 <br>
-                        <a href="mailto:info@zipnskamania.com" title="Email Us">info@zipnskamania.com</a> <br>
-                        <span><a href="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" id="bookingBTN-landing" title="Book your Tour">Book Now!</a></span>
+                        <a href="mailto:info@zipnskamania.com" title="Email Us">info@zipnskamania.com</a>
                     </p>
+                    <div class="xola-checkout" id="533c55dcca64e48f38be6260"></div>
                </div>
             </div> <!-- END header -->
 
@@ -70,9 +70,6 @@
             <div class="landing-copyright">
                 <div class="meta">
                     <ul>
-                        <li>
-                            <a id="bookingBTN-landing2" href="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" id="bookingBTN-landing" title="Book your Tour">Book Now</a>
-                        </li>
                         <li>
                             <a href="mailto:info@zipnskamania.com">Email Us</a>
                         </li>
@@ -95,10 +92,11 @@
                  <iframe src="http://www.adventurecentral.com/user/web/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" frameborder="0" scrolling="auto"></iframe>
             </div>
         </div>
-
+        
+        <script type="text/javascript"> (function() { var co=document.createElement("script"); co.type="text/javascript"; co.async=true; co.src="https://xola.com/checkout.js"; var s=document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(co, s); })(); </script>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="../js/build/production.min.js?ver1.3"></script>
+        <script src="../js/build/production.min.js?ver=2.0"></script>
         <script src="../js/jquery.fitvids.js"></script>
         <script>
             $(document).ready(function(){

@@ -12,7 +12,7 @@
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 
-        <link rel="stylesheet" href="css/build/global-prefixed.css?ver=1.7">
+        <link rel="stylesheet" href="css/build/global-prefixed.css?ver=2.0">
 
         <style type="text/css">
             .royalSlider {
@@ -83,13 +83,16 @@
         
             </div> <!-- /hero -->
 
-            <a id="bookingBTN" href="http://www.adventurecentral.com/user/web/m/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" class="bookings-link">
-            <div class="giant_btn" title="click for online reservations">
-                <p>
-                    Book your Adventure now
-                </p>
-            </div> <!-- /giant_btn -->
-            </a>
+
+            <div class="xola-checkout xola-custom" id="533c55dcca64e48f38be6260">
+                <a class="bookings-link">
+                <div class="giant_btn" title="click for online reservations">
+                    <p>
+                        Book your Adventure now
+                    </p>
+                </div> <!-- /giant_btn -->
+                </a>
+            </div>
 
             <div id="intro">
                 <div class="intro_container">
@@ -234,15 +237,42 @@
                             </ul>
                         </div>
 
-                        <a id="bookingBTN2" href="http://www.adventurecentral.com/user/web/m/wfCalendar.aspx?AID=16932&CLUID=27e1c4ab-aa49-45ca-8d11-77eea115fa89#InitialLocation" class="bookings-link">
-                             <div class="col-1-1 " title="click for online reservations">   
-                                <div class="res_booking">
-                                    <p>
-                                        Book Now
-                                    </p>
+                        <div class="xola-checkout xola-custom" id="533c55dcca64e48f38be6260">
+                            <a class="bookings-link">
+                                 <div class="col-1-3-bookings grid-pad-1-3 first" title="click for online reservations">   
+                                    <div class="res_booking">
+                                        <p>
+                                            Book Zip Tour &rarr; 
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
+                        
+                        <div class="xola-checkout xola-custom" id="533c9ed3f0568cd4096789cd">
+                            <a class="bookings-link">
+                                 <div class="col-1-3-bookings grid-pad-1-3" title="click for online reservations">   
+                                    <div class="res_booking">
+                                        <p>
+                                            Book Night Zip &rarr;
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="xola-checkout xola-custom" id="533c9d17f0568cf30826a9db">
+                            <a class="bookings-link">
+                                 <div class="col-1-3-bookings grid-pad-1-3" title="click for online reservations">   
+                                    <div class="res_booking">
+                                        <p>
+                                            Book Kids Zip &rarr;
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
                         
                     </div> <!-- /grid -->
                 </div> <!-- /booking -->
@@ -324,6 +354,10 @@
 
              <section id="contact">
                 <div class="grid">
+                     <div class="col-1-1" style="margin-bottom: 30px; margin-top: 25px;">
+                        <div class="xola-custom xola-gift" id="533c3a26ca64e41d38bc8a1d" style="cursor:pointer; border:1px solid #34740e; border-radius:3px; font-size:16px; font-family:arial,sans-serif; padding:11px 13px; text-shadow:-1px -1px 0 rgba(0,0,0,.3); font-weight:bold; color:#fff; background-color:#4ba614; display:inline-block;">Give a Gift</div>
+                    </div>
+
                     <h1 class="col-1-1 hours">
                         Contact
                     </h1>
@@ -537,11 +571,12 @@
                 </div>
             </div> <!-- /copyright -->
 
-        </div> <!-- /shell --> 
+        </div> <!-- /shell -->
 
+        <script type="text/javascript"> (function() { var co=document.createElement("script"); co.type="text/javascript"; co.async=true; co.src="https://xola.com/checkout.js"; var s=document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(co, s); })(); </script> 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
-        <script src="js/build/production.min.js?ver1.7"></script>
+        <script src="js/build/production.min.js?ver2.0"></script>
        
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>

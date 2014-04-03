@@ -362,7 +362,7 @@ $("a#Top").smoothScroll();
 
 if ( $(window).width() > 768 ) {
 
-	$('#bookingBTN, #bookingBTN2, #bookingBTN-landing, #bookingBTN-landing2, .events-book-now').attr( "href", "/bookings/" );
+	//$('#bookingBTN, #bookingBTN2, #bookingBTN-landing, #bookingBTN-landing2, .events-book-now').attr( "href", "/bookings/" );
 }
 
 // Overlay Feature - 2013-2014 Winter Schedule

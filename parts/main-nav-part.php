@@ -28,7 +28,7 @@
                             <a id="night-zips-btn" href="#">Night Zips</a>
                         </li>
                          <li>
-                            <a id="winter-operations-btn" href="#">Winter Hours</a>
+                            <a id="winter-operations-btn" href="#">Hours</a>
                         </li>
                     </ul>
                 </nav> <!-- /nav -->
@@ -67,7 +67,7 @@
                         <li><a href="/#contact">Contact</a></li>
                         <li><a href="/Events/">Events</a></li>
                         <li><a id="night-zips-mobile-btn" href="#">Night Zips</a></li>
-                        <li><a id="winter-operations-mobile-btn" href="#">Winter Hours</a></li>
+                        <li><a id="winter-operations-mobile-btn" href="#">Hours</a></li>
                     </ul>
                 </div>
             </div> <!-- /mobile nav -->

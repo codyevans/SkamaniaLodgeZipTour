@@ -249,31 +249,6 @@
                             </a>
                         </div>
                         
-                        <div class="xola-checkout xola-custom" id="533c9ed3f0568cd4096789cd">
-                            <a class="bookings-link">
-                                 <div class="col-1-3-bookings grid-pad-1-3" title="click for online reservations">   
-                                    <div class="res_booking">
-                                        <p>
-                                            Book Night Zip &rarr;
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-                        
-                        <div class="xola-checkout xola-custom" id="533c9d17f0568cf30826a9db">
-                            <a class="bookings-link">
-                                 <div class="col-1-3-bookings grid-pad-1-3" title="click for online reservations">   
-                                    <div class="res_booking">
-                                        <p>
-                                            Book Kids Zip &rarr;
-                                        </p>
-                                    </div>
-                                </div>
-                            </a>
-                        </div>
-
-                        
                     </div> <!-- /grid -->
                 </div> <!-- /booking -->
 
@@ -474,33 +449,29 @@
                 <span class="close-overlay" title="close"></span>
                 <div>
                      <h2>
-                       2013-2014 Winter Operations
+                       Operating Hours
                      </h2>
                     
                      <p class="emp" style="line-height: 21px;">
-                        <strong>Office Hours Daily from 9am-5pm.</strong>
+                        <strong>Office hours:</strong> Sunday - Saturday from 9:00am - 5:00pm
                     </p>
                     <hr>
-                    <p style="font-style: italic;">
-                        Tours are available daily, must book over phone or in person if not a regular scheduled day or 
-                        time (24 hour notice necessary). Walk-ins available on regular tour days. All winter tours 
-                        are weather permitting, any cancellation by SLZT will be eligible for full refund.
+                    <h3 style="margin-bottom: 0;">Tour Times:</h3>
+                    <p style="margin-bottom: 30px;">
+                        For available tour times please click on the book now button, if your desired 
+                        tour time is not listed please call our office at <strong tel="509-427-0202">(509)427-0202</strong>. 
                     </p>
-                    <h3 style="margin-bottom: 0;">February:</h3>
-                    <p>
-                        Regular Scheduled Tour Times. <br>
-                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
-                        <strong>Base Rate:</strong> $89.
-                    </p>
-                    <h3 style="margin-bottom: 0;">March:</h3>
-                    <p>
-                        Regular Scheduled Tour Times. <br>
-                        <strong>Friday-Monday:</strong> 10:00am, 12:30pm and 3:00pm <br>
-                        <strong>Base Rate:</strong> $89.
-                    </p>
-                    <p>
-                        <strong>*</strong><!-- Full Operations will resume in April at the $99 rate. -->Please call for additional information (509-427-0202).
-                    </p>
+                    <div class="xola-checkout xola-custom" id="533c55dcca64e48f38be6260">
+                        <a class="bookings-link">
+                             <div class="col-1-1 grid-pad-1-3 first" title="click for online reservations">   
+                                <div class="res_booking">
+                                    <p>
+                                        Book Now &rarr; 
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
 
             </div> <!-- /winter-hours-overlay -->

@@ -65,7 +65,7 @@
                         <li><a href="/#reservations">Reservations</a></li>
                         <li><a href="/#about">About Us</a></li>
                         <li><a href="/#contact">Contact</a></li>
-                        <li><a href="/Events/">Events</a></li>
+                        <li><a href="/events/">Events</a></li>
                         <li><a id="night-zips-mobile-btn" href="#">Night Zips</a></li>
                         <li><a id="winter-operations-mobile-btn" href="#">Hours</a></li>
                     </ul>

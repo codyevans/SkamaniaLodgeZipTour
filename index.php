@@ -153,7 +153,7 @@
                                     <p>Helmet, top of the line harness and pulley system provided.</p>
                                 </li>
                                  <li>
-                                    <p>Weight requirements of 75lbs to 270lbs.</p>
+                                    <p>Weight requirements of 60lbs to 270lbs.</p>
                                 </li>
                                  <li>
                                     <p>All gear is provided and mandatory.</p>
@@ -271,7 +271,7 @@
                                     <p>There is no age limit.</p>
                                 </li>
                                 <li>
-                                    <p>Weight limit of a minimum of 75lbs to a maximum of 270lbs.</p>
+                                    <p>Weight limit of a minimum of 60lbs to a maximum of 270lbs.</p>
                                 </li>
                                  <li>
                                     <p>The tour will last approximately 2.5 hours.</p>

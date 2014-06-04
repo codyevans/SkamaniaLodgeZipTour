@@ -153,7 +153,7 @@
                                     <p>Helmet, top of the line harness and pulley system provided.</p>
                                 </li>
                                  <li>
-                                    <p>Weight requirements of 60lbs to 270lbs.</p>
+                                    <p>Weight requirements of 60lbs to 275lbs.</p>
                                 </li>
                                  <li>
                                     <p>All gear is provided and mandatory.</p>
@@ -271,7 +271,7 @@
                                     <p>There is no age limit.</p>
                                 </li>
                                 <li>
-                                    <p>Weight limit of a minimum of 60lbs to a maximum of 270lbs.</p>
+                                    <p>Weight limit of a minimum of 60lbs to a maximum of 275lbs.</p>
                                 </li>
                                  <li>
                                     <p>The tour will last approximately 2.5 hours.</p>
@@ -443,40 +443,9 @@
                 <div class="moduleDesktop" id="moduleDesktop-load"></div>
             </div>
 
-            <!-- NEW FEATURE -->
-            <div id="fullscreen-overlay"></div>
-            <div id="winter-hours" class="info-overlay overlayOff">
-                <span class="close-overlay" title="close"></span>
-                <div>
-                     <h2>
-                       Operating Hours
-                     </h2>
-                    
-                     <p class="emp" style="line-height: 21px;">
-                        <strong>Office hours:</strong> Sunday - Saturday from 9:00am - 5:00pm
-                    </p>
-                    <hr>
-                    <h3 style="margin-bottom: 0;">Tour Times:</h3>
-                    <p style="margin-bottom: 30px;">
-                        For available tour times please click on the book now button, if your desired 
-                        tour time is not listed please call our office at <strong tel="509-427-0202">(509)427-0202</strong>. 
-                    </p>
-                    <div class="xola-checkout xola-custom" id="533c55dcca64e48f38be6260">
-                        <a class="bookings-link">
-                             <div class="col-1-1 grid-pad-1-3 first" title="click for online reservations">   
-                                <div class="res_booking">
-                                    <p>
-                                        Book Now &rarr; 
-                                    </p>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-
-            </div> <!-- /winter-hours-overlay -->
-
-             <div id="night-zips" class="info-overlay overlayOff">
+            <?php include("parts/hours-partial.php"); ?>
+            
+           <div id="night-zips" class="info-overlay overlayOff">
                 <span class="close-overlay" title="close"></span>
                 <div>
                      <h2>
@@ -484,51 +453,22 @@
                      </h2>
                     <hr>
                     <span class="pictureFill_tour" data-picture data-alt="Zip Lining through the forest at Skamania Lodge.">
-                        <span class="small" data-src="assets/hero/content-images/pictureFill/Night-zip_small.jpg"></span>
-                        <span class="med" data-src="assets/hero/content-images/pictureFill/Night-zip_med.jpg" data-media="(min-width: 500px)"></span>
-                        <span class="large" data-src="assets/hero/content-images/pictureFill/Night-zip_large.jpg" data-media="(min-width: 769px)"></span>
+                        <span class="small" data-src="/assets/hero/content-images/pictureFill/Night-zip_small.jpg"></span>
+                        <span class="med" data-src="/assets/hero/content-images/pictureFill/Night-zip_med.jpg" data-media="(min-width: 500px)"></span>
+                        <span class="large" data-src="/assets/hero/content-images/pictureFill/Night-zip_large.jpg" data-media="(min-width: 769px)"></span>
 
                         <!--[if (lt IE 9) & (!IEMobile)]>
-                            <span class="med" data-src="assets/hero/content-images/pictureFill/Night-zip_med.jpg"></span>
+                            <span class="med" data-src="/assets/hero/content-images/pictureFill/Night-zip_med.jpg"></span>
                         <![endif]-->
 
                         <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-                        <noscript><img src="assets/hero/content-images/pictureFill/Night-zip_med.jpg" alt="Zip Lining through the forest at Skamania Lodge."></noscript>
+                        <noscript><img src="/assets/hero/content-images/pictureFill/Night-zip_med.jpg" alt="Zip Lining through the forest at Skamania Lodge."></noscript>
                     </span>
-                    <p style="font-style: italic;">
-                       7 lines in the dark forest await you during twilight hours. 
-                       It's the same course as our day zip, but at night you zip away 
-                       from the platform with no points of reference and fly through the 
-                       darkness from tree to tree! Feel the speed of a 35 mph ride through 
-                       the canopy in pitch blackness! This zip is tons of fun as we pump up 
-                       the tunes and party at night! Illumination is provided. Wind down after 
-                       the tour with dinner and/or drinks in the beautiful Skamania Lodge. Dress warmly!
-                    </p>
-                    <h3 style="margin-bottom: 0;">Dates:</h3>
-                    <p>
-                        <strong>December:</strong> 7th, 14th, 20th, 21st and 28th
-                    </p>
-                    <h3 style="margin-bottom: 0;">Time:</h3>
-                    <p>
-                        <strong>5:00pm</strong> departure, return by <strong>7:30pm</strong>
-                    </p>
-                     <h3 style="margin-bottom: 0;">Rate:</h3>
-                    <p>
-                        <strong>$99.00</strong> + tax per person
-                    </p>
-                     <h3 style="margin-bottom: 0;">Tour Size:</h3>
-                    <p>
-                        Maximum <strong>8</strong> persons per tour
-                    </p>
-                    <p>
-                        <strong>*</strong>Reservations are required. <br> 
-                        Book over phone <strong>509-427-0202</strong> or on line at <strong>www.zipnskamania.com</strong> <br> 
-                        All daytime zip information and policies apply to night tours. <br> 
-                        All tours are weather permitting. 
-                    </p>
+                    <?php include("parts/night-zips-content-partial.php"); ?>
                 </div>
-                
             </div> <!-- /night-zip-overlay -->
+
+            <div id="fullscreen-overlay"></div>
 
             <a href="#BackToTop" id="Top" title="Back to Top">
                 <div class="topBtn"></div>

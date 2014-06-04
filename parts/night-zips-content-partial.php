@@ -9,11 +9,11 @@
 </p>
 <h3 style="margin-bottom: 0;">Dates:</h3>
 <p>
-    To Be Determined
+    TBD
 </p>
 <h3 style="margin-bottom: 0;">Time:</h3>
 <p>
-    <strong>5:00pm</strong> departure, return by <strong>7:30pm</strong>
+    TBD
 </p>
  <h3 style="margin-bottom: 0;">Rate:</h3>
 <p>

@@ -329,15 +329,30 @@
 
              <section id="contact">
                 <div class="grid">
-                     <div class="col-1-1" style="margin-bottom: 30px; margin-top: 25px;">
-                        <div class="xola-custom xola-gift" id="533c3a26ca64e41d38bc8a1d" style="cursor:pointer; border:1px solid #34740e; border-radius:3px; font-size:16px; font-family:arial,sans-serif; padding:11px 13px; text-shadow:-1px -1px 0 rgba(0,0,0,.3); font-weight:bold; color:#fff; background-color:#4ba614; display:inline-block;">Give a Gift</div>
+
+                    <div class="col-1-2" style="margin-bottom: 0px; margin-top: 20px;">
+                        <div class="xola-checkout xola-custom" id="533d9e5bca64e44b5248f09c">
+                            <a class="bookings-link">
+                                 <div class="col-1-1 grid-pad-1-3 first" title="click for Gift Certificates">
+                                    <div class="res_booking">
+                                        <p>
+                                            Give a Gift &rarr; 
+                                        </p>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
 
-                    <h1 class="col-1-1 hours">
-                        Contact
-                    </h1>
-                    <p>Our office is open daily from 9am-5pm.</p>
-
+                    <div class="col-1-1">
+                         <h1 class="hours">
+                            Contact
+                        </h1>
+                        <p>
+                            <strong>Office hours:</strong> 8:30am - 5:30pm Daily
+                        </p>                    
+                    </div>
+    
                     <div class="col-1-2">
                         <ul class="contact_info">
                             <li>

@@ -12,7 +12,7 @@
         <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
 
-        <link rel="stylesheet" href="css/build/global-prefixed.css?ver=2.0">
+        <link rel="stylesheet" href="css/build/global-prefixed.css?ver=3.0">
 
         <style type="text/css">
             .royalSlider {
@@ -459,29 +459,6 @@
             </div>
 
             <?php include("parts/hours-partial.php"); ?>
-            
-           <div id="night-zips" class="info-overlay overlayOff">
-                <span class="close-overlay" title="close"></span>
-                <div>
-                     <h2>
-                        Night Zips
-                     </h2>
-                    <hr>
-                    <span class="pictureFill_tour" data-picture data-alt="Zip Lining through the forest at Skamania Lodge.">
-                        <span class="small" data-src="/assets/hero/content-images/pictureFill/Night-zip_small.jpg"></span>
-                        <span class="med" data-src="/assets/hero/content-images/pictureFill/Night-zip_med.jpg" data-media="(min-width: 500px)"></span>
-                        <span class="large" data-src="/assets/hero/content-images/pictureFill/Night-zip_large.jpg" data-media="(min-width: 769px)"></span>
-
-                        <!--[if (lt IE 9) & (!IEMobile)]>
-                            <span class="med" data-src="/assets/hero/content-images/pictureFill/Night-zip_med.jpg"></span>
-                        <![endif]-->
-
-                        <!-- Fallback content for non-JS browsers. Same img src as the initial, unqualified source element. -->
-                        <noscript><img src="/assets/hero/content-images/pictureFill/Night-zip_med.jpg" alt="Zip Lining through the forest at Skamania Lodge."></noscript>
-                    </span>
-                    <?php include("parts/night-zips-content-partial.php"); ?>
-                </div>
-            </div> <!-- /night-zip-overlay -->
 
             <div id="fullscreen-overlay"></div>
 

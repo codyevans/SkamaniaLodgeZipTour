@@ -25,9 +25,6 @@
                             <a href="/events/">Events</a>
                         </li>
                          <li>
-                            <a id="night-zips-btn" href="#">Night Zips</a>
-                        </li>
-                         <li>
                             <a id="winter-operations-btn" href="#">Hours</a>
                         </li>
                     </ul>

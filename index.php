@@ -47,8 +47,22 @@
             .hours {
                 margin-bottom: 10px;
             }
-        </style> 
-        
+
+            .tour-time-hours {
+                background: #73797B;
+                color: #FFF;
+                padding: 2px 10px;
+                font-size: 14px;
+                margin: 4px 0;
+                margin-right: 3px;
+                margin-bottom: 7px;
+                display: inline-block;
+                text-shadow: none;
+                font-weight: bold;
+                border-radius: 3px;
+            }
+        </style>
+
         <script type="text/javascript"
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWzuurR1lbIy1Cv5M0s9NINNEFgFO3dRQ&sensor=false">
         </script>
@@ -70,7 +84,7 @@
                 <div class="royalSlider rsMinW" id="hero-slider">
 
                      <a class="rsImg" data-rsVideo="http://youtu.be/2BIy8Gxrejs" href="assets/hero/slider/pictureFill/poster_large.jpg"></a>
-    
+
                     <div class="rsContent">
                         <img id="slider-image-2" class="rsImg" src="assets/hero/slider/pictureFill/zipping-between-trees_small.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between the trees at Skamania Lodge." />
                     </div>
@@ -79,8 +93,8 @@
                         <img id="slider-image-3" class="rsImg" src="assets/hero/slider/pictureFill/long-zip-line_small.jpg" data-rsTmb="small-image.jpg" alt="Zip Lining between the trees at Skamania Lodge." />
                     </div>
 
-                </div> <!-- /slider --> 
-        
+                </div> <!-- /slider -->
+
             </div> <!-- /hero -->
 
 
@@ -97,10 +111,10 @@
             <div id="intro">
                 <div class="intro_container">
                      <p>
-                       Get ready to fly with the eagles and soar with spirits at the Bridge of the Gods. 
-                       Only our unique Canopy Zip Line Tour will send you soaring above 
-                       the scenic Columbia River Gorge. We have seven zip lines, three sky bridges 
-                       and stunning views all nestled together at the world class 
+                       Get ready to fly with the eagles and soar with spirits at the Bridge of the Gods.
+                       Only our unique Canopy Zip Line Tour will send you soaring above
+                       the scenic Columbia River Gorge. We have seven zip lines, three sky bridges
+                       and stunning views all nestled together at the world class
                        <a href="http://skamania.com" target="blank">Skamania Lodge Resort.</a>
                     </p>
                 </div> <!-- /grid -->
@@ -114,15 +128,15 @@
 
                     <div class="col-1-1">
                          <p class="col-1-1 large" style="max-width: 920px">
-                           Together with family and friends, take in the beauty of the majestic Columbia River Gorge and surrounding 
-                           mountains; experience a tour full of adrenaline and adventure as you fly suspended by a cable over the moss 
-                           covered firs of the rain forest canopy. Ride down seven different lines, the longest one being over 800 feet in 
-                           length. Experienced guides will educate and entertain you with a vast array of information on native plants 
-                           and animals as well as the overall history of the area.  Get out of your comfort zone and come fly with us. 
-                           Going against all those primitive reflexes and rationales is exactly what makes this tour rock! 
+                           Together with family and friends, take in the beauty of the majestic Columbia River Gorge and surrounding
+                           mountains; experience a tour full of adrenaline and adventure as you fly suspended by a cable over the moss
+                           covered firs of the rain forest canopy. Ride down seven different lines, the longest one being over 800 feet in
+                           length. Experienced guides will educate and entertain you with a vast array of information on native plants
+                           and animals as well as the overall history of the area.  Get out of your comfort zone and come fly with us.
+                           Going against all those primitive reflexes and rationales is exactly what makes this tour rock!
                         </p>
                     </div>
-                    
+
                     <div class="col-1-3">
                         <div class="info_mod">
                              <ul class="info">
@@ -207,9 +221,9 @@
                 </div> <!-- /grid -->
             </section>
 
-             
+
             <div class="border"></div>
-             
+
 
              <section id="reservations">
                 <div class="grid">
@@ -220,7 +234,7 @@
 
                 <div class="booking_section">
                     <div class="grid">
-                       
+
 
                        <div class="col-1-1">
                             <ul class="callout">
@@ -239,16 +253,16 @@
 
                         <div class="xola-checkout xola-custom" id="533c55dcca64e48f38be6260">
                             <a class="bookings-link">
-                                 <div class="col-1-3-bookings grid-pad-1-3 first" title="click for online reservations">   
+                                 <div class="col-1-3-bookings grid-pad-1-3 first" title="click for online reservations">
                                     <div class="res_booking">
                                         <p>
-                                            Book Zip Tour &rarr; 
+                                            Book Zip Tour &rarr;
                                         </p>
                                     </div>
                                 </div>
                             </a>
                         </div>
-                        
+
                     </div> <!-- /grid -->
                 </div> <!-- /booking -->
 
@@ -301,9 +315,9 @@
                 </div> <!-- /grid -->
             </section>
 
-           
+
             <div class="border"></div>
-            
+
 
              <section id="about">
                 <div class="grid">
@@ -312,10 +326,10 @@
                     </h1>
                     <div class="col-1-2">
                     <p class="col-1-1 large">
-                        Skamania Lodge Zip Line Tour is delighted to provide southwestern Washington's only zip line course. 
-                        Tucked away in a quiet corner of Stevenson, WA; a scenic, 45 minute drive from Portland, OR, our zip line 
-                        is nestled amidst the grandeur of the Columbia River Gorge.  Partnered with Skamania Lodge, a classic, Cascadian-style lodge, this full 
-                        service, upscale destination resort features 254 luxurious rooms, two restaurants and a modern conference room. 
+                        Skamania Lodge Zip Line Tour is delighted to provide southwestern Washington's only zip line course.
+                        Tucked away in a quiet corner of Stevenson, WA; a scenic, 45 minute drive from Portland, OR, our zip line
+                        is nestled amidst the grandeur of the Columbia River Gorge.  Partnered with Skamania Lodge, a classic, Cascadian-style lodge, this full
+                        service, upscale destination resort features 254 luxurious rooms, two restaurants and a modern conference room.
                         To learn more, please visit us at <a href="http://skamania.com" target="blank">www.skamania.com.</a>
                     </p>
                     </div>
@@ -323,9 +337,9 @@
                 </div> <!-- /grid -->
             </section>
 
-            
+
             <div class="border"></div>
-            
+
 
              <section id="contact">
                 <div class="grid">
@@ -336,7 +350,7 @@
                                  <div class="col-1-1 grid-pad-1-3 first" title="click for Gift Certificates">
                                     <div class="res_booking">
                                         <p>
-                                            Give a Gift &rarr; 
+                                            Give a Gift &rarr;
                                         </p>
                                     </div>
                                 </div>
@@ -350,9 +364,9 @@
                         </h1>
                         <p>
                             <strong>Office hours:</strong> 8:30am - 5:30pm Daily
-                        </p>                    
+                        </p>
                     </div>
-    
+
                     <div class="col-1-2">
                         <ul class="contact_info">
                             <li>
@@ -448,7 +462,7 @@
 
                 </div> <!-- /grid -->
             </section>
-                
+
             <div id="map-load"></div>
 
             <!-- modals -->
@@ -480,7 +494,7 @@
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.2.min.js"><\/script>')</script>
         <script src="js/build/production.min.js?ver2.0"></script>
-     
+
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
               (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

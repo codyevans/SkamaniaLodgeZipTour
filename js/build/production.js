@@ -346,7 +346,7 @@ jQuery(document).ready(function($) {
                     // as an example, enable keyboard arrows nav
                     keyboardNavEnabled: true,
                     imageScaleMode: 'fill',
-                });  
+                });
             });
 
 /* ======================================================================== */
@@ -380,20 +380,20 @@ $('#winter-operations-btn, #winter-operations-mobile-btn').on("click", function(
 
 });
 
-$('#night-zips-btn, #night-zips-mobile-btn').on("click", function(e) {
+// $('#night-zips-btn, #night-zips-mobile-btn').on("click", function(e) {
 
-	if ( $('#winter-hours').hasClass('overlayOn') ) {
-		$('.info-overlay').removeClass('overlayOn');
-	}
+// 	if ( $('#winter-hours').hasClass('overlayOn') ) {
+// 		$('.info-overlay').removeClass('overlayOn');
+// 	}
 
-	$('#fullscreen-overlay').fadeIn();
-	$('#night-zips').addClass('overlayOn');
+// 	$('#fullscreen-overlay').fadeIn();
+// 	$('#night-zips').addClass('overlayOn');
 
-	e.preventDefault();
+// 	e.preventDefault();
 
-});
+// });
 
-$('.close-overlay').on("click", function(e) {
+$('.close-overlay, #fullscreen-overlay').on("click", function(e) {
 
 	$('#fullscreen-overlay').fadeOut();
 	$('.info-overlay').removeClass('overlayOn');
@@ -404,7 +404,7 @@ $('.close-overlay').on("click", function(e) {
 
 // night zips new tab
 
-$('#night-zips-btn').hover( 
+$('#night-zips-btn').hover(
 	function(e) {
 
 		$("#tab").addClass('on');
